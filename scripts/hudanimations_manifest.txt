@@ -1,0 +1,25 @@
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations/misc.txt"
+	"file"		"scripts/hudanimations/ammo.txt"
+
+	// Medic animations
+	// Uncomment only one to use
+	//--------------------------------------------------
+
+	"file"		"scripts/hudanimations/medic.txt"
+//	"file"		"scripts/hudanimations/medicrainbow.txt"
+
+	// Health animations
+	// Uncomment only one to use
+	//--------------------------------------------------
+
+	"file"		"scripts/hudanimations/health.txt"
+//	"file"		"scripts/hudanimations/healthcross.txt"
+//	"file"		"scripts/hudanimations/healthbox.txt"
+
+	//--------------------------------------------------
+
+	"file"		"scripts/hudanimations_tf.txt"
+}

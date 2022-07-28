@@ -1,0 +1,336 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//			Spline - simple ease in/out curve
+//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+//			Gain - < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
+//			Bias - < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+//
+//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+//
+//  SetString <panel name> <string varname> <stringvalue> <set time>
+
+//===========================================
+event DamagedPlayer
+{
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+event HitMarker
+{
+	Animate "Knuckles Crosshairs"    	 		FgColor     "255 100 100 255"   				Linear 	0.0 	0.00001
+	Animate "Knuckles Crosshairs"    			FgColor     "255 255 255 255"   				Linear 	0.10 	0.10001
+}
+
+//===========================================
+
+
+event BlinkDamageNumber
+{
+	Animate	DamageAccountValue		Alpha		"255"		Linear	0.0	0.01
+	Animate	DamageAccountValueShadow	Alpha		"255"		Linear	0.0	0.01
+
+	Animate DamageAccountValue	FgColor		"255 50 50 255"	        Linear 0.0 0.0001
+	Animate DamageAccountValue	FgColor		"255 255 255 255"	Accel 0.05 0.1
+
+	Animate DamageAccountValue		Alpha		"0"		Linear	2	0.15
+	Animate DamageAccountValueShadow	Alpha		"0"		Linear	2	0.15
+}	
+
+
+//===========================================
+
+event ControlPointIconShrink
+{
+	Animate HudControlPointIcons icon_expand "0" Linear 0.0 0.2
+}
+
+event ControlPointIconGrow
+{
+	Animate HudControlPointIcons icon_expand "4" Linear 0.0 0.2
+}
+
+// Metal Account
+
+//activecolor - instantly turn red, fade back to yellow
+event AccountMoneyRemoved
+{
+	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
+	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
+
+	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
+	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
+}
+
+//activecolor - instantly turn green, fade back to yellow
+event AccountMoneyAdded
+{
+	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
+	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
+
+	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
+	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
+}
+
+event AccountMoneyInvisible
+{
+	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 0.0001
+	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
+}
+
+//===========================================
+
+event FlagOutlineHide
+{
+	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
+}
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
+	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
+
+	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
+	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
+	
+	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
+}
+
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"120 r80"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"80 80"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.5
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+}
+
+//===========================================
+
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+	//Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	//Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	//Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	//Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	//Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	//Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue Alpha	"120"		Linear 0.1 0.1
+	Animate TimePanelValue Alpha	"255"		Linear 0.3 0.1
+
+	Animate TimePanelValue Alpha	"180"		Linear 0.5 0.1
+	Animate TimePanelValue Alpha	"255"		Linear 0.7 0.1
+
+	Animate TimePanelValue Alpha	"210"		Linear 0.9 0.1
+	Animate TimePanelValue Alpha	"255"		Linear 1.1 0.1
+
+	Animate TimePanelValue Alpha	"255"		Linear 1.3 0.3
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue Alpha	"120"		Linear 0.0 0.4
+}
+
+//===========================================
+
+event OvertimeLabelPulseRed
+{
+	Animate	OvertimeLabel 	FgColor		TanLight	Linear 0.0 0.3
+	Animate	OvertimeLabel 	FgColor		RedSolid	Linear 0.3 0.3
+
+	RunEvent OvertimeLabelPulseRed 0.6
+}
+
+event SuddenDeathLabelPulseRed
+{
+	Animate	SuddenDeathLabel 	FgColor		TanLight	Linear 0.0 0.3
+	Animate	SuddenDeathLabel 	FgColor		RedSolid			Linear 0.3 0.3
+
+	RunEvent SuddenDeathLabelPulseRed 0.2
+}
+
+//===========================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+event HasNotificationsBlink
+{
+}
+
+//===========================================
+
+event HudSpyDisguiseChanged
+{
+Animate PlayerStatusSpyOutlineImage Alpha "255" Linear 0.0 0.2
+
+Animate PlayerStatusSpyOutlineImage Position "c-100 c50" Linear 0.0 0.2
+Animate PlayerStatusSpyOutlineImage Size "150 150" Linear 0.0 0.2
+
+RunEvent HudSpyDisguiseHide 0.7
+}
+
+event HudSpyDisguiseHide
+{
+Animate PlayerStatusSpyOutlineImage Position "c-50 c105" Linear 0.0 0.2
+Animate PlayerStatusSpyOutlineImage Size "55 55" Linear 0.0 0.2
+
+Animate PlayerStatusSpyOutlineImage Alpha "0" Linear 0.2 0.1
+}
+event CompetitiveGame_LowerChatWindow
+{
+	StopEvent CompetitiveGame_LowerChatWindow 0
+	StopEvent CompetitiveGame_RestoreChatWindow 0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	StopEvent CompetitiveGame_LowerChatWindow 0
+	StopEvent CompetitiveGame_RestoreChatWindow 0
+}
+
+event HudTournament_MoveChatWindow
+{
+//
+}
+
+event HudTournament_MoveTimerDown
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG 0 0
+}
+
+event HudMatchStatus_ShowMatchStartDoors
+{
+//
+}
+
+//Koth Countdown Timer
+event HudMatchStatus_ShowCountdown
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	Animate CountdownLabel ypos 20 Linear 0 0
+	SetVisible CountdownLabel 0 9.9
+}
+
+event HudTournament_ShowTimerCompetitive
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG  0 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG  0 0
+}
+
+event HudTournament_ShowRoundSign
+{
+	SetVisible RoundSignModel 0 0 
+}
+
+event HudTournament_PlaySignAnim
+{
+//
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime  1 0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime 0 0
+}
+
+//===========================================
