@@ -15,7 +15,7 @@ Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
 2. Open Steam
 3. Go to Library
 4. Right click on `Team Fortress 2` on the games panel and select `Properties...`
-5. In the properties menu click on `Local Files` and select `Browse...` . TF2's root directory should open.
+5. In the properties menu click on `Local Files` and select `Browse...` . TF2's root directory should open
 6. Navigate to `tf\custom`
 7. Extract `colourhud-master` from the ZIP file to the `custom` folder
 8. That's all
