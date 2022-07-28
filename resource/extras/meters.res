@@ -1,0 +1,72 @@
+"Resource/Extras/Meters.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"MeterFG"		"Charge Meter"
+		"MeterBG"		"Gray"
+	}
+	"ItemEffectMeter"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"nüWhite"
+		"bgcolor_override"	"LightPanelBG"
+
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+	}
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"0"
+		"ypos"					"10"
+		"zpos"					"10"
+		"wide"					"43"
+		"tall"					"10"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_BALL"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"nüMedium10"
+		"fgcolor_override"		"60 60 60 255"
+		"textinsety"			"0"
+		"paintbackground"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"paintbackgroundtype"	"0"
+		
+		"pin_to_sibling"	"ItemEffectMeter"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+	}
+}

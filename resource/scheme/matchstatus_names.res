@@ -1,0 +1,80 @@
+"Resource/UI/HudMatchStatus.res"
+{
+	"TeamStatus"
+	{
+		"max_size"		"35"
+		"tall"			"75"
+		
+		"playerpanels_kv"
+		{
+			"tall"			"50"
+			"wide"			"25"
+			
+			"PlayerName"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"PlayerName"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"5"
+				"wide"								"f0"
+				"tall"								"7"
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"textinsetx"						"1"
+				"labelText"							"%playername%"
+				"font"								"nü6"
+				"textAlignment"						"center"
+				"bgcolor_override"					"TransparentBlack"
+				"proportionaltoparent"				"1"
+				"alpha"								"255"
+				
+				"pin_to_sibling" 					"classimagebg"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+			}
+			"healthbar"
+			{
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"healthbar"
+				"font"					"Default"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"1"
+				"wide"					"f0"
+				"tall"					"18"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"dulltext"				"0"
+				"brighttext"			"0"
+				"bgcolor_override"	   	"LightBG"
+				"proportionaltoparent"	"1"
+			}
+			"overhealbar"
+			{
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"overhealbar"
+				"font"					"Default"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"2"
+				"wide"					"f0"
+				"tall"					"18"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"dulltext"				"0"
+				"brighttext"			"0"
+				"bgcolor_override"	  	"0 0 0 0"
+				"fgcolor_override"	   	"Status Buff"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+}
