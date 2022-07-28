@@ -3,6 +3,7 @@
 Custom Hud for Team Fortress 2 <br>
 Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
 #### <h2>Features</h2>
+* Toolbar
 * Custom fonts
 * Custom colours
 * Custom crosshairs
