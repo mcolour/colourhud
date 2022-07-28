@@ -8,7 +8,7 @@ Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
 * Custom crosshairs
 * Easy customization
 * 16:9, 16:10, 4:3 support
-* All gamemodes support
+* Support for all gamemodes
 #### <h2>Installation</h2>
 1. Download ColourHUD by clicking `Download ZIP` from the green `Code` Button
 2. Open Steam
