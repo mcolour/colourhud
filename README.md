@@ -20,7 +20,7 @@ Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
 7. Extract `colourhud-master` from the ZIP file to the `custom` folder
 8. That's all
 #### <h2>Customization</h2>
-You can easily customize the hud to your liking by changing `.res` files in the `customization` folder using any text editor.
+You can easily customize the hud to your liking by changing `.res` files in the `customization` folder using any text editor (preferably Notepad++)
 #### <h2>Support</h2>
 **OS**:
 * <b>Windows</b>	:heavy_check_mark:
