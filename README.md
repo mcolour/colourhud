@@ -11,7 +11,8 @@ Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
 * 16:9, 16:10, 4:3 support
 * Support for all gamemodes
 #### <h2>Installation</h2>
-1. Download ColourHUD by clicking `Download ZIP` from the green `Code` Button
+1. Download ColourHUD by clicking `Download ZIP` from the green `Code` Button<br>
+   Or you can download the HUD from the `Releases` page by clicking `Source code (zip)` button in the `Assets`
 2. Open Steam
 3. Go to Library
 4. Right click on `Team Fortress 2` on the games panel and select `Properties...`
