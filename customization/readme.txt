@@ -1,0 +1,1 @@
+Edit .res files like text files.
