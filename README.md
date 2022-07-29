@@ -43,4 +43,5 @@ You can easily customize the hud to your liking by changing `.res` files in the 
 #### <h2>Credits</h2>
 * phou for PhouHUD
 * n0kk for nühud (base of PhouHUD)
-* Hypnotize for icons.
+* Hypnotize for icons
+* Fog for crosshairs
