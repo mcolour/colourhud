@@ -8,6 +8,8 @@
 	"HudChat"
 	{
 		"xpos"			"0"
-		"ypos"			"r170"
+		"ypos"			"25"
+		"visible"		"1"
+        "enabled"		"1"
 	}
 }
