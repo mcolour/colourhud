@@ -52,7 +52,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
-		"font"					"nüMediumBlur12"
+		"font"					"nüMedium12"
 		"fgcolor_override"		"ShadowBlack"
 		"textinsety"            "1"
 	}
@@ -92,7 +92,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"16"
@@ -104,9 +104,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"nüMediumBlur20"
+		"font"					"nüMedium20"
 		"fgcolor"				"ShadowBlack"
-		"textinsety"            "1"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

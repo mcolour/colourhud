@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/hms.res"
+
 "Resource/UI/HudMatchSummary.res"
 {
 	"MatchSummary"
@@ -272,8 +275,6 @@
 				"xpos"			"-320"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 
@@ -493,8 +494,6 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"1"
-						"wide"			"p.465"
-						"tall"			"205"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
@@ -503,7 +502,6 @@
 						"linegap"		"0"
 						//"show_columns"	"1"
 
-						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
 						"spacer"		"2"
 						"name_width"	"s.19"
@@ -548,8 +546,6 @@
 				"xpos"			"320"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 
@@ -768,8 +764,6 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"1"
-						"wide"			"p.465"
-						"tall"			"205"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
@@ -778,7 +772,6 @@
 						"linegap"		"0"
 						//"show_columns"	"1"
 
-						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
 						"spacer"		"2"
 						"name_width"	"s.19"

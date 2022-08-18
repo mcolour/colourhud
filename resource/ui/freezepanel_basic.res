@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/fp.res"
+
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"FreezePanel"
@@ -15,7 +18,6 @@
 		"xpos"			"r200"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"PanelBG"
@@ -50,14 +52,11 @@
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"10"
-			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
@@ -65,7 +64,7 @@
 		}
 	}
 
-	"FreezePanelBase"	[$WIN32]
+	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
@@ -123,9 +122,7 @@
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"nüMedium14"
 			"xpos"			"c-125"
-			"ypos"			"332"
 			"zpos"			"5"
-			"wide"			"250"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"

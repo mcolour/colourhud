@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/hksn.res"
+
 "Resource/UI/HudKillStreakNotice.res"
 {	
 	"Background"
@@ -24,10 +27,7 @@
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-400"
-		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"800"
-		"tall"			"50"
 		"autoResize"	"0"
 		"fgcolor"		"nüWhite"
 	}

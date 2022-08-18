@@ -1,3 +1,4 @@
+#base "../../customization/streamermode.res"
 #base "../../customization/chat.res"
 
 "Resource/UI/BaseChat.res"
@@ -6,8 +7,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName" 		"HudChat"
-		"visible" 		"1"
-		"enabled" 		"1"
 		"wide"	 		"210"
 		"tall"	 		"100"
 		"PaintBackgroundType"	"0"

@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/hip.res"
+
 "Resource/UI/HudInspectPanel.res"
 {	
 	"itempanel"
@@ -43,7 +46,6 @@
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"10"
-			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"

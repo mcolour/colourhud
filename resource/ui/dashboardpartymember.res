@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/dpm.res"
+
 "Resource/UI/DashboardPartyMember.res"
 {
 	"avatar"
@@ -5,10 +8,7 @@
 		// "ControlName"	"CAvatarImagePanel"
 		"fieldName"		"avatar"
 		"xpos"			"1"
-		"ypos"			"1"
 		"zpos"			"101"
-		"wide"			"f2"
-		"tall"			"f2"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
