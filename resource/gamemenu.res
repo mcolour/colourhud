@@ -66,6 +66,6 @@
 	{
 		"label"	""
 		"command"	"echo"
-		"tooltip"	"ColourHUD v1.0\nMade by MrColour"
+		"tooltip"	"ColourHUD v1.1\nMade by MrColour"
 	}
 }
