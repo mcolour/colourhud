@@ -38,7 +38,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"175"
@@ -59,7 +59,7 @@
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"43 195 123 255"
 
@@ -78,7 +78,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"15 15 15 215"
+		"bgcolor_override"		"34 139 34 255"
 	}
 	"Titlemem"
 	{
@@ -97,7 +97,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold13"
+		"font"			"nüBold12"
 		"fgcolor"		"nüWhite"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -118,10 +118,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"nüBoldBlur13"
-		"fgcolor"		"43 195 123 255"
-		"xpos"			"0"
-		"ypos"			"0"
+		"font"			"nüBoldBlur12"
+		"fgcolor"		"ShadowBlack"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"13"

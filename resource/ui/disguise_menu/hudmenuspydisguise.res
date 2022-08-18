@@ -47,10 +47,23 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"120"
-		"tall"			"12"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"34 139 34 255"
+	}
+	"Titlemem"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TitleBGmem"
+		"xpos"			"0"
+		"ypos"			"12"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"PanelBG"
 	}
 	"TitleLabel"
 	{	
@@ -79,7 +92,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"nüBoldBlur12"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"0"
+		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"120"
@@ -101,7 +114,7 @@
 		"font"			"nü8"
 		"fgcolor"		"nüWhite"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"10"
@@ -110,6 +123,7 @@
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"west"
 		"textinsetx"	"20"
+		"bgcolor_override"	"0 0 0 140"
 
 		"pin_to_sibling"	"TitleLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -341,7 +355,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nüMedium24"
+		"font"			"nüBold24"
 		"fgcolor"		"nüWhite"
 		"xpos"			"0"
 		"ypos"			"31"
@@ -368,7 +382,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nüMedium24"
+		"font"			"nüBold24"
 		"fgcolor"		"nüWhite"
 		"xpos"			"0"
 		"ypos"			"79"
@@ -395,7 +409,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nüMedium24"
+		"font"			"nüBold24"
 		"fgcolor"		"nüWhite"
 		"xpos"			"0"
 		"ypos"			"127"

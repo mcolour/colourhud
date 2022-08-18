@@ -22,12 +22,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-		"MenuBG"
+	"MenuBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"175"
@@ -48,7 +48,7 @@
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"200 80 0 255"
 
@@ -67,7 +67,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"15 15 15 215"
+		"bgcolor_override"		"200 80 0 255"
 	}
 	"Titlemem"
 	{
@@ -86,7 +86,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold13"
+		"font"			"nüBold12"
 		"fgcolor"		"nüWhite"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -107,10 +107,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"nüBoldBlur13"
-		"fgcolor"		"200 80 0 255"
-		"xpos"			"0"
-		"ypos"			"0"
+		"font"			"nüBoldBlur12"
+		"fgcolor"		"ShadowBlack"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"13"
