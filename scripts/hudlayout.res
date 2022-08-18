@@ -1,3 +1,5 @@
+#base "../customization/streamermode.res"
+#base "../resource/scheme/hl.res"
 #base "../customization/spacer.res"
 #base "../customization/crosshair.res"
 
@@ -306,7 +308,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"ypos"		"-25"
+		"ypos"		"60"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -463,13 +465,10 @@
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640+10"
 		"ypos"	 "21"
 		"wide"	 "628"
 		"tall"	 "468"
-
+		
 		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
@@ -481,10 +480,11 @@
 		
 		"TeamBlue"		"nüBLUSolid"
 		"TeamRed"		"nüREDSolid"
+		
 		"IconColor"		"240 240 240 255"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"15 15 12 215"
+		"BaseBackgroundColor"	"15 15 12 0"
 		"LocalBackgroundColor"	"240 240 240 215"
 	}
 
@@ -716,10 +716,8 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
+		"xpos" "r145"
+		"ypos" "0" 
 		"wide" "145"
 		"tall" "400"
 
@@ -739,7 +737,6 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"33"
 	}
 
 	HudHintDisplay
