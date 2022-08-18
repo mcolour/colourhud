@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/vh.res"
+
 "Resource/UI/VoteHud.res"
 {	
 	"VotePassed"
@@ -87,9 +90,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"Header"
 			"xpos"			"10"
-			"ypos"			"5"
-			"wide"			"130"
-			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%header%"
@@ -106,9 +106,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"Issue"
 			"xpos"			"10"
-			"ypos"			"22"
-			"wide"			"120"
-			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%voteissue%"

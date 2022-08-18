@@ -1,5 +1,4 @@
 #base "../../customization/fontsizes.res"
-#base "../../customization/fontshadows.res"
 #base "../extras/spacer.res"
 
 "Resource/UI/HudPlayerHealth.res"
@@ -81,7 +80,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"zpos"			"5"
+		"font"			"nüBold42"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"-5"
 		"wide"			"140"
 		"tall"			"45"
 		"visible"		"1"

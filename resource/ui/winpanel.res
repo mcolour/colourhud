@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/wp.res"
+
 "Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"
@@ -309,17 +312,14 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"Player1Avatar"		[$WIN32]
+	"Player1Avatar"
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
 		"xpos"			"-10"
-		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
@@ -333,12 +333,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
 		"xpos"			"6"
-		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
 		"font"			"nüBold12"
 		"labelText"		""
 		"textAlignment"		"west"
@@ -386,7 +383,7 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	"Player2Avatar"		[$WIN32]
+	"Player2Avatar"
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player2Avatar"
@@ -402,12 +399,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
 		"xpos"			"6"
-		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
 
@@ -451,7 +445,7 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
-	"Player3Avatar"		[$WIN32]
+	"Player3Avatar"
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
@@ -467,12 +461,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
 		"xpos"			"6"
-		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
 

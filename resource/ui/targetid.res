@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/targetid.res"
+
 "Resource/UI/TargetID.res"
 {
 	"TargetBG"
@@ -70,7 +73,6 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor_override"		"nüWhite"
 	}
@@ -84,7 +86,6 @@
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"16"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
@@ -126,7 +127,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
 		"ypos"			"7"
 		"wide"			"32"
 		"tall"			"32"

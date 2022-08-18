@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/spect.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -54,13 +57,11 @@
 				"fieldName"		"playername"
 				"font"			  "nüBold11"
 				"xpos"			  "44"
-				"ypos"			  "4"
 				"zpos"			  "5"
 				"wide"			  "80"
 				"tall"			  "10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		  "1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		  "nüWhite"

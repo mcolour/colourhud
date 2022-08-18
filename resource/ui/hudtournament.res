@@ -1,3 +1,5 @@
+#base "../../customization/streamermode.res"
+
 "Resource/UI/HudTournament.res"
 {
 	HudTournament

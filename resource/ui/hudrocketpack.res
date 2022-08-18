@@ -21,7 +21,7 @@
 	"ItemEffectMeterLabel"
 	{
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"4"
 		"wide"			"120"
 		"tall"			"11"
 		"visible"		"1"
@@ -36,8 +36,9 @@
 	"ItemEffectMeter"
 	{	
 		"xpos"			"-31"
-		"ypos"			"-14"
+		"ypos"			"-9"
 		"wide"			"59"
+		"tall"			"2"
 	}
 	"ItemEffectMeter2"
 	{	

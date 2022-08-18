@@ -35,7 +35,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HeaderBG"
 		"xpos"			"0"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"280"
 		"tall"			"24"
@@ -80,6 +80,27 @@
 	    "pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
+	"TFMessageTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"280"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WELCOME"
+		"textAlignment"	"center"
+		"font"			"nüBold16"
+		"fgcolor"		"150 255 200 255"
+
+		"pin_to_sibling"	"HeaderBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"

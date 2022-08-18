@@ -1,3 +1,6 @@
+#base "../../customization/streamermode.res"
+#base "../scheme/mvms.res"
+
 "Resource/UI/MvMScoreboard.res"
 {		
 	"WaveStatusPanel"
@@ -88,12 +91,9 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-260"
-		"ypos"			"150"
 		"wide"			"520"
 		"tall"			"107"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"16"
