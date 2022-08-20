@@ -434,7 +434,7 @@
 		}
 	}
 	
-	"MOTD_Panel"
+	"MOTD_Panel"	// Tool Panel
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
@@ -442,7 +442,7 @@
 		"ypos"										"70"
 		"zpos"										"99"
 		"wide"										"78"
-		"tall"										"155"
+		"tall"										"179"		// Increase/decrease this by 24 every time a button is added/removed
 		"visible"									"0"
 		"proportionaltoparent"                       "1"
         "PaintBackground"                            "1"
@@ -736,6 +736,42 @@
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
+		"Reconnect"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Reconnect"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"18"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"Reconnect"
+			"command"				"engine retry"
+			"actionsignallevel"		"2"
+			"font"					"nüBold10"
+			"textAlignment"			"center"	
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override" "nüOffWhite"
+			"armedFgColor_override"   "15 15 15 215"
+			"depressedFgColor_override" "nüWhite"
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "34 181 93 165"
+			"depressedBgColor_override" "34 181 93 165"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"InviliblePlayersFix"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
 		"NetgraphToggle"
 		{
 			"ControlName"			"CExImageButton"
@@ -767,7 +803,7 @@
 			"PaintBackgroundType"                        "2"
 			"bgcolor_override"                           "40 40 40 255"							
 			
-			"pin_to_sibling"		"InviliblePlayersFix"
+			"pin_to_sibling"		"Reconnect"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
