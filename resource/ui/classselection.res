@@ -1460,7 +1460,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1479,7 +1479,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1498,7 +1498,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1517,7 +1517,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1536,7 +1536,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1555,7 +1555,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1574,7 +1574,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1593,7 +1593,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1612,7 +1612,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"-7"
+		"xpos"			"-55"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"10"
