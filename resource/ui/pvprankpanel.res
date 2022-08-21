@@ -36,6 +36,11 @@
 					"loop"	"0"
 				}
 			}
+			
+			if_mini
+			{
+				"xpos"		"cs-0.5-128"
+			}
 
 			"paintbackground"	"0"	
 		}
@@ -60,8 +65,8 @@
 			{
 				"xpos"		"cs-0.5-228"
 				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
+				"wide"		"100"
+				"tall"		"100"
 			}
 
 			"paintbackground"	"0"
@@ -117,6 +122,11 @@
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
+			
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -293,6 +303,13 @@
 				"1"		"Green"
 				"2"		"OffWhite"
 			}
+			
+			if_mini
+			{
+				"xpos"	"167"
+				"ypos"	"4"
+				"font"	"nüBold16"
+			}
 		}
 
 		"StatsContainer"
@@ -321,6 +338,7 @@
 				"wide"			"126"
 				"tall"			"20"
 				"proportionaltoparent"	"1"
+				
 
 	
 

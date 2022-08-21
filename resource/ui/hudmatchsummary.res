@@ -63,7 +63,7 @@
 
 		if_uses_xp
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 
@@ -100,8 +100,8 @@
 		"ypos"			"r1"
 
 		"zpos"			"9002"
-		"wide"			"2000"
-		"tall"			"2000"
+		"wide"			"500"
+		"tall"			"500"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -148,39 +148,6 @@
 		"linecolor"			"RedSolid"
 		"team_colors"		"1"
 	}
-
-	"MenuTopPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MenuTopPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"21"
-		"visible"		"1"
-		"PaintBackgroundType" "0"
-		"bgcolor_override" "DarkPanelBG"
-	}
-
-	"MatchSummaryLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MatchSummaryLabel"
-		"font"			"nüBold16"
-		"labelText"		"Match Summary"
-		"textAlignment"		"west"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"f0"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
-	}	
 
 	"MainStatsContainer"
 	{
@@ -291,7 +258,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"bgcolor_override" "LightPanelBG"
+					"border"		"TFFatLineBorderBlueBGOpaque"
 
 					if_large
 					{
@@ -302,10 +269,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScore"
-					"font"			"nüBold36"
+					"font"			"nüMedium36"
 					"labelText"		"%blueteamscore%"
-					"fgcolor"       "nüBLUHighlight"
-					"textAlignment"		"center"
+					"textAlignment"		"east"
 					"xpos"			"5"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -326,10 +292,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"nüBoldBlur36"
+					"font"			"nüMediumBlur36"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamscore%"
-					"textAlignment"		"center"
+					"textAlignment"		"east"
 					"xpos"			"5"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -349,10 +315,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinner"
-					"font"			"nüBold30"
+					"font"			"nüMedium20"
 					"labelText"		"%blueteamwinner%"
-					"fgcolor"       "nüBLUHighlight"
-					"textAlignment"		"center"
+					"textAlignment"		"east"
 					"xpos"			"5"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -372,10 +337,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"nüBoldBlur30"
+					"font"			"nüMediumBlur20"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"center"
+					"textAlignment"		"east"
 					"xpos"			"5"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -395,13 +360,13 @@
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"BlueTeamImage"
-					"xpos"			"0"
+					"xpos"			"1"
 					"ypos"			"0"
-					"zpos"			"0"
-					"wide"			"0"
-					"tall"			"0"
-					"visible"		"0"
-					"enabled"		"0"
+					"zpos"			"5"
+					"wide"			"58"
+					"tall"			"58"
+					"visible"		"1"
+					"enabled"		"1"
 					"image"			"store/store_blueteam"
 					"scaleImage"		"1"
 
@@ -562,7 +527,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"bgcolor_override" "LightPanelBG"
+					"border"		"TFFatLineBorderRedBGOpaque"
 
 					if_large
 					{
@@ -573,10 +538,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScore"
-					"font"			"nüBold36"
+					"font"			"nüMedium36"
 					"labelText"		"%redteamscore%"
-					"fgcolor"       "nüREDHighlight"
-					"textAlignment"		"center"
+					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -596,10 +560,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"nüBoldBlur36"
+					"font"			"nüMediumBlur36"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamscore%"
-					"textAlignment"		"center"
+					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -619,10 +583,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinner"
-					"font"			"nüBold30"
+					"font"			"nüMedium20"
 					"labelText"		"%redteamwinner%"
-					"fgcolor"       "nüREDHighlight"
-					"textAlignment"		"center"
+					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -642,10 +605,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"nüBoldBlur30"
+					"font"			"nüMediumBlur20"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamwinner%"
-					"textAlignment"		"center"
+					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -665,13 +628,13 @@
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"RedTeamImage"
-					"xpos"			"0"
+					"xpos"			"1"
 					"ypos"			"0"
-					"zpos"			"0"
-					"wide"			"0"
-					"tall"			"0"
-					"visible"		"0"
-					"enabled"		"0"
+					"zpos"			"5"
+					"wide"			"58"
+					"tall"			"58"
+					"visible"		"1"
+					"enabled"		"1"
 					"image"			"store/store_redteam"
 					"scaleImage"		"1"
 
