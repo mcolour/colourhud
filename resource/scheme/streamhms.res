@@ -27,7 +27,7 @@
 
                 "RedPlayerListParent"
                 {
-                    "RedPlayerListParent"
+                    "RedPlayerList"
                     {
                         "wide"		"0"
 						"tall"		"0"

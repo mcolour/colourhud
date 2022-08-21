@@ -27,7 +27,7 @@
 
                 "RedPlayerListParent"
                 {
-                    "RedPlayerListParent"
+                    "RedPlayerList"
                     {
                         "wide"		"p.465"
 						"tall"		"205"
