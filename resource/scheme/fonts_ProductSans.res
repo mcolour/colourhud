@@ -2907,7 +2907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Medium"
 				"tall"		"10"
 				"antialias" "1"
 			}
