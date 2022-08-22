@@ -39,7 +39,7 @@
 			
 			if_mini
 			{
-				"xpos"		"cs-0.5-128"
+				"xpos"		"cs-0.5-228"
 			}
 
 			"paintbackground"	"0"	
@@ -193,7 +193,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
-		"bgcolor_override"	"28 28 28 255"
+		"bgcolor_override"	"26 26 26 255"
 		"proportionaltoparent"	"1"
 
 		if_mini

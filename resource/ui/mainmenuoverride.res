@@ -820,7 +820,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"Toggle Chat"
-			"command"				"engine toggle hud_saytext_time 6 0"
+			"command"				"engine toggle hud_saytext_time 0 6"
 			"actionsignallevel"		"2"
 			"font"					"nüBold10"
 			"textAlignment"			"center"	
@@ -1402,7 +1402,7 @@
 		"zpos"			"100000"
 		"wide"			"155"
 		"tall"			"40"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
