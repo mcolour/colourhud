@@ -30,12 +30,14 @@ Scheme
 	{
 		"9005"
 		{
-			"font" 		"resource/fonts/tf2 class icons.ttf"
+			"font" 		"resource/fonts/tf2 class icons.ttf" [$WINDOWS]
+			"font" 		"resource/fonts/linux/tf2 class icons_linux.ttf" [$LINUX]
 			"name" 		"TF2 Class Icons V2"
 		}
 		"9006"
 		{
-			"font" 		"resource/fonts/hypnotize icons.ttf"
+			"font" 		"resource/fonts/hypnotize icons.ttf" [$WINDOWS]
+			"font" 		"resource/fonts/linux/hypnotize icons_linux.ttf" [$LINUX]
 			"name" 		"Hypnotize Icons V3s"
 		}
 	}

@@ -682,7 +682,8 @@ Scheme
 	{
 		"9000"
 		{
-			"font" "resource/fonts/TF2Crosshairs.ttf"
+			"font" "resource/fonts/TF2Crosshairs.ttf" [$WINDOWS]
+			"font" "resource/fonts/TF2Crosshairs_linux.ttf" [$LINUX]
 			"name" "TF2Crosshairs"
 		}
 	}
