@@ -834,9 +834,9 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-170"
+		"xpos"					"c-165"
 		"wide"					"340"
-		"tall"					"64"
+		"tall"					"100"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
