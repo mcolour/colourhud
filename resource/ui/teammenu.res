@@ -156,8 +156,8 @@
 		"font"			"nüMedium14"
 
 		"pin_to_sibling"	"teambutton0"
-		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"fgcolor"			"nüWhite"
 		"bgcolor_override"	"LightBG"
@@ -223,8 +223,8 @@
 		"font"			"nüMedium14"
 
 		"pin_to_sibling"	"teambutton1"
-		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		
 		"fgcolor"			"nüWhite"
 		"defaultFgColor_override" "nüWhite"

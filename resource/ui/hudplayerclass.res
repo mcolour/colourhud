@@ -1,3 +1,4 @@
+#base "../../customization/playermodel.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -9,9 +10,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"		
+		"tall"			"480"	
 	}
 
 	"PlayerStatusClassImage"
