@@ -52,7 +52,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
-		"font"					"nüMedium12"
+		"font"					"nüMediumBlur12"
 		"fgcolor_override"		"ShadowBlack"
 		"textinsety"            "1"
 	}
@@ -104,7 +104,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"nüMedium20"
+		"font"					"nüMediumBlur20"
 		"fgcolor"				"ShadowBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"

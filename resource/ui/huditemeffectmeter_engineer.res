@@ -52,7 +52,7 @@
 		"enabled"				"1"
 		"labelText"				"Crits"
 		"textAlignment"			"center"
-		"font"					"nüMedium12"
+		"font"					"nüMediumBlur12"
 		"fgcolor_override"		"ShadowBlack"
 	}
 	"ItemEffectMeter"
@@ -95,7 +95,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"nüMedium20"
+		"font"					"nüMediumBlur20"
 		"fgcolor_override"		"ShadowBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"
