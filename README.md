@@ -20,12 +20,14 @@ Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
 6. Navigate to `tf\custom`
 7. Extract `colourhud-master` from the ZIP file to the `custom` folder
 8. That's all
+#### <h2>Uninstallation</h2>
+1. Delete `colourhud-master` in the `custom` folder
 #### <h2>Customization</h2>
 You can easily customize the hud to your liking by changing `.res` files in the `customization` folder using any text editor (preferably Notepad++)
 #### <h2>Support</h2>
 **OS**:
 * <b>Windows</b>	:heavy_check_mark:
-* <b>Linux</b>		:x: (for now)
+* <b>Linux</b>		:heavy_check_mark:
 * <b>Mac</b>			:x:
 
 **Resolution**:
