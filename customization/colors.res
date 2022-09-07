@@ -40,7 +40,7 @@ Scheme
 		"Status Low"            "255 35 28 255"
 		"Status Buff"           "120 245 137 255"
 		
-		// nühud Colors
+		// nü Colours
 		"nüBase"				"34 181 93 255"
 		"nüBaseTransparent"		"34 181 93 165"
 		"nüLightBase"			"49 196 108 255"
