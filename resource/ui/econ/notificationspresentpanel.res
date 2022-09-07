@@ -5,14 +5,14 @@
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
 		"xpos"			"c160"
-		"ypos"			"0"
+		"ypos"			"30"
 		"zpos"			"10000"
 		"wide"			"123"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"blank"
+		"bgcolor_override"	"25 25 25 0"
 	}
 
 	"TextLabel"

@@ -19,7 +19,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"0"
 		"PaintBackgroundType"	"0"
-		"defaultbgcolor_override"		"208 193 162 0"
+		"defaultbgcolor_override"		"25 25 25 255"
 		"proportionaltoparent"	"1"
 	}
 
