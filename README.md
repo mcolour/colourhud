@@ -34,7 +34,7 @@ You can easily customize the hud to your liking by changing `.res` files in the 
 * <b>4:3</b>			:heavy_check_mark:
 * <b>16:9</b>			:heavy_check_mark:
 * <b>16:10</b>		:heavy_check_mark:
-* <b>5:4</b>			:grey_question:		(can't test this)
+* <b>5:4</b>			:heavy_check_mark:
 * <b>3:2</b>			:grey_question:		(can't test this)
 * <b>17:9</b>			:grey_question:		(can't test this)
 * <b>21:9</b>			:grey_question:		(can't test this)
