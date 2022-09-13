@@ -5,7 +5,7 @@
 {
 	"Spacer"
 	{
-		"xpos"			"cs-0.5"	// Don't change
+		"xpos"			"0"	// Don't change
 		"ypos"			"c110"		// Vertical position of health, ammo, and ubercharge
 		"wide"			"400"		// Distance between health, ammo, and ubercharge
 		"tall"			"45"		// Vertical position of item meters
