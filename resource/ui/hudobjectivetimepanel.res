@@ -228,11 +228,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"0"
-		"ypos"			"18"
+		"xpos"			"-29"
+		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"14"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -245,26 +245,26 @@
 		
 		if_match
 		{
-			"ypos"					"25"
+			"ypos"					"18"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"30"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_blue_bg"	
+		"scaleImage"	"1"	
 		
 		if_match
 		{
-			"wide"	"0"
+			"visible"		"0"
 		}
 	}
 }
