@@ -7,7 +7,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Class Icons V2"
-				"tall"			"48"
+				"tall"			"48" [$WINDOWS]
+				"tall"			"38" [$LINUX]
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -18,7 +19,8 @@ Scheme
 			"1"
 			{
 				"name" 			"Hypnotize Icons V3s"
-				"tall"			"48"
+				"tall"			"48" [$WINDOWS]
+				"tall"			"38" [$LINUX]
 				"additive"		"0"
 				"antialias"		"1"
 			}
