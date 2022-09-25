@@ -15,8 +15,8 @@ Scheme
 		"Ammo In Clip"			"240 240 240 255"
 		"Ammo In Reserve"		"180 180 180 255"
 		"Ammo No Clip"			"240 240 240 255"
-		"Low Ammo 1"			"200 45 45 255"
-		"Low Ammo 2"			"195 195 195 255"
+		"Low Ammo 1"			"255 30 0 255"
+		"Low Ammo 2"			"205 30 0 255"
 		
 		// Medic		
 		"Charge Percent"		"240 240 240 255"
@@ -40,7 +40,7 @@ Scheme
 		"Status Low"            "255 35 28 255"
 		"Status Buff"           "120 245 137 255"
 		
-		// nü Colours
+		// nü Colours. Don't touch unless you know what you're doing
 		"nüBase"				"34 181 93 255"
 		"nüBaseTransparent"		"34 181 93 165"
 		"nüLightBase"			"49 196 108 255"
