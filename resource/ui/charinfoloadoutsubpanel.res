@@ -66,7 +66,7 @@
 		"font"			"nüBold30"
 		"labelText"		"LOADOUT"
 		"textAlignment"	"center"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"f0"
@@ -538,7 +538,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scoutcustom"
-		"xpos"				"c-270"
+		"xpos"				"c-274"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -568,7 +568,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldiercustom"
-		"xpos"				"c-215"
+		"xpos"				"c-217"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -601,7 +601,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyrocustom"
-		"xpos"				"c-160"
+		"xpos"				"c-162"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -634,7 +634,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demomancustom"
-		"xpos"				"c-70"
+		"xpos"				"c-72"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -664,7 +664,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweaponscustom"
-		"xpos"				"c-20"
+		"xpos"				"c-22"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -694,7 +694,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineercustom"
-		"xpos"				"c30"
+		"xpos"				"c28"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -726,7 +726,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"mediccustom"
-		"xpos"				"c118"
+		"xpos"				"c116"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -757,7 +757,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"snipercustom"
-		"xpos"				"c168"
+		"xpos"				"c166"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
@@ -788,7 +788,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spycustom"
-		"xpos"				"c218"
+		"xpos"				"c216"
 		"ypos"				"180"
 		"zpos"				"6"
 		"wide"				"40"
