@@ -5,6 +5,10 @@
         "ypos"			"-9001"
         "visible"		"0"
 		"enabled"		"0"
+		if_mvm
+		{
+			"visible"		"0"
+		}
     }
 	
 	"BluePlayerlistBG"
