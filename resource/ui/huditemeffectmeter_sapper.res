@@ -5,6 +5,6 @@
 {
 	ItemEffectMeter
 	{
-		"ypos"			"-14"
+		"ypos"			"-40"
 	}
 }

@@ -344,7 +344,7 @@
 		if_mvm
 		{
 			"visible"	"1"
-			"ypos"		"-23"
+			"ypos"		"-121"
 			"ypos_minmode"	"21"
 			"wide"		"520"
 		}
@@ -389,7 +389,7 @@
 
 		if_mvm
 		{
-			"ypos"		"-5"
+			"ypos"		"-1"
 		}
 	}
 	"ServerLabel"
@@ -411,7 +411,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"ypos"		"-15"
 		}
 	}
 	"ServerTimeLeftValue"

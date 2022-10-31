@@ -26,7 +26,7 @@
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"c-230"
-		"ypos"			"123"
+		"ypos"			"124"
 		"wide"			"480"
 		"tall"			"12"
 		"fgcolor"		"nüWhite"

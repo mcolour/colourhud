@@ -387,7 +387,7 @@
 
 		if_mvm
 		{
-			"ypos"		"-5"
+			"ypos"		"-1"
 		}
 	}
 	"ServerLabel"
@@ -409,7 +409,8 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"ypos"		"-16"
+			"fgcolor"		"190 190 190 255"
 		}
 	}
 	"ServerTimeLeftValue"
