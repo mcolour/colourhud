@@ -183,3 +183,5 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+	}
+}
