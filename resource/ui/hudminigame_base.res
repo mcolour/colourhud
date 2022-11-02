@@ -41,7 +41,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_white"
+		"image"			""
 		"alpha"			"180"
 		"drawcolor"		"15 15 15 215"
 

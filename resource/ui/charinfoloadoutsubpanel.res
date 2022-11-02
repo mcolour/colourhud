@@ -837,8 +837,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 
-		"activeimage"		"replay/thumbnails/class_sel_sm_scout_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_scout_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -864,8 +864,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_soldier_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_soldier_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -891,8 +891,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_pyro_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_pyro_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -919,8 +919,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_demo_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_demo_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -946,8 +946,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_heavy_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_heavy_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -973,8 +973,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_engineer_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_engineer_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1001,8 +1001,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_medic_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_medic_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1028,8 +1028,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_sniper_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_sniper_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1055,8 +1055,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"activeimage"		"replay/thumbnails/class_sel_sm_spy_blu"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_spy_inactive"
+		"activeimage"		""
+		"inactiveimage"		""
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

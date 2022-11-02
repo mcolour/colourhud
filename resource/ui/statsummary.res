@@ -449,7 +449,7 @@
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1" 92, 195, 107
+			"visible"		"1" //92, 195, 107
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
