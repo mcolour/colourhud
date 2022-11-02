@@ -3169,24 +3169,7 @@
 				"y"		"640"
 				"width"		"64"
 				"height"	"32"
-		}		
-		"eotl_duck"
-		{
-			"file"		"hud/leaderboard_duck"
-			"negfile"	"vgui/logos/improvedkillicons_negative/dneg_leaderboard_duck"
-			"x"		"0"
-			"y"		"0"
-			"width"		"64"
-			"height"	"64"
 		}
-		"eotl_duck_dneg"
-		{
-			"file"		"vgui/logos/improvedkillicons_negative/dneg_leaderboard_duck"
-			"x"		"0"
-			"y"		"0"
-			"width"		"64"
-			"height"	"64"
-		}	
 		"crossing_guard"
 		{
 			"dfile"	"vgui/logos/improvedkillicons_base/d_images_v3"
