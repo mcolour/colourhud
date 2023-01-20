@@ -45,7 +45,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"-19"
+		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
@@ -484,7 +484,7 @@
 		"IconColor"		"240 240 240 255"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"15 15 12 0"
+		"BaseBackgroundColor"	"15 15 12 128"
 		"LocalBackgroundColor"	"240 240 240 215"
 	}
 
@@ -1458,6 +1458,19 @@
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
 		"alpha"					"0"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"			"CCurrencyStatusPanel"
+		"fieldName"				"CurrencyStatusPanel"
+		"xpos"					"c-201"
+		"ypos"					"c160"
+		"wide"					"100"
+		"tall"					"14"
+		"visible" 				"1"
+		"enabled" 				"1"
+
 	}
 
 	//---------------------------------------------
