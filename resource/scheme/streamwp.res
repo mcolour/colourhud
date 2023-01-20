@@ -27,4 +27,8 @@
         "visible"		"0"
 		"enabled"		"0"
     }
+	"KillStreakPlayer1Avatar"
+	{
+		"ypos"			"-9001"
+	}
 }

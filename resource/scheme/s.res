@@ -13,26 +13,26 @@
 	
 	"BluePlayerlistBG"
 	{
-		"tall"			"186"
-		"tall_minmode"	"98"
+		"tall"			"188"
+		"tall_minmode"	"188"
 	}
 	
 	"RedPlayerlistBG"
 	{
-		"tall"			"186"
-		"tall_minmode"	"98"
+		"tall"			"188"
+		"tall_minmode"	"188"
 	}
 	
 	"BluePlayerList"
 	{
-		"tall"			"188"
-		"tall_minmode"		"101"
+		"tall"			"190"
+		"tall_minmode"		"190"
 	}
 	
 	"RedPlayerList"
 	{
-		"tall"			"188"
-		"tall_minmode"		"101"
+		"tall"			"190"
+		"tall_minmode"		"190"
 	}
 	
 	"Spectators"
@@ -43,11 +43,11 @@
 	"LocalPlayerDuelStatsPanel"
 	{
 
-		"ypos"			"-4"
+		"ypos"			"-2"
 	}
 	
 	"LocalPlayerStatsPanel"
 	{
-		"ypos"			"-4"
+		"ypos"			"-2"
 	}
 }

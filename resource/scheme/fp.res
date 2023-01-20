@@ -19,5 +19,11 @@
             "ypos"		"332"
 			"wide"		"250"
         }
+		
+		"AvatarImage"
+		{
+			"wide"			"14"
+			"tall"			"14"
+		}
     }
 }

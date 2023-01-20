@@ -2,7 +2,7 @@
 {
     "Player1Avatar"
     {
-        "ypos"			"0"
+        "ypos"			"-10"
         "visible"		"1"
 		"enabled"		"1"
     }
@@ -27,4 +27,8 @@
         "visible"		"1"
 		"enabled"		"1"
     }
+	"KillStreakPlayer1Avatar"
+	{
+		"ypos"			"11"
+	}
 }
