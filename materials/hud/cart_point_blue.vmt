@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/payload/cart_point_blue"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	$detailscale 1
+	$detailblendmode 8
+	$distancealphafromdetail 1
+	"%keywords" "tf"
+}

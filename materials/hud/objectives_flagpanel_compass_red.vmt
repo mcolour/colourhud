@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/flag/objectives_flagpanel_compass_red"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	$detailscale 1
+	$detailblendmode 8
+	$distancealphafromdetail 1
+	"%keywords" "tf"
+}
