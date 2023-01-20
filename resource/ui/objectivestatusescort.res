@@ -2,23 +2,17 @@
 {	
 	"ObjectiveStatusEscort"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusEscort"
-		"xpos"				"c-80"
-		"ypos"				"rs1"
-		"zpos"				"1"
-		"wide"				"262"
-		"tall"				"20"
-		"visible"			"1"
-		"enabled"			"1"
-		"progress_xpos"		"79"
-		"progress_wide"		"420"
-		
-		"if_multiple_trains"
-		{
-			"ypos"				"r200"
-			"tall"				"16"
-		}
+		"ControlName"								"EditablePanel"
+		"fieldName"									"ObjectiveStatusEscort"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs0.69"
+		"zpos"										"1"
+		"wide"										"165"
+		"tall"										"33"
+		"visible"									"1"
+		"enabled"									"1"
+		"progress_xpos"								""
+		"progress_wide"								""
 	}
 	
 	"mem"
@@ -38,10 +32,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"0"
-		"ypos"			"11"
+		"ypos"			"10"
 		"zpos"			"110"
 		"wide"			"158"
-		"tall"			"6"
+		"tall"			"7"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
@@ -59,10 +53,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar2"	
 		"xpos"			"0"
-		"ypos"			"11"
+		"ypos"			"10"
 		"zpos"			"-10"
 		"wide"			"158"
-		"tall"			"6"
+		"tall"			"7"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -80,12 +74,12 @@
 	{
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
-		"xpos"			"1"
-		"ypos"			"5"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"4"
-		"wide"			"10"
-		"tall"			"20"
-		"visible"		"0"
+		"wide"			"158"
+		"tall"			"7"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		
@@ -104,7 +98,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"
 		"xpos"			"0"
-		"ypos"			"10.5"
+		"ypos"			"9"
 		"zpos"			"21"
 		"wide"			"8"
 		"tall"			"8"
@@ -130,13 +124,16 @@
 		}
 		"if_multiple_trains"
 		{
+			"visible"		"0"
+			"wide"			"9"
+			"tall"			"9"
 		}
 		"if_multiple_trains_top"
 		{
 		}
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"10"
+			"ypos"			"9"
 		}
 		"if_multiple_trains_red"
 		{
@@ -154,11 +151,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"			"101"	
-		"ypos"			"cs+0.1"	
+		"ypos"			"cs-0.9"	
 		"zpos"			"5"
 		"proportionaltoparent"			"1"
-		"wide"			"7"	
-		"tall"			"7"
+		"wide"			"8"	
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -171,9 +168,9 @@
 		{
 			"xpos"			"0"	
 			"ypos"			"cs-0.3"	
-			"zpos"			"50000"
-			"wide"			"7"	
-			"tall"			"7"
+			"zpos"			"10"
+			"wide"			"0"	
+			"tall"			"0"
 		}
 	}
 
@@ -181,11 +178,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
-		"xpos"			"20"
-		"ypos"			"-23"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"600"
-		"tall"			"40"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -202,11 +199,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BasicallyTheCart"	
-			"xpos"			"1"			
-			"ypos"			"rs1"
+			"xpos"			"0"			
+			"ypos"			"10"
 			"zpos"			"-250"
 			"wide"			"300"
-			"tall"			"6"
+			"tall"			"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -226,14 +223,14 @@
 			
 			"if_multiple_trains_top"
 			{
-				"xpos"			"1"
-				"ypos"			"rs1-33"
+				"xpos"			"0"
+				"ypos"			"10"
 			}
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"			"1"
-				"ypos"			"rs1-33"
+				"xpos"			"0"
+				"ypos"			"10"
 			}
 		}
 		
@@ -243,7 +240,7 @@
 			"fieldName"		"RecedeTime"	
 			"font"			"nüBold12"		
 			"xpos"			"296"
-			"ypos"			"rs1-5"			
+			"ypos"			"-1"			
 			"zpos"			"2"
 			"wide"			"20"
 			"tall"			"12"
@@ -279,13 +276,13 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"nüBold12"
-			"xpos"			"301"
-			"ypos"			"rs1-6"
+			"xpos"			"300"
+			"ypos"			"-1"
 			"zpos"			"4"
 			"wide"			"18"
 			"tall"			"11"
 			"autoResize"	"0"
-			"pinCorner"		"0"
+			"pinCorner"		"1"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
@@ -303,7 +300,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"301"
+				"xpos"			"300"
 			}
 			"if_multiple_trains_top"
 			{
@@ -313,7 +310,7 @@
 			}
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"rs1-24"
+				"ypos"			"rs1-25"
 				"tall"			"9"
 				"font"			"nüBold10"
 				"textinsety"	"-2"
@@ -323,8 +320,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
-			"xpos"			"301"
-			"ypos"			"27"
+			"xpos"			"300"
+			"ypos"			"0"
 			"zpos"			"34000"
 			"wide"			"6"
 			"tall"			"6"
@@ -354,7 +351,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"19"
+				"ypos"			"18"
 			}	
 		}
 		
@@ -387,8 +384,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
-			"xpos"			"301"
-			"ypos"			"27"
+			"xpos"			"300"
+			"ypos"			"10"
 			"zpos"			"2"
 			"wide"			"6"
 			"tall"			"6"
@@ -413,7 +410,7 @@
 			}
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"19"
+				"ypos"			"18"
 			}
 		}
 		

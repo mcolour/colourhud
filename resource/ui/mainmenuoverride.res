@@ -442,7 +442,7 @@
 		"ypos"										"70"
 		"zpos"										"99"
 		"wide"										"178"
-		"tall"										"203"		// Increase/decrease this by 24 every time a button is added/removed
+		"tall"										"227"		// Increase/decrease this by 24 every time a button is added/removed
 		"visible"									"0"
 		"proportionaltoparent"                       "1"
         "PaintBackground"                            "1"
@@ -879,6 +879,42 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
+		
+		"MinmodeToggle"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"MinmodeToggle"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"18"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"Toggle Minmode"
+			"command"				"engine toggle cl_hud_minmode"
+			"actionsignallevel"		"2"
+			"font"					"nüBold10"
+			"textAlignment"			"center"	
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override" "nüOffWhite"
+			"armedFgColor_override"   "15 15 15 215"
+			"depressedFgColor_override" "nüWhite"
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "34 181 93 165"
+			"depressedBgColor_override" "34 181 93 165"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"PModelToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
 
 		"ConsoleToggle"
 		{
@@ -911,7 +947,7 @@
 			"PaintBackgroundType"                        "2"
 			"bgcolor_override"                           "40 40 40 255"			
 			
-			"pin_to_sibling"		"PModelToggle"
+			"pin_to_sibling"		"MinmodeToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
@@ -947,7 +983,7 @@
 			"ypos"		           				 	 	"2"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -980,7 +1016,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1013,7 +1049,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1046,7 +1082,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1079,7 +1115,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1112,7 +1148,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1145,7 +1181,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1178,7 +1214,7 @@
 			"ypos"		           				 	 	"5"
 			"zpos"		           				 	 	"100"
 			"wide"		           				 	 	"68"
-			"tall"		           				 	 	"17"
+			"tall"		           				 	 	"20"
 			"visible"	           				 	 	"1"
 			"enabled"	           				 	 	"1"
 			"font"		           				 	 	""
@@ -1735,15 +1771,31 @@
 		"show_type"		"1"		
 	}
 	
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"25"
+		"ypos"			"r60"
+		"zpos"			"-99"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
+	
 	"NoGCMessage"
 	{
 		"ControlName"				"Label"
 		"fieldName"					"NoGCMessage"
-		"xpos"						"-6"
-		"ypos"						"6"
+		"xpos"						"-80"
+		"ypos"						"-40"
 		"zpos"						"-99"
 		"wide"						"260"
-		"tall"						"100"
+		"tall"						"0"				//	"100"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
@@ -1752,30 +1804,14 @@
 		"textinsety"				"0"
 
 		"font"						"HudFontSmallestBold"
-		"fgcolor_override"			"TanLight"
+		"fgcolor_override"			"200 100 100 255"
 		"labelText"					"#TF_MM_NoGC_Rank"
 		"textAlignment"				"south-west"
 		"use_proportional_insets"	"1"
 		
-		"pin_to_sibling" 			"ServerBrowserButton"
+		"pin_to_sibling" 			"NoGCImage"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
-	}
-
-	"NoGCImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"gc_dc"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
 	}
 
 	"CallVoteButton"	//IN-GAME BUTTON

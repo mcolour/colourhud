@@ -164,7 +164,27 @@
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	
-	
+	"RedScoreShadow"
+	{
+		"ControlName"						"CExLabel"
+		"fieldName"							"RedScoreShadow"
+		"xpos"								"-1"
+		"ypos"								"-1"
+		"zpos"								"5"
+		"wide"								"33"
+		"tall"								"17"
+		"visible"							"1"
+		"enabled"							"1"
+		"textAlignment"						"center"	
+		"labelText"							"%redscore%"
+		"font"								"nüBoldBlur24"
+		"fgcolor"							"ShadowBlack"		
+		"proportionalToParent"				"1"
+				
+	    "pin_to_sibling" 		"RedScore"
+        "pin_corner_to_sibling" "PIN_TOPLEFT"
+        "pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
 	
 	"PlayingToCluster"
 	{

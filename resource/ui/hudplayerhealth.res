@@ -61,7 +61,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"xpos"			"-39"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"140"
@@ -69,7 +70,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment_minmode"	"center"
+		"textAlignment"	"west"		
 		"fgcolor"		"nüWhite"
 
 		"pin_to_sibling"	"Spacer"
@@ -89,7 +91,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment_minmode"	"center"
+		"textAlignment"	"west"	
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"
@@ -117,15 +120,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos_minmode"	"-64"
+		"ypos_minmode"	"-15"
 		"xpos"			"-64"
-		"ypos"			"-15"
+		"ypos"			"-18"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
-		"textAlignment"	"center"	
+		"textAlignment_minmode"	"center"
+		"textAlignment"	"west"
 		"fgcolor"		"186 186 186 255"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"
@@ -154,8 +160,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"3"
-		"ypos"			"30"
+		"xpos_minmode"	"3"
+		"ypos_minmode"	"30"
+		"xpos"			"-30"
+		"ypos"			"35"
 		"wide"			"1"
 		"tall"			"1"
 		"visible"		"0"
@@ -285,12 +293,18 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MedicStatusAnchor"
 		"xpos"			"c-170"
-		"ypos"			"c107"
+		"ypos"			"c73"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"0"
 		"bgcolor_override"	"0 0 0 0"
+		
+//		"xpos"			"72"
+//		"ypos"			"-75"
+//		"pin_to_sibling"	"PlayerStatusHealthValue"
+//		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+//		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -411,6 +425,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"0"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -422,9 +438,9 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
+		"pin_to_sibling_minmode"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling_minmode"	"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner_minmode"	"PIN_CENTER_LEFT"
 	}
 	"PlayerStatus_SoldierOffenseBuff"
 	{

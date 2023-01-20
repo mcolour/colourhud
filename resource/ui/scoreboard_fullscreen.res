@@ -16,7 +16,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"0"
+		"medal_width"		"15"
 		"avatar_width"		"52"
 		"spacer"			"5"
 		"name_width"		"135"
@@ -444,8 +444,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"cs-1"
-		"ypos"			"c-242"
+		"xpos"			"c-1"
+		"ypos"			"63"
 		"zpos"			"0"
 		"wide"			"p0.5"
 		"tall"			"f0"
@@ -459,9 +459,6 @@
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 
-		"pin_to_sibling"	"BluePlayerCountBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 
 		if_mvm
 		{
@@ -473,7 +470,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"0"
-		"ypos"			"-2"
+		"ypos"			"63"
 		"zpos"			"0"
 		"wide"			"p0.5"
 		"tall"			"f0"
@@ -487,9 +484,6 @@
 		"textcolor"		"red"
 		//"show_columns"	"1"
 
-		"pin_to_sibling"	"RedPlayerCountBG"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 
  		if_mvm
  		{
