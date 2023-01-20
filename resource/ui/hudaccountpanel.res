@@ -30,7 +30,7 @@
 		"zpos"			"2"
 		"wide"			"12"
 		"tall"			"12"
-		"visible"		"1"			// "0"
+		"visible"		"0"			// "0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"43"		// "36"
+		"xpos"			"36"		// "36"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"50"

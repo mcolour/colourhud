@@ -25,6 +25,24 @@
 			"visible"	"0"
 		}
 	}
+	
+//	"mem"
+//	{
+//		"ControlName"		"EditablePanel"
+//		"fieldName"			"mem"
+//		"xpos"				"-29"
+//		"ypos"				"14"
+//		"zpos"				"2"
+//		"wide"				"50"
+//		"tall"				"2"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"bgcolor_override"  "PanelBG"
+//
+//		"pin_to_sibling"	"TimePanelBG"
+//		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+//		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+//	}
 
 	"TimePanelProgressBar"
 	{

@@ -5,6 +5,7 @@
 {
 	ItemEffectMeter
 	{
+		"ypos_minmode"	"-22"
 		"ypos"			"-22"
 	}
 }
