@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/round_counter/round_counter_no"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	$detailscale 1
+	$detailblendmode 8
+	$distancealphafromdetail 1
+	"%keywords" "tf"
+}
