@@ -1,0 +1,1 @@
+Copy every file in this directory (except for readme file, obviously) and paste them into *HUD'S ROOT FOLDER*/scripts/
