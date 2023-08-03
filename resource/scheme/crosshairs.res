@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"Size:10 | Outline:OFF"
+		"Size10|OutlineOFF"
 		{
 			"1"
 			{
@@ -12,7 +12,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:11 | Outline:OFF"
+		"Size11|OutlineOFF"
 		{
 			"1"
 			{
@@ -22,7 +22,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:12 | Outline:OFF"
+		"Size12|OutlineOFF"
 		{
 			"1"
 			{
@@ -32,7 +32,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:13 | Outline:OFF"
+		"Size13|OutlineOFF"
 		{
 			"1"
 			{
@@ -42,7 +42,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:14 | Outline:OFF"
+		"Size14|OutlineOFF"
 		{
 			"1"
 			{
@@ -52,7 +52,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:15 | Outline:OFF"
+		"Size15|OutlineOFF"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:16 | Outline:OFF"
+		"Size16|OutlineOFF"
 		{
 			"1"
 			{
@@ -72,7 +72,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:17 | Outline:OFF"
+		"Size17|OutlineOFF"
 		{
 			"1"
 			{
@@ -82,7 +82,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:18 | Outline:OFF"
+		"Size18|OutlineOFF"
 		{
 			"1"
 			{
@@ -92,7 +92,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:19 | Outline:OFF"
+		"Size19|OutlineOFF"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:20 | Outline:OFF"
+		"Size20|OutlineOFF"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:21 | Outline:OFF"
+		"Size21|OutlineOFF"
 		{
 			"1"
 			{
@@ -122,7 +122,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:22 | Outline:OFF"
+		"Size22|OutlineOFF"
 		{
 			"1"
 			{
@@ -132,7 +132,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:23 | Outline:OFF"
+		"Size23|OutlineOFF"
 		{
 			"1"
 			{
@@ -142,7 +142,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:24 | Outline:OFF"
+		"Size24|OutlineOFF"
 		{
 			"1"
 			{
@@ -152,7 +152,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:25 | Outline:OFF"
+		"Size25|OutlineOFF"
 		{
 			"1"
 			{
@@ -162,7 +162,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:26 | Outline:OFF"
+		"Size26|OutlineOFF"
 		{
 			"1"
 			{
@@ -172,7 +172,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:27 | Outline:OFF"
+		"Size27|OutlineOFF"
 		{
 			"1"
 			{
@@ -182,7 +182,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:28 | Outline:OFF"
+		"Size28|OutlineOFF"
 		{
 			"1"
 			{
@@ -192,7 +192,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:29 | Outline:OFF"
+		"Size29|OutlineOFF"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Size:30 | Outline:OFF"
+		"Size30|OutlineOFF"
 		{
 			"1"
 			{
@@ -213,7 +213,7 @@ Scheme
 			}
 		}
 
-		"Size:10 | Outline:ON"
+		"Size10|OutlineON"
 		{
 			"1"
 			{
@@ -224,7 +224,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:11 | Outline:ON"
+		"Size11|OutlineON"
 		{
 			"1"
 			{
@@ -235,7 +235,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:12 | Outline:ON"
+		"Size12|OutlineON"
 		{
 			"1"
 			{
@@ -246,7 +246,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:13 | Outline:ON"
+		"Size13|OutlineON"
 		{
 			"1"
 			{
@@ -257,7 +257,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:14 | Outline:ON"
+		"Size14|OutlineON"
 		{
 			"1"
 			{
@@ -268,7 +268,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:15 | Outline:ON"
+		"Size15|OutlineON"
 		{
 			"1"
 			{
@@ -279,7 +279,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:16 | Outline:ON"
+		"Size16|OutlineON"
 		{
 			"1"
 			{
@@ -290,7 +290,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:17 | Outline:ON"
+		"Size17|OutlineON"
 		{
 			"1"
 			{
@@ -301,7 +301,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:18 | Outline:ON"
+		"Size18|OutlineON"
 		{
 			"1"
 			{
@@ -312,7 +312,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:19 | Outline:ON"
+		"Size19|OutlineON"
 		{
 			"1"
 			{
@@ -323,7 +323,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:20 | Outline:ON"
+		"Size20|OutlineON"
 		{
 			"1"
 			{
@@ -334,7 +334,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:21 | Outline:ON"
+		"Size21|OutlineON"
 		{
 			"1"
 			{
@@ -345,7 +345,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:22 | Outline:ON"
+		"Size22|OutlineON"
 		{
 			"1"
 			{
@@ -356,7 +356,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:23 | Outline:ON"
+		"Size23|OutlineON"
 		{
 			"1"
 			{
@@ -367,7 +367,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:24 | Outline:ON"
+		"Size24|OutlineON"
 		{
 			"1"
 			{
@@ -378,7 +378,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:25 | Outline:ON"
+		"Size25|OutlineON"
 		{
 			"1"
 			{
@@ -389,7 +389,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:26 | Outline:ON"
+		"Size26|OutlineON"
 		{
 			"1"
 			{
@@ -400,7 +400,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:27 | Outline:ON"
+		"Size27|OutlineON"
 		{
 			"1"
 			{
@@ -411,7 +411,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:28 | Outline:ON"
+		"Size28|OutlineON"
 		{
 			"1"
 			{
@@ -422,7 +422,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:29 | Outline:ON"
+		"Size29|OutlineON"
 		{
 			"1"
 			{
@@ -433,7 +433,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:30 | Outline:ON"
+		"Size30|OutlineON"
 		{
 			"1"
 			{
@@ -445,7 +445,7 @@ Scheme
 			}
 		}
 
-		"Size:10 | Blur:ON"
+		"Size10|BlurON"
 		{
 			"1"
 			{
@@ -456,7 +456,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:11 | Blur:ON"
+		"Size11|BlurON"
 		{
 			"1"
 			{
@@ -467,7 +467,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:12 | Blur:ON"
+		"Size12|BlurON"
 		{
 			"1"
 			{
@@ -478,7 +478,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:13 | Blur:ON"
+		"Size13|BlurON"
 		{
 			"1"
 			{
@@ -489,7 +489,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:14 | Blur:ON"
+		"Size14|BlurON"
 		{
 			"1"
 			{
@@ -500,7 +500,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:15 | Blur:ON"
+		"Size15|BlurON"
 		{
 			"1"
 			{
@@ -511,7 +511,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:16 | Blur:ON"
+		"Size16|BlurON"
 		{
 			"1"
 			{
@@ -522,7 +522,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:17 | Blur:ON"
+		"Size17|BlurON"
 		{
 			"1"
 			{
@@ -533,7 +533,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:18 | Blur:ON"
+		"Size18|BlurON"
 		{
 			"1"
 			{
@@ -544,7 +544,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:19 | Blur:ON"
+		"Size19|BlurON"
 		{
 			"1"
 			{
@@ -555,7 +555,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:20 | Blur:ON"
+		"Size20|BlurON"
 		{
 			"1"
 			{
@@ -566,7 +566,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:21 | Blur:ON"
+		"Size21|BlurON"
 		{
 			"1"
 			{
@@ -577,7 +577,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:22 | Blur:ON"
+		"Size22|BlurON"
 		{
 			"1"
 			{
@@ -588,7 +588,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:23 | Blur:ON"
+		"Size23|BlurON"
 		{
 			"1"
 			{
@@ -599,7 +599,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:24 | Blur:ON"
+		"Size24|BlurON"
 		{
 			"1"
 			{
@@ -610,7 +610,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:25 | Blur:ON"
+		"Size25|BlurON"
 		{
 			"1"
 			{
@@ -621,7 +621,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:26 | Blur:ON"
+		"Size26|BlurON"
 		{
 			"1"
 			{
@@ -632,7 +632,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:27 | Blur:ON"
+		"Size27|BlurON"
 		{
 			"1"
 			{
@@ -643,7 +643,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:28 | Blur:ON"
+		"Size28|BlurON"
 		{
 			"1"
 			{
@@ -654,7 +654,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:29 | Blur:ON"
+		"Size29|BlurON"
 		{
 			"1"
 			{
@@ -665,7 +665,7 @@ Scheme
 				"blur"			"2"
 			}
 		}
-		"Size:30 | Blur:ON"
+		"Size30|BlurON"
 		{
 			"1"
 			{
@@ -683,7 +683,7 @@ Scheme
 		"9000"
 		{
 			"font" "resource/fonts/TF2Crosshairs.ttf" [$WINDOWS]
-			"font" "resource/fonts/TF2Crosshairs_linux.ttf" [$LINUX]
+			"font" "resource/fonts/linux/TF2Crosshairs_linux.ttf" [$LINUX]
 			"name" "TF2Crosshairs"
 		}
 	}

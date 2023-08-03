@@ -25,6 +25,18 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+		"Symbols 8"
+		{
+			"1"
+			{
+				"name" 			"Hypnotize Icons V3s"
+				"tall"			"8" [$WINDOWS]
+				"tall"			"6" [$LINUX]
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 	}
 	
 

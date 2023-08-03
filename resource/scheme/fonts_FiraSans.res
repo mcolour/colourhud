@@ -3,7 +3,7 @@ Scheme
 	Fonts
 	{
 		// BOLD FONT
-		"nüBold6"
+		"chBold6"
 		{
 			"1"
 			{
@@ -13,7 +13,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur6"
+		"chBoldBlur6"
 		{
 			"1"
 			{
@@ -24,7 +24,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold7"
+		"chBold7"
 		{
 			"1"
 			{
@@ -34,7 +34,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur7"
+		"chBoldBlur7"
 		{
 			"1"
 			{
@@ -45,7 +45,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold8"
+		"chBold8"
 		{
 			"1"
 			{
@@ -55,7 +55,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur8"
+		"chBoldBlur8"
 		{
 			"1"
 			{
@@ -66,7 +66,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold9"
+		"chBold9"
 		{
 			"1"
 			{
@@ -76,7 +76,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur9"
+		"chBoldBlur9"
 		{
 			"1"
 			{
@@ -87,7 +87,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold10"
+		"chBold10"
 		{
 			"1"
 			{
@@ -97,7 +97,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur10"
+		"chBoldBlur10"
 		{
 			"1"
 			{
@@ -108,7 +108,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold11"
+		"chBold11"
 		{
 			"1"
 			{
@@ -118,7 +118,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur11"
+		"chBoldBlur11"
 		{
 			"1"
 			{
@@ -129,7 +129,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold12"
+		"chBold12"
 		{
 			"1"
 			{
@@ -139,7 +139,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur12"
+		"chBoldBlur12"
 		{
 			"1"
 			{
@@ -150,7 +150,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold13"
+		"chBold13"
 		{
 			"1"
 			{
@@ -160,7 +160,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur13"
+		"chBoldBlur13"
 		{
 			"1"
 			{
@@ -171,7 +171,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold14"
+		"chBold14"
 		{
 			"1"
 			{
@@ -181,7 +181,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur14"
+		"chBoldBlur14"
 		{
 			"1"
 			{
@@ -192,7 +192,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold15"
+		"chBold15"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur15"
+		"chBoldBlur15"
 		{
 			"1"
 			{
@@ -213,7 +213,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold16"
+		"chBold16"
 		{
 			"1"
 			{
@@ -223,7 +223,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur16"
+		"chBoldBlur16"
 		{
 			"1"
 			{
@@ -234,7 +234,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold17"
+		"chBold17"
 		{
 			"1"
 			{
@@ -244,7 +244,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur17"
+		"chBoldBlur17"
 		{
 			"1"
 			{
@@ -255,7 +255,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold18"
+		"chBold18"
 		{
 			"1"
 			{
@@ -265,7 +265,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur18"
+		"chBoldBlur18"
 		{
 			"1"
 			{
@@ -276,7 +276,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold19"
+		"chBold19"
 		{
 			"1"
 			{
@@ -286,7 +286,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur19"
+		"chBoldBlur19"
 		{
 			"1"
 			{
@@ -297,7 +297,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold20"
+		"chBold20"
 		{
 			"1"
 			{
@@ -307,7 +307,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur20"
+		"chBoldBlur20"
 		{
 			"1"
 			{
@@ -318,7 +318,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold21"
+		"chBold21"
 		{
 			"1"
 			{
@@ -328,7 +328,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur21"
+		"chBoldBlur21"
 		{
 			"1"
 			{
@@ -339,7 +339,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold22"
+		"chBold22"
 		{
 			"1"
 			{
@@ -349,7 +349,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur22"
+		"chBoldBlur22"
 		{
 			"1"
 			{
@@ -360,7 +360,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold23"
+		"chBold23"
 		{
 			"1"
 			{
@@ -370,7 +370,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur23"
+		"chBoldBlur23"
 		{
 			"1"
 			{
@@ -381,7 +381,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold24"
+		"chBold24"
 		{
 			"1"
 			{
@@ -391,7 +391,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur24"
+		"chBoldBlur24"
 		{
 			"1"
 			{
@@ -402,7 +402,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold25"
+		"chBold25"
 		{
 			"1"
 			{
@@ -412,7 +412,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur25"
+		"chBoldBlur25"
 		{
 			"1"
 			{
@@ -423,7 +423,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold26"
+		"chBold26"
 		{
 			"1"
 			{
@@ -433,7 +433,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur26"
+		"chBoldBlur26"
 		{
 			"1"
 			{
@@ -444,7 +444,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold27"
+		"chBold27"
 		{
 			"1"
 			{
@@ -454,7 +454,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur27"
+		"chBoldBlur27"
 		{
 			"1"
 			{
@@ -465,7 +465,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold28"
+		"chBold28"
 		{
 			"1"
 			{
@@ -475,7 +475,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur28"
+		"chBoldBlur28"
 		{
 			"1"
 			{
@@ -486,7 +486,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold29"
+		"chBold29"
 		{
 			"1"
 			{
@@ -496,7 +496,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur29"
+		"chBoldBlur29"
 		{
 			"1"
 			{
@@ -507,7 +507,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold30"
+		"chBold30"
 		{
 			"1"
 			{
@@ -517,7 +517,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur30"
+		"chBoldBlur30"
 		{
 			"1"
 			{
@@ -528,7 +528,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold31"
+		"chBold31"
 		{
 			"1"
 			{
@@ -538,7 +538,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur31"
+		"chBoldBlur31"
 		{
 			"1"
 			{
@@ -549,7 +549,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold32"
+		"chBold32"
 		{
 			"1"
 			{
@@ -559,7 +559,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur32"
+		"chBoldBlur32"
 		{
 			"1"
 			{
@@ -570,7 +570,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold33"
+		"chBold33"
 		{
 			"1"
 			{
@@ -580,7 +580,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur33"
+		"chBoldBlur33"
 		{
 			"1"
 			{
@@ -591,7 +591,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold34"
+		"chBold34"
 		{
 			"1"
 			{
@@ -601,7 +601,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur34"
+		"chBoldBlur34"
 		{
 			"1"
 			{
@@ -612,7 +612,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold35"
+		"chBold35"
 		{
 			"1"
 			{
@@ -622,7 +622,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur35"
+		"chBoldBlur35"
 		{
 			"1"
 			{
@@ -633,7 +633,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold36"
+		"chBold36"
 		{
 			"1"
 			{
@@ -643,7 +643,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur36"
+		"chBoldBlur36"
 		{
 			"1"
 			{
@@ -654,7 +654,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold37"
+		"chBold37"
 		{
 			"1"
 			{
@@ -664,7 +664,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur37"
+		"chBoldBlur37"
 		{
 			"1"
 			{
@@ -675,7 +675,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold38"
+		"chBold38"
 		{
 			"1"
 			{
@@ -685,7 +685,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur38"
+		"chBoldBlur38"
 		{
 			"1"
 			{
@@ -696,7 +696,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold39"
+		"chBold39"
 		{
 			"1"
 			{
@@ -706,7 +706,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur39"
+		"chBoldBlur39"
 		{
 			"1"
 			{
@@ -717,7 +717,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüBold40"
+		"chBold40"
 		{
 			"1"
 			{
@@ -727,7 +727,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur40"
+		"chBoldBlur40"
 		{
 			"1"
 			{
@@ -738,7 +738,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold41"
+		"chBold41"
 		{
 			"1"
 			{
@@ -748,7 +748,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur41"
+		"chBoldBlur41"
 		{
 			"1"
 			{
@@ -759,7 +759,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold42"
+		"chBold42"
 		{
 			"1"
 			{
@@ -769,7 +769,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur42"
+		"chBoldBlur42"
 		{
 			"1"
 			{
@@ -780,7 +780,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold43"
+		"chBold43"
 		{
 			"1"
 			{
@@ -790,7 +790,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur43"
+		"chBoldBlur43"
 		{
 			"1"
 			{
@@ -801,7 +801,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold44"
+		"chBold44"
 		{
 			"1"
 			{
@@ -811,7 +811,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur44"
+		"chBoldBlur44"
 		{
 			"1"
 			{
@@ -822,7 +822,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold45"
+		"chBold45"
 		{
 			"1"
 			{
@@ -832,7 +832,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur45"
+		"chBoldBlur45"
 		{
 			"1"
 			{
@@ -843,7 +843,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold46"
+		"chBold46"
 		{
 			"1"
 			{
@@ -853,7 +853,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur46"
+		"chBoldBlur46"
 		{
 			"1"
 			{
@@ -864,7 +864,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold47"
+		"chBold47"
 		{
 			"1"
 			{
@@ -874,7 +874,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur47"
+		"chBoldBlur47"
 		{
 			"1"
 			{
@@ -885,7 +885,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold48"
+		"chBold48"
 		{
 			"1"
 			{
@@ -895,7 +895,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur48"
+		"chBoldBlur48"
 		{
 			"1"
 			{
@@ -906,7 +906,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold49"
+		"chBold49"
 		{
 			"1"
 			{
@@ -916,7 +916,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur49"
+		"chBoldBlur49"
 		{
 			"1"
 			{
@@ -927,7 +927,7 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		"nüBold50"
+		"chBold50"
 		{
 			"1"
 			{
@@ -937,7 +937,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBoldBlur50"
+		"chBoldBlur50"
 		{
 			"1"
 			{
@@ -951,7 +951,7 @@ Scheme
 		}
 		
 		// MEDIUM FONT
-		"nüMedium6"
+		"chMedium6"
 		{
 			"1"
 			{
@@ -961,7 +961,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur6"
+		"chMediumBlur6"
 		{
 			"1"
 			{
@@ -972,7 +972,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium7"
+		"chMedium7"
 		{
 			"1"
 			{
@@ -982,7 +982,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur7"
+		"chMediumBlur7"
 		{
 			"1"
 			{
@@ -993,7 +993,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium8"
+		"chMedium8"
 		{
 			"1"
 			{
@@ -1003,7 +1003,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur8"
+		"chMediumBlur8"
 		{
 			"1"
 			{
@@ -1014,7 +1014,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium9"
+		"chMedium9"
 		{
 			"1"
 			{
@@ -1024,7 +1024,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur9"
+		"chMediumBlur9"
 		{
 			"1"
 			{
@@ -1035,7 +1035,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium10"
+		"chMedium10"
 		{
 			"1"
 			{
@@ -1045,7 +1045,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur10"
+		"chMediumBlur10"
 		{
 			"1"
 			{
@@ -1056,7 +1056,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium11"
+		"chMedium11"
 		{
 			"1"
 			{
@@ -1066,7 +1066,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur11"
+		"chMediumBlur11"
 		{
 			"1"
 			{
@@ -1077,7 +1077,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium12"
+		"chMedium12"
 		{
 			"1"
 			{
@@ -1087,7 +1087,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur12"
+		"chMediumBlur12"
 		{
 			"1"
 			{
@@ -1098,7 +1098,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium13"
+		"chMedium13"
 		{
 			"1"
 			{
@@ -1108,7 +1108,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur13"
+		"chMediumBlur13"
 		{
 			"1"
 			{
@@ -1119,7 +1119,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium14"
+		"chMedium14"
 		{
 			"1"
 			{
@@ -1129,7 +1129,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur14"
+		"chMediumBlur14"
 		{
 			"1"
 			{
@@ -1140,7 +1140,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium15"
+		"chMedium15"
 		{
 			"1"
 			{
@@ -1150,7 +1150,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur15"
+		"chMediumBlur15"
 		{
 			"1"
 			{
@@ -1161,7 +1161,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium16"
+		"chMedium16"
 		{
 			"1"
 			{
@@ -1171,7 +1171,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur16"
+		"chMediumBlur16"
 		{
 			"1"
 			{
@@ -1182,7 +1182,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium17"
+		"chMedium17"
 		{
 			"1"
 			{
@@ -1192,7 +1192,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur17"
+		"chMediumBlur17"
 		{
 			"1"
 			{
@@ -1203,7 +1203,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium18"
+		"chMedium18"
 		{
 			"1"
 			{
@@ -1213,7 +1213,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur18"
+		"chMediumBlur18"
 		{
 			"1"
 			{
@@ -1224,7 +1224,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium19"
+		"chMedium19"
 		{
 			"1"
 			{
@@ -1234,7 +1234,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur19"
+		"chMediumBlur19"
 		{
 			"1"
 			{
@@ -1245,7 +1245,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium20"
+		"chMedium20"
 		{
 			"1"
 			{
@@ -1255,7 +1255,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur20"
+		"chMediumBlur20"
 		{
 			"1"
 			{
@@ -1266,7 +1266,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium21"
+		"chMedium21"
 		{
 			"1"
 			{
@@ -1276,7 +1276,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur21"
+		"chMediumBlur21"
 		{
 			"1"
 			{
@@ -1287,7 +1287,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium22"
+		"chMedium22"
 		{
 			"1"
 			{
@@ -1297,7 +1297,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur22"
+		"chMediumBlur22"
 		{
 			"1"
 			{
@@ -1308,7 +1308,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium23"
+		"chMedium23"
 		{
 			"1"
 			{
@@ -1318,7 +1318,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur23"
+		"chMediumBlur23"
 		{
 			"1"
 			{
@@ -1329,7 +1329,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium24"
+		"chMedium24"
 		{
 			"1"
 			{
@@ -1339,7 +1339,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur24"
+		"chMediumBlur24"
 		{
 			"1"
 			{
@@ -1350,7 +1350,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium25"
+		"chMedium25"
 		{
 			"1"
 			{
@@ -1360,7 +1360,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur25"
+		"chMediumBlur25"
 		{
 			"1"
 			{
@@ -1371,7 +1371,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium26"
+		"chMedium26"
 		{
 			"1"
 			{
@@ -1381,7 +1381,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur26"
+		"chMediumBlur26"
 		{
 			"1"
 			{
@@ -1392,7 +1392,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium27"
+		"chMedium27"
 		{
 			"1"
 			{
@@ -1402,7 +1402,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur27"
+		"chMediumBlur27"
 		{
 			"1"
 			{
@@ -1413,7 +1413,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium28"
+		"chMedium28"
 		{
 			"1"
 			{
@@ -1423,7 +1423,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur28"
+		"chMediumBlur28"
 		{
 			"1"
 			{
@@ -1434,7 +1434,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium29"
+		"chMedium29"
 		{
 			"1"
 			{
@@ -1444,7 +1444,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur29"
+		"chMediumBlur29"
 		{
 			"1"
 			{
@@ -1455,7 +1455,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium30"
+		"chMedium30"
 		{
 			"1"
 			{
@@ -1465,7 +1465,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur30"
+		"chMediumBlur30"
 		{
 			"1"
 			{
@@ -1476,7 +1476,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium31"
+		"chMedium31"
 		{
 			"1"
 			{
@@ -1486,7 +1486,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur31"
+		"chMediumBlur31"
 		{
 			"1"
 			{
@@ -1497,7 +1497,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium32"
+		"chMedium32"
 		{
 			"1"
 			{
@@ -1507,7 +1507,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur32"
+		"chMediumBlur32"
 		{
 			"1"
 			{
@@ -1518,7 +1518,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium33"
+		"chMedium33"
 		{
 			"1"
 			{
@@ -1528,7 +1528,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur33"
+		"chMediumBlur33"
 		{
 			"1"
 			{
@@ -1539,7 +1539,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium34"
+		"chMedium34"
 		{
 			"1"
 			{
@@ -1549,7 +1549,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur34"
+		"chMediumBlur34"
 		{
 			"1"
 			{
@@ -1560,7 +1560,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium35"
+		"chMedium35"
 		{
 			"1"
 			{
@@ -1570,7 +1570,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur35"
+		"chMediumBlur35"
 		{
 			"1"
 			{
@@ -1581,7 +1581,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium36"
+		"chMedium36"
 		{
 			"1"
 			{
@@ -1591,7 +1591,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur36"
+		"chMediumBlur36"
 		{
 			"1"
 			{
@@ -1602,7 +1602,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium37"
+		"chMedium37"
 		{
 			"1"
 			{
@@ -1612,7 +1612,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur37"
+		"chMediumBlur37"
 		{
 			"1"
 			{
@@ -1623,7 +1623,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium38"
+		"chMedium38"
 		{
 			"1"
 			{
@@ -1633,7 +1633,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur38"
+		"chMediumBlur38"
 		{
 			"1"
 			{
@@ -1644,7 +1644,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium39"
+		"chMedium39"
 		{
 			"1"
 			{
@@ -1654,7 +1654,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur39"
+		"chMediumBlur39"
 		{
 			"1"
 			{
@@ -1665,7 +1665,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium40"
+		"chMedium40"
 		{
 			"1"
 			{
@@ -1675,7 +1675,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur40"
+		"chMediumBlur40"
 		{
 			"1"
 			{
@@ -1686,7 +1686,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium41"
+		"chMedium41"
 		{
 			"1"
 			{
@@ -1696,7 +1696,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur41"
+		"chMediumBlur41"
 		{
 			"1"
 			{
@@ -1707,7 +1707,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium42"
+		"chMedium42"
 		{
 			"1"
 			{
@@ -1717,7 +1717,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur42"
+		"chMediumBlur42"
 		{
 			"1"
 			{
@@ -1728,7 +1728,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium43"
+		"chMedium43"
 		{
 			"1"
 			{
@@ -1738,7 +1738,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur43"
+		"chMediumBlur43"
 		{
 			"1"
 			{
@@ -1749,7 +1749,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium44"
+		"chMedium44"
 		{
 			"1"
 			{
@@ -1759,7 +1759,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur44"
+		"chMediumBlur44"
 		{
 			"1"
 			{
@@ -1770,7 +1770,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium45"
+		"chMedium45"
 		{
 			"1"
 			{
@@ -1780,7 +1780,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur45"
+		"chMediumBlur45"
 		{
 			"1"
 			{
@@ -1791,7 +1791,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium46"
+		"chMedium46"
 		{
 			"1"
 			{
@@ -1801,7 +1801,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur46"
+		"chMediumBlur46"
 		{
 			"1"
 			{
@@ -1812,7 +1812,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium47"
+		"chMedium47"
 		{
 			"1"
 			{
@@ -1822,7 +1822,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur47"
+		"chMediumBlur47"
 		{
 			"1"
 			{
@@ -1833,7 +1833,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium48"
+		"chMedium48"
 		{
 			"1"
 			{
@@ -1843,7 +1843,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur48"
+		"chMediumBlur48"
 		{
 			"1"
 			{
@@ -1854,7 +1854,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium49"
+		"chMedium49"
 		{
 			"1"
 			{
@@ -1864,7 +1864,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur49"
+		"chMediumBlur49"
 		{
 			"1"
 			{
@@ -1875,7 +1875,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nüMedium50"
+		"chMedium50"
 		{
 			"1"
 			{
@@ -1885,7 +1885,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüMediumBlur50"
+		"chMediumBlur50"
 		{
 			"1"
 			{
@@ -1899,7 +1899,7 @@ Scheme
 		}
 		
 		// REGULAR FONT
-		"nü6"
+		"ch6"
 		{
 			"1"
 			{
@@ -1909,7 +1909,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur6"
+		"chBlur6"
 		{
 			"1"
 			{
@@ -1920,7 +1920,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü7"
+		"ch7"
 		{
 			"1"
 			{
@@ -1930,7 +1930,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur7"
+		"chBlur7"
 		{
 			"1"
 			{
@@ -1941,7 +1941,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü8"
+		"ch8"
 		{
 			"1"
 			{
@@ -1951,7 +1951,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur8"
+		"chBlur8"
 		{
 			"1"
 			{
@@ -1962,7 +1962,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü9"
+		"ch9"
 		{
 			"1"
 			{
@@ -1972,7 +1972,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur9"
+		"chBlur9"
 		{
 			"1"
 			{
@@ -1983,7 +1983,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü10"
+		"ch10"
 		{
 			"1"
 			{
@@ -1993,7 +1993,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur10"
+		"chBlur10"
 		{
 			"1"
 			{
@@ -2004,7 +2004,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü11"
+		"ch11"
 		{
 			"1"
 			{
@@ -2014,7 +2014,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur11"
+		"chBlur11"
 		{
 			"1"
 			{
@@ -2025,7 +2025,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü12"
+		"ch12"
 		{
 			"1"
 			{
@@ -2035,7 +2035,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur12"
+		"chBlur12"
 		{
 			"1"
 			{
@@ -2046,7 +2046,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü13"
+		"ch13"
 		{
 			"1"
 			{
@@ -2056,7 +2056,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur13"
+		"chBlur13"
 		{
 			"1"
 			{
@@ -2067,7 +2067,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü14"
+		"ch14"
 		{
 			"1"
 			{
@@ -2077,7 +2077,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur14"
+		"chBlur14"
 		{
 			"1"
 			{
@@ -2088,7 +2088,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü15"
+		"ch15"
 		{
 			"1"
 			{
@@ -2098,7 +2098,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur15"
+		"chBlur15"
 		{
 			"1"
 			{
@@ -2109,7 +2109,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü16"
+		"ch16"
 		{
 			"1"
 			{
@@ -2119,7 +2119,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur16"
+		"chBlur16"
 		{
 			"1"
 			{
@@ -2130,7 +2130,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü17"
+		"ch17"
 		{
 			"1"
 			{
@@ -2140,7 +2140,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur17"
+		"chBlur17"
 		{
 			"1"
 			{
@@ -2151,7 +2151,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü18"
+		"ch18"
 		{
 			"1"
 			{
@@ -2161,7 +2161,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur18"
+		"chBlur18"
 		{
 			"1"
 			{
@@ -2172,7 +2172,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü19"
+		"ch19"
 		{
 			"1"
 			{
@@ -2182,7 +2182,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur19"
+		"chBlur19"
 		{
 			"1"
 			{
@@ -2193,7 +2193,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü20"
+		"ch20"
 		{
 			"1"
 			{
@@ -2203,7 +2203,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur20"
+		"chBlur20"
 		{
 			"1"
 			{
@@ -2214,7 +2214,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü21"
+		"ch21"
 		{
 			"1"
 			{
@@ -2224,7 +2224,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur21"
+		"chBlur21"
 		{
 			"1"
 			{
@@ -2235,7 +2235,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü22"
+		"ch22"
 		{
 			"1"
 			{
@@ -2245,7 +2245,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur22"
+		"chBlur22"
 		{
 			"1"
 			{
@@ -2256,7 +2256,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü23"
+		"ch23"
 		{
 			"1"
 			{
@@ -2266,7 +2266,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur23"
+		"chBlur23"
 		{
 			"1"
 			{
@@ -2277,7 +2277,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü24"
+		"ch24"
 		{
 			"1"
 			{
@@ -2287,7 +2287,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur24"
+		"chBlur24"
 		{
 			"1"
 			{
@@ -2298,7 +2298,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü25"
+		"ch25"
 		{
 			"1"
 			{
@@ -2308,7 +2308,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur25"
+		"chBlur25"
 		{
 			"1"
 			{
@@ -2319,7 +2319,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü26"
+		"ch26"
 		{
 			"1"
 			{
@@ -2329,7 +2329,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur26"
+		"chBlur26"
 		{
 			"1"
 			{
@@ -2340,7 +2340,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü27"
+		"ch27"
 		{
 			"1"
 			{
@@ -2350,7 +2350,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur27"
+		"chBlur27"
 		{
 			"1"
 			{
@@ -2361,7 +2361,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü28"
+		"ch28"
 		{
 			"1"
 			{
@@ -2371,7 +2371,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur28"
+		"chBlur28"
 		{
 			"1"
 			{
@@ -2382,7 +2382,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü29"
+		"ch29"
 		{
 			"1"
 			{
@@ -2392,7 +2392,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur29"
+		"chBlur29"
 		{
 			"1"
 			{
@@ -2403,7 +2403,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü30"
+		"ch30"
 		{
 			"1"
 			{
@@ -2413,7 +2413,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur30"
+		"chBlur30"
 		{
 			"1"
 			{
@@ -2424,7 +2424,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü31"
+		"ch31"
 		{
 			"1"
 			{
@@ -2434,7 +2434,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur31"
+		"chBlur31"
 		{
 			"1"
 			{
@@ -2445,7 +2445,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü32"
+		"ch32"
 		{
 			"1"
 			{
@@ -2455,7 +2455,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur32"
+		"chBlur32"
 		{
 			"1"
 			{
@@ -2466,7 +2466,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü33"
+		"ch33"
 		{
 			"1"
 			{
@@ -2476,7 +2476,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur33"
+		"chBlur33"
 		{
 			"1"
 			{
@@ -2487,7 +2487,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü34"
+		"ch34"
 		{
 			"1"
 			{
@@ -2497,7 +2497,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur34"
+		"chBlur34"
 		{
 			"1"
 			{
@@ -2508,7 +2508,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü35"
+		"ch35"
 		{
 			"1"
 			{
@@ -2518,7 +2518,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur35"
+		"chBlur35"
 		{
 			"1"
 			{
@@ -2529,7 +2529,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü36"
+		"ch36"
 		{
 			"1"
 			{
@@ -2539,7 +2539,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur36"
+		"chBlur36"
 		{
 			"1"
 			{
@@ -2550,7 +2550,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü37"
+		"ch37"
 		{
 			"1"
 			{
@@ -2560,7 +2560,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur37"
+		"chBlur37"
 		{
 			"1"
 			{
@@ -2571,7 +2571,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü38"
+		"ch38"
 		{
 			"1"
 			{
@@ -2581,7 +2581,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur38"
+		"chBlur38"
 		{
 			"1"
 			{
@@ -2592,7 +2592,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü39"
+		"ch39"
 		{
 			"1"
 			{
@@ -2602,7 +2602,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur39"
+		"chBlur39"
 		{
 			"1"
 			{
@@ -2613,7 +2613,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü40"
+		"ch40"
 		{
 			"1"
 			{
@@ -2623,7 +2623,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur40"
+		"chBlur40"
 		{
 			"1"
 			{
@@ -2634,7 +2634,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü41"
+		"ch41"
 		{
 			"1"
 			{
@@ -2644,7 +2644,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur41"
+		"chBlur41"
 		{
 			"1"
 			{
@@ -2655,7 +2655,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü42"
+		"ch42"
 		{
 			"1"
 			{
@@ -2665,7 +2665,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur42"
+		"chBlur42"
 		{
 			"1"
 			{
@@ -2676,7 +2676,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü43"
+		"ch43"
 		{
 			"1"
 			{
@@ -2686,7 +2686,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur43"
+		"chBlur43"
 		{
 			"1"
 			{
@@ -2697,7 +2697,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü44"
+		"ch44"
 		{
 			"1"
 			{
@@ -2707,7 +2707,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur44"
+		"chBlur44"
 		{
 			"1"
 			{
@@ -2718,7 +2718,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü45"
+		"ch45"
 		{
 			"1"
 			{
@@ -2728,7 +2728,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur45"
+		"chBlur45"
 		{
 			"1"
 			{
@@ -2739,7 +2739,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü46"
+		"ch46"
 		{
 			"1"
 			{
@@ -2749,7 +2749,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur46"
+		"chBlur46"
 		{
 			"1"
 			{
@@ -2760,7 +2760,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü47"
+		"ch47"
 		{
 			"1"
 			{
@@ -2770,7 +2770,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur47"
+		"chBlur47"
 		{
 			"1"
 			{
@@ -2781,7 +2781,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü48"
+		"ch48"
 		{
 			"1"
 			{
@@ -2791,7 +2791,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur48"
+		"chBlur48"
 		{
 			"1"
 			{
@@ -2802,7 +2802,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü49"
+		"ch49"
 		{
 			"1"
 			{
@@ -2812,7 +2812,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur49"
+		"chBlur49"
 		{
 			"1"
 			{
@@ -2823,7 +2823,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"nü50"
+		"ch50"
 		{
 			"1"
 			{
@@ -2833,7 +2833,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"nüBlur50"
+		"chBlur50"
 		{
 			"1"
 			{
@@ -2847,7 +2847,7 @@ Scheme
 		}
 		
 		// DAMAGE NUMBERS
-		"nüMediumOutline20"
+		"chMediumOutline20"
 		{
 			"1"
 			{
@@ -2859,7 +2859,7 @@ Scheme
 			}
 		
 		}
-		"nüMediumOutline22"
+		"chMediumOutline22"
 		{
 			"1"
 			{
@@ -2870,7 +2870,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"nüMediumOutline24"
+		"chMediumOutline24"
 		{
 			"1"
 			{
@@ -2898,6 +2898,15 @@ Scheme
 			{
 				"name" 		"Blocks"
 				"tall" 		"48"
+				"antialias" "0"
+			}
+		}
+		"BlocksSmall"
+		{
+			"1"
+			{
+				"name" 		"Blocks"
+				"tall" 		"10"
 				"antialias" "0"
 			}
 		}

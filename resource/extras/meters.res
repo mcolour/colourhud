@@ -40,7 +40,7 @@
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"LightPanelBG"
 
 		"pin_to_sibling_minmode"	"Spacer"
@@ -80,7 +80,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"nüMedium10"
+		"font"					"chMedium10"
 		"fgcolor_override"		"60 60 60 255"
 		"textinsety"			"0"
 		"paintbackground"		"1"

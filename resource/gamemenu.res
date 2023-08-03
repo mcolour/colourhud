@@ -65,7 +65,7 @@
 	"CreditButton"
 	{
 		"label"	""
-		"command"	"echo"
-		"tooltip"	"ColourHUD v2.0\nMade by MrColour"
+		"command"	"url https://github.com/mcolour/colourhud"
+		"tooltip"	"ColourHUD v2.1\nMade by MrColour\nClick here to open up the Github page"
 	}
 }

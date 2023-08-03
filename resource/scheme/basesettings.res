@@ -17,17 +17,17 @@ Scheme
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"25 25 25 255"
-		Econ.Button.FgColor									"nüWhite"
+		Econ.Button.FgColor									"chWhite"
 		Econ.Button.ArmedBgColor							"40 170 150 255"
 		Econ.Button.ArmedFgColor							"15 15 15 215"
-		Econ.Button.DepressedBgColor						"nüBase"
+		Econ.Button.DepressedBgColor						"chBase"
 		Econ.Button.DepressedFgColor						"Black"
 		
-		Econ.Button.PresetDefaultColorFg					"nüWhite"
+		Econ.Button.PresetDefaultColorFg					"chWhite"
 		Econ.Button.PresetArmedColorFg						"15 15 15 215"
 		Econ.Button.PresetDepressedColorFg					"15 15 15 215"
 		
-		Econ.Button.PresetDefaultColorBg					"nüBase"
+		Econ.Button.PresetDefaultColorBg					"chBase"
 		Econ.Button.PresetArmedColorBg						"40 170 150 255"
 		Econ.Button.PresetDepressedColorBg					"40 170 150 255"
 		
@@ -35,24 +35,24 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"nüWhite"
+		Button.TextColor				"chWhite"
 		Button.BgColor					"25 25 25 255"
 		Button.ArmedTextColor			"15 15 15 215"
 		Button.ArmedBgColor				"40 170 150 255"
-		Button.SelectedTextColor		"nüWhite"
-		Button.SelectedBgColor			"nüBase"
+		Button.SelectedTextColor		"chWhite"
+		Button.SelectedBgColor			"chBase"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"nüBase"
+		Button.DepressedBgColor			"chBase"
 
-		CheckButton.TextColor			"nüWhite"
-		CheckButton.SelectedTextColor	"nüWhite"
+		CheckButton.TextColor			"chWhite"
+		CheckButton.SelectedTextColor	"chWhite"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"nüWhite" 		// the left checkbutton border
-		CheckButton.Border2  			"nüWhite"		// the right checkbutton border
-		CheckButton.Check				"nüWhite"		// color of the check itself
-		CheckButton.HighlightFgColor	"nüWhite"
+		CheckButton.Border1  			"chWhite" 		// the left checkbutton border
+		CheckButton.Border2  			"chWhite"		// the right checkbutton border
+		CheckButton.Check				"chWhite"		// color of the check itself
+		CheckButton.HighlightFgColor	"chWhite"
 		
-		ComboBoxButton.ArrowColor		"nüWhite"
+		ComboBoxButton.ArrowColor		"chWhite"
 		ComboBoxButton.ArmedArrowColor	"15 15 15 215"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
@@ -97,10 +97,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"nüWhite"
-		Menu.BgColor					"nüDarkGrey"
+		Menu.TextColor					"chWhite"
+		Menu.BgColor					"chDarkGrey"
 		Menu.ArmedTextColor				"15 15 15 215"
-		Menu.ArmedBgColor				"nüLightBase"
+		Menu.ArmedBgColor				"chLightBase"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -124,8 +124,8 @@ Scheme
 		PropertySheet.SelectedTextColor	"Orange"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"nüWhite"
-		RadioButton.SelectedTextColor	"nüWhite"
+		RadioButton.TextColor			"chWhite"
+		RadioButton.SelectedTextColor	"chWhite"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"

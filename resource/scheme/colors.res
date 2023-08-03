@@ -30,8 +30,8 @@ Scheme
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
 
-		"nüBLUSolid"			"88 153 192 255"	
-		"nüREDSolid"			"204 56 59 255"	
+		"chBLUSolid"			"88 153 192 255"	
+		"chREDSolid"			"204 56 59 255"	
 		
 		"White"				"235 235 235 255"
 		"Red"				"204 56 59 255"

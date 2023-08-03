@@ -2,49 +2,49 @@ Scheme
 {
 	Borders
 	{
-		nüMenuButtonBorder
+		chMenuButtonBorder
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"6"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"7"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 				"8"
 				{
-					"color" "nüBase"
+					"color" "chBase"
 					"offset" "0 0"
 				}
 			}

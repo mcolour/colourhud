@@ -275,7 +275,7 @@ Scheme
 			"1"
 			{
 				"name"			"Heebo Medium"
-				"tall"			"14"
+				"tall"			"16"
 				"yres"			"480 599"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -284,7 +284,7 @@ Scheme
 			"2"
 			{
 				"name"			"Heebo Medium"
-				"tall"			"16"
+				"tall"			"18"
 				"yres"			"600 767"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -293,7 +293,7 @@ Scheme
 			"3"
 			{
 				"name"			"Heebo Medium"
-				"tall"			"18"
+				"tall"			"20"
 				"yres"			"768 1023"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -302,7 +302,7 @@ Scheme
 			"4"
 			{
 				"name"			"Heebo Medium"
-				"tall"			"18"
+				"tall"			"22"
 				"yres"			"1024 1199"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -311,7 +311,7 @@ Scheme
 			"5"
 			{
 				"name"			"Heebo Medium"
-				"tall"			"22"
+				"tall"			"24"
 				"yres"			"1200 10000"
 				"dropshadow"	"1"
 				"antialias"		"1"
