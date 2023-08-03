@@ -1,7 +1,7 @@
 ![logo](https://i.imgur.com/D7dXW96.png)
-#### <h1 align="center"><a href="https://imgur.com/a/E64cxWR"><b>Screenshots</b></a> <a href="https://huds.tf/site/s-ColourHUD"><b>HUDS.TF</b></a></h1>
+#### <h1 align="center"><a href="https://imgur.com/a/E64cxWR"><b>Screenshots</b></a>
 Custom Hud for Team Fortress 2 <br>
-Based on [PhouHUD](https://huds.tf/site/s-PhouHud--2780)
+Based on PhouHUD
 #### <h2>Features</h2>
 * Toolpanel
 * Custom fonts
