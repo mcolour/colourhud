@@ -1,4 +1,5 @@
-#base "../../customization/streamermode.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/HudTournament.res"
 {
@@ -78,7 +79,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"nüMedium6"
+				"font"			"chMedium6"
 				"xpos"			"0"
 				"ypos"			"20"
 				"zpos"			"5"
@@ -154,7 +155,7 @@
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"nüOffWhite"
+				"TextColor"					"chOffWhite"
 				
 				if_competitive
 				{
@@ -445,9 +446,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"nüBold11"
-		"xpos"			"c-47"
-		"ypos"			"1"
+		"font"			"chBold11"
+		"xpos"			"c-46"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"46"
 		"tall"			"18"
@@ -482,8 +483,8 @@
 	{	
 		"ControlName"		"editablepanel"
 		"fieldName"		"TournamentBLUEStateBorder"
-		"xpos"			"c-47"
-		"ypos"			"1"
+		"xpos"			"c-46"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"46"
 		"tall"			"3"
@@ -491,8 +492,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor"		"nüBLUSolid"
-		"bgcolor_override"		"nüBLUSolid"
+		"bgcolor"		"chBLUSolid"
+		"bgcolor_override"		"chBLUSolid"
 		
 		if_mvm
 		{
@@ -549,9 +550,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"nüBold11"
-		"xpos"			"c1"
-		"ypos"			"1"
+		"font"			"chBold11"
+		"xpos"			"c0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"46"
 		"tall"			"18"
@@ -586,8 +587,8 @@
 	{	
 		"ControlName"		"editablepanel"
 		"fieldName"		"TournamentRedStateBorder"
-		"xpos"			"c1"
-		"ypos"			"1"
+		"xpos"			"c0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"46"
 		"tall"			"3"
@@ -595,8 +596,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor"		"nüREDSolid"
-		"bgcolor_override"		"nüREDSolid"
+		"bgcolor"		"chREDSolid"
+		"bgcolor_override"		"chREDSolid"
 		
 		if_mvm
 		{
@@ -653,7 +654,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"xpos"			"cs-0.5"
 		"ypos"			"20"
 		"wide"			"250"
@@ -663,7 +664,7 @@
 		"enabled"		"1"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		
 		if_mvm
 		{
@@ -735,7 +736,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"nüMedium26"
+		"font"			"chMedium26"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -745,7 +746,7 @@
 		"enabled"		"1"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 		"proportionaltoparent"	"1"
 
 		if_mvm
@@ -768,7 +769,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"nüMediumBlur26"
+		"font"			"chMediumBlur26"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"

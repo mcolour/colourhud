@@ -43,7 +43,7 @@
 		"labelText"				"#TF_KillStreak"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMedium12"
+		"font"					"chMedium12"
 		"fgcolor_override"		"230 200 0 255"
 	}
 	"ItemEffectMeterLabelShadow"
@@ -62,7 +62,7 @@
 		"labelText"				"#TF_KillStreak"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMediumBlur12"
+		"font"					"chMediumBlur12"
 		"fgcolor_override"		"ShadowBlack"
 		"textinsety"            "1"
 	}
@@ -97,7 +97,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"nüMedium20"
+		"font"					"chMedium20"
 		"fgcolor"				"Killstreak"
 	}
 	"ItemEffectMeterCountShadow"
@@ -118,7 +118,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"nüMediumBlur20"
+		"font"					"chMediumBlur20"
 		"fgcolor"				"ShadowBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"

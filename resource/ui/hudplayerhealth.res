@@ -62,7 +62,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos_minmode"	"0"
-		"xpos"			"-39"
+		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"140"
@@ -72,7 +72,7 @@
 		"labelText"		"%Health%"
 		"textAlignment_minmode"	"center"
 		"textAlignment"	"west"		
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"font"			"nüBold42"
+		"font"			"chBold42"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"-5"

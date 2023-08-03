@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 	
 	"ActionText"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"nüMediumBlur16"
+		"font"			"chMediumBlur16"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"25"
@@ -97,7 +97,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"nüMedium16"
+		"font"			"chMedium16"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"25"

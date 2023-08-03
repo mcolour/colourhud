@@ -48,7 +48,7 @@
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"			"nüBold40"
+		"font"			"chBold40"
 		"fgcolor"		"Charge Percent"
 
 		"pin_to_sibling"	"Spacer"
@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
-		"font"			"nüBoldBlur40"
+		"font"			"chBoldBlur40"
 		"fgcolor"		"ShadowBlack"
 		"textinsety"    "1"
 

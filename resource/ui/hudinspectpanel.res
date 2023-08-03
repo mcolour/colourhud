@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/hip.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/HudInspectPanel.res"
 {	

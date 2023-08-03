@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/hksn.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/HudKillStreakNotice.res"
 {	
@@ -29,6 +29,6 @@
 		"xpos"			"c-400"
 		"zpos"			"2"
 		"autoResize"	"0"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 }

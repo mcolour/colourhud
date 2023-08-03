@@ -15,7 +15,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"nüGrey"
+		"bgcolor_override"	"chGrey"
 	}
 
 
@@ -23,7 +23,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CasualTitleLabel"
-		"font"			"nüBold22"
+		"font"			"chBold22"
 		"labelText"		"#TF_Casual_Welcome_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -37,14 +37,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SubtitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubtitleLabel"
-		"font"			"nüMedium10"
+		"font"			"chMedium10"
 		"labelText"		"#TF_Casual_Welcome_Subtitle"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -57,14 +57,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"SectionOneTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Casual_Welcome_Section_One_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -78,7 +78,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionOneTextLabel"
@@ -99,7 +99,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	
@@ -107,7 +107,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Casual_Welcome_Section_Three_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -121,7 +121,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionThreeTextLabel"
@@ -142,7 +142,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"TakeTourButton"

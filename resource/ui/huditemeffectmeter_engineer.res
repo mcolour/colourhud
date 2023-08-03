@@ -43,7 +43,7 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMedium12"
+		"font"					"chMedium12"
 		"fgcolor_override"		"Count Numbers"
 	}
 	"ItemEffectMeterLabelShadow"
@@ -62,7 +62,7 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMediumBlur12"
+		"font"					"chMediumBlur12"
 		"fgcolor_override"		"ShadowBlack"
 	}
 	"ItemEffectMeter"
@@ -92,7 +92,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMedium20"
+		"font"					"chMedium20"
 		"fgcolor_override"		"Count Numbers"
 	}
 	"ItemEffectMeterCountShadow"
@@ -109,7 +109,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMediumBlur20"
+		"font"					"chMediumBlur20"
 		"fgcolor_override"		"ShadowBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"

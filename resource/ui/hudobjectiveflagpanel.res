@@ -29,7 +29,7 @@
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"nüBLUSolid"
+		"fillcolor"		"chBLUSolid"
 		
 		"if_hybrid"
 		{
@@ -58,7 +58,7 @@
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"nüREDSolid"
+		"fillcolor"		"chREDSolid"
 		
 		"if_hybrid"
 		{
@@ -119,8 +119,8 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"nüBold24"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold24"
+		"fgcolor"		"chWhite"
 		
 		"if_hybrid"
 		{
@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"nüBoldBlur24"
+		"font"			"chBoldBlur24"
 		"fgcolor"		"ShadowBlack"
 		
 		"pin_to_sibling"	"BlueScore"
@@ -187,8 +187,8 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"nüBold24"
-		"fgcolor"		"nüWhite"		
+		"font"			"chBold24"
+		"fgcolor"		"chWhite"		
 		
 		"if_hybrid"
 		{
@@ -219,7 +219,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"nüBoldBlur24"
+		"font"			"chBoldBlur24"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"RedScore"
@@ -297,8 +297,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"nüMedium12"
-		"fgcolor"		"nüWhite"
+		"font"			"chMedium12"
+		"fgcolor"		"chWhite"
 		
 		"if_hybrid"
 		{

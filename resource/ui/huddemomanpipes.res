@@ -39,7 +39,7 @@
 		"tall"					"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"nüWhite"
+		"fgcolor_override"		"chWhite"
 		"bgcolor_override"		"LightPanelBG"
 
 	}
@@ -83,7 +83,7 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
-			"font"			"nüMedium20"
+			"font"			"chMedium20"
 			"fgcolor"		"Stickies"
 		}
 		"NumPipesLabelDropshadow"
@@ -99,7 +99,7 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
-			"font"			"nüMediumBlur20"
+			"font"			"chMediumBlur20"
 			"fgcolor"		"ShadowBlack"
 			"textinsety"    "1"
 

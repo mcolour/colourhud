@@ -10,10 +10,10 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enable"		"1"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"labelText"		"Currency"
 		"textAlignment"	"west"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 
 	}
 
@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"nüMedium12"
-		"fgcolor"		"nüWhite"
+		"font"			"chMedium12"
+		"fgcolor"		"chWhite"
 		"xpos"			"40"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"nüMediumBlur12"
+		"font"			"chMediumBlur12"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"40"
 		"ypos"			"1"

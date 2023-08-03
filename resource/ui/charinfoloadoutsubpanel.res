@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModifyLoadoutLabel"
-		"font"			"nüBold30"
+		"font"			"chBold30"
 		"labelText"		"LOADOUT"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
@@ -75,13 +75,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 	"ModifyLoadoutLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModifyLoadoutLabelShadow"
-		"font"			"nüBoldBlur30"
+		"font"			"chBoldBlur30"
 		"labelText"		"LOADOUT"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -202,10 +202,10 @@
 		"paintborder"								"0"
 		"RoundedCorners"	                        "1"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomSoldierSide"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -238,10 +238,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomPyroSide"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -274,10 +274,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomDemomanSide"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -310,10 +310,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 
 		"pin_to_sibling" 							"CustomHeavySide"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
@@ -348,10 +348,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"QuickNavAnchor"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -384,10 +384,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomHeavySide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -420,10 +420,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomEngineerSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -456,10 +456,10 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomMedicSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -493,10 +493,10 @@
 		"paintborder"								"0"
 		"RoundedCorners"	                        "3"
 		
-		"defaultFgColor_override"					"nüOffWhite"
-		"armedFgColor_override" 					"nüWhite"
-		"depressedFgColor_override" 				"nüWhite"
-		"defaultbgcolor_override"	                "nüGrey"
+		"defaultFgColor_override"					"chOffWhite"
+		"armedFgColor_override" 					"chWhite"
+		"depressedFgColor_override" 				"chWhite"
+		"defaultbgcolor_override"	                "chGrey"
 		
 		"pin_to_sibling" 							"CustomSniperSide"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -555,7 +555,7 @@
 		"Default"			"0"
 		"scaleImage"		"1"
 
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -588,7 +588,7 @@
 		"Default"			"0"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -620,7 +620,7 @@
 		"scaleImage"		"1"
 		"textinsetx"		"2"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -651,7 +651,7 @@
 		"Default"			"0"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -682,7 +682,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -712,7 +712,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -744,7 +744,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -775,7 +775,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -806,7 +806,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -1083,7 +1083,7 @@
 		"Default"			"0"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -1095,7 +1095,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"Backpack"
 		"textAlignment"	"north"
 		"xpos"			"-1"
@@ -1107,7 +1107,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"pin_to_sibling"               "ShowBackpackButton"
 		"pin_corner_to_sibling"        "4"
@@ -1135,7 +1135,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -1147,7 +1147,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"Crafting"
 		"textAlignment"	"north"
 		"xpos"			"-2"
@@ -1159,7 +1159,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"pin_to_sibling"               "ShowCraftingButton"
 		"pin_corner_to_sibling"        "4"
@@ -1186,7 +1186,7 @@
 		"font"				"Symbols 48"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -1198,7 +1198,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"north"
 		"xpos"			"-2"
@@ -1210,7 +1210,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"pin_to_sibling"               "ShowArmoryButton"
 		"pin_corner_to_sibling"        "4"
@@ -1237,7 +1237,7 @@
 		"font"				"Symbols 48"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -1249,7 +1249,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"Trading"
 		"textAlignment"	"north"
 		"xpos"			"1"
@@ -1262,7 +1262,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"pin_to_sibling"               "ShowTradeButton"
 		"pin_corner_to_sibling"        "4"
@@ -1289,7 +1289,7 @@
 		"font"				"Symbols 48"
 		"scaleImage"		"1"
 		
-		"FgColor_override"				"nüWhite"
+		"FgColor_override"				"chWhite"
 		"armedFgColor_override"			"34 139 34 255"
 		"depressedFgColor_override"		"34 139 34 255"
 		"armedbgcolor_override"			"0 0 0 0"
@@ -1301,7 +1301,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowPaintkitsLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"War Paints"
 		"textAlignment"	"north"
 		"xpos"			"2"
@@ -1314,7 +1314,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"pin_to_sibling"               "ShowPaintkitsButton"
 		"pin_corner_to_sibling"        "4"
@@ -1325,7 +1325,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1337,13 +1337,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	"ClassLabelShadow"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabelShadow"
-		"font"			"nüBoldShadow16"
+		"font"			"chBoldShadow16"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1362,7 +1362,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"nü10"
+		"font"			"ch10"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1374,7 +1374,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüBase"
+		"fgcolor"		"chBase"
 		"centerwrap"	"1"
 	}
 	

@@ -1,6 +1,3 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/dpm.res"
-
 "Resource/UI/DashboardPartyMember.res"
 {
 	"avatar"
@@ -9,6 +6,9 @@
 		"fieldName"		"avatar"
 		"xpos"			"1"
 		"zpos"			"101"
+		"ypos"			"1" 
+		"wide"			"f2" 
+		"tall"			"f2"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"

@@ -59,8 +59,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"nüBold14"
-			"fgcolor"		"nüWhite"
+			"font"			"chBold14"
+			"fgcolor"		"chWhite"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -98,7 +98,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"xpos"			"12"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"nüMedium8"
+		"font"			"chMedium8"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"		"center"
 		"xpos"			"0"
@@ -157,7 +157,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"nüMedium8"
+		"font"			"chMedium8"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"west"
 		"xpos"			"4"

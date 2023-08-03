@@ -8,7 +8,7 @@
 		"PositiveColor"			"Health Buff"
 		"NegativeColor"			"Health Low"
 		"delta_lifetime"		"1.0"
-		"delta_item_font"		"nüMedium20"
+		"delta_item_font"		"chMedium20"
 	}
 	"AccountBG"
 	{
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"nüWhite"
+		"iconColor"		"chWhite"
 	}
 	"AccountValue"
 	{
@@ -49,7 +49,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"nüMedium20"
+		"font"			"chMedium20"
 		"fgcolor"		"Metal"
 	}
 	"AccountValueShadow"
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"nüMediumBlur20"
+		"font"			"chMediumBlur20"
 		"fgcolor"		"ShadowBlack"
 		"textinsety"    "1"
 

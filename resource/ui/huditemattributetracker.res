@@ -39,7 +39,7 @@
 			"zpos"			"4"
 			"textinsetx"	"5"
 			"fgcolor_override"		"235 226 202 255"
-			"font"			"nüBold7"
+			"font"			"chBold7"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
 			"proportionaltoparent" "1"

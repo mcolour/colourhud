@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/dsp.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/ItemModelPanel.res"
 {
@@ -53,7 +53,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 		"xpos"			"42"
 		"zpos"			"1"
 		"wide"			"80"
@@ -71,7 +71,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabelShadow"
-		"font"			"nüMediumBlur14"
+		"font"			"chMediumBlur14"
 		"xpos"			"42"
 		"zpos"			"1"
 		"wide"			"80"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"nüMedium10"
+		"font"			"chMedium10"
 		"xpos"			"40"
 		"zpos"			"1"
 		"wide"			"120"

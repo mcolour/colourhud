@@ -15,14 +15,14 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"nüGrey"
+		"bgcolor_override"	"chGrey"
 	}
 
 	"CompTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ComptTitleLabel"
-		"font"			"nüBold22"
+		"font"			"chBold22"
 		"labelText"		"#TF_Competitive_Welcome_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -36,14 +36,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SubtitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubtitleLabel"
-		"font"			"nüMedium10"
+		"font"			"chMedium10"
 		"labelText"		"#TF_Competitive_Welcome_Subtitle"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -56,14 +56,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"SectionOneTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Competitive_Welcome_SectionOne_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionOneTextLabel"
@@ -98,14 +98,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"SectionTwoTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionTwoTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Competitive_Welcome_SectionTwo_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionTwoTextLabel"
@@ -140,14 +140,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"SectionThreeTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Competitive_Welcome_SectionThree_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -161,7 +161,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionThreeTextLabel"
@@ -182,14 +182,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"SectionFourTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionFourTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Competitive_Welcome_SectionFour_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -203,7 +203,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionFourTextLabel"
@@ -224,14 +224,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"SectionFiveTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionFiveTitleLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"#TF_Competitive_Welcome_SectionFive_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -245,7 +245,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 
 	"SectionFiveTextLabel"
@@ -266,7 +266,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüOffWhite"
+		"fgcolor_override" "chOffWhite"
 	}
 
 	"TakeTourButton"

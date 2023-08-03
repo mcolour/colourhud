@@ -49,8 +49,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"PowerUpLabel"
-		"font"					"nüMedium12"
-		"fgcolor"				"nüWhite"
+		"font"					"chMedium12"
+		"fgcolor"				"chWhite"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
@@ -86,8 +86,8 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"east"
-		"font"					"nüMedium12"
-		"fgcolor_override"		"nüWhite"
+		"font"					"chMedium12"
+		"fgcolor_override"		"chWhite"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -102,7 +102,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"east"
-		"font"					"nüMediumBlur12"
+		"font"					"chMediumBlur12"
 		"fgcolor_override"		"ShadowBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"

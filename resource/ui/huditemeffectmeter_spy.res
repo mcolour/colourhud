@@ -43,8 +43,8 @@
 		"labelText"				"#TF_BALL"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMedium12"
-		"fgcolor_override"		"nüWhite"
+		"font"					"chMedium12"
+		"fgcolor_override"		"chWhite"
 	}
 	"ItemEffectMeterLabelShadow"
 	{
@@ -62,7 +62,7 @@
 		"labelText"				"Crits"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMediumBlur12"
+		"font"					"chMediumBlur12"
 		"fgcolor_override"		"ShadowBlack"
 		"textinsety"            "1"
 	}
@@ -93,8 +93,8 @@
 		"labelText"				"%progresscount%"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMedium20"
-		"fgcolor_override"		"nüWhite"
+		"font"					"chMedium20"
+		"fgcolor_override"		"chWhite"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -110,7 +110,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment_minmode"	"center"
 		"textAlignment"			"east"
-		"font"					"nüMediumBlur20"
+		"font"					"chMediumBlur20"
 		"fgcolor_override"		"ShadowBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterCount"

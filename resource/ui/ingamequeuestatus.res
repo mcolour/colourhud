@@ -30,7 +30,7 @@
 		"radius"									"7"
 		"velocity"									"111"
 
-		"fgcolor_override"							"nüWhite"
+		"fgcolor_override"							"chWhite"
 	}
 
 	"QueueText"
@@ -44,9 +44,9 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"nüMedium10"
+		"font"										"chMedium10"
 		"AllCaps"									"1"
-		"fgcolor_override"							"nüWhite"
+		"fgcolor_override"							"chWhite"
 		"textAlignment"								"west"
 		"labelText"									"%queue_state%"
 		"proportionaltoparent"						"1"

@@ -32,14 +32,14 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"nüBLUTransparent"
+		"bgcolor_override"	"chBLUTransparent"
 		
 		"WinningTeamLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"nüMedium18"
-			"fgcolor"		"nüWhite"
+			"font"			"chMedium18"
+			"fgcolor"		"chWhite"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -57,7 +57,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"nüMediumBlur18"
+			"font"			"chMediumBlur18"
 			"fgcolor"		"ShadowBlack"
 			"xpos"			"0"
 			"ypos"			"1"

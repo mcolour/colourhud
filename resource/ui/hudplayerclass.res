@@ -1,4 +1,5 @@
-#base "../../customization/playermodel.res"
+#base "../../../../cfg/colourhud_settings.txt"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data

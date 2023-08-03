@@ -59,7 +59,7 @@
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"nüBold10"
+		"font"						"chBold10"
 		"AllCaps"					"0"
 		"alpha"						"125"
 		"fgcolor"					"255 255 255 255"
@@ -139,7 +139,7 @@
 			"enabled"				"1"
 			"textAlignment"			"center"	
 			"labelText"				"%flagvalue%"
-			"font"					"nüBold24"
+			"font"					"chBold24"
 			"fgcolor"				"White"	
 			"proportionalToParent"	"1"	
 		}	
@@ -157,7 +157,7 @@
 			"enabled"				"1"
 			"textAlignment"			"center"	
 			"labelText"				"%flagvalue%"
-			"font"					"nüBold24"
+			"font"					"chBold24"
 			"fgcolor"				"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -255,7 +255,7 @@
 				"textAlignment"			"center"
 				"textinsetx"			"0"
 				"labelText"				"%score%"
-				"font"					"nüBold16"
+				"font"					"chBold16"
 				"fgcolor"				"White"
 				"bgcolor_override"      "Blank"
 			}
@@ -274,7 +274,7 @@
 				"textAlignment"			"center"
 				"textinsetx"			"0"
 				"labelText"				"%score%"
-				"font"					"nüBoldBlur16"
+				"font"					"chBoldBlur16"
 				"fgcolor"				"ShadowBlack"
 				
 				"pin_to_sibling" 		"Score"
@@ -341,7 +341,7 @@
 				"textAlignment"			"center"
 				"textinsetx"			"0"
 				"labelText"				"%score%"
-				"font"					"nüBold16"
+				"font"					"chBold16"
 				"fgcolor"				"White"
 				"bgcolor_override"      "Blank"
 			}
@@ -360,7 +360,7 @@
 				"textAlignment"			"center"
 				"textinsetx"			"0"
 				"labelText"				"%score%"
-				"font"					"nüBoldBlur16"
+				"font"					"chBoldBlur16"
 				"fgcolor"				"ShadowBlack"
 				
 				"pin_to_sibling" 		"Score"
@@ -444,7 +444,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"nüBold16"
+				"font"			"chBold16"
 				"fgcolor"		"White"		
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
@@ -463,7 +463,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"nüBold16"	
+				"font"			"chBold16"	
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -544,7 +544,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"nüBold16"
+				"font"			"chBold16"
 				"fgcolor"		"White"		
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
@@ -563,7 +563,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"nüBold16"	
+				"font"			"chBold16"	
 				"fgcolor"		"Black"	
 				"proportionalToParent"	"1"
 			}

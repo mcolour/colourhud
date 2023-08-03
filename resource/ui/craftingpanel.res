@@ -93,7 +93,7 @@
 		
 		"recipebuttons_kv"
 		{
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"xpos"			"0"
 			"ypos"			"40"
 			"zpos"			"1"
@@ -106,11 +106,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "nüOWhite"
+			"armedFgColor_override" "chOWhite"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"north-west"
 		"xpos"			"c-290"
@@ -180,7 +180,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}
 	
 	"selectedrecipecontainer"
@@ -199,7 +199,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"nüBold16"
+			"font"			"chBold16"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -211,7 +211,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 			"wrap"			"1"
 		}
 		
@@ -251,7 +251,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 		"OutputLabel"
 		{
@@ -269,7 +269,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 		
 		"CraftButton"
@@ -287,7 +287,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"nüMedium20"
+			"font"			"chMedium20"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"

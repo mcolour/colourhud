@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"nüBold30"
+		"font"			"chBold30"
 		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -111,13 +111,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	"ArmoryLabelShadow"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabelShadow"
-		"font"			"nüBold30"
+		"font"			"chBold30"
 		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"west"
 		"xpos"			"0"
@@ -171,12 +171,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"disabledFgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
 		"disabledBgColor_override" "30 30 30 255"
 		"selectionColor_override" "30 30 30 255"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "30 30 30 255"
 	}
 	
@@ -209,7 +209,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 			"wrap"			"1"
 			"highlight_color"	"177 168 149 255"
 			"itemset_color"		"216 244 9 255"

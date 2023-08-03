@@ -1,4 +1,4 @@
-#base "../../customization/matchstatus.res"
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/HudMatchStatus.res"
 {
@@ -78,7 +78,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 
 		
 	}
@@ -191,14 +191,99 @@
 
 	"RoundCounter"
 	{
-		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"18"
-		"visible"		"1"
+		"fieldName"					"RoundCounter"
+		"xpos"						"cs-0.5"
+		"ypos"						"1"
+		"zpos"						"7"
+		"wide"						"110"
+		"tall"						"5"
+		"visible"					"1"
+		"enabled"					"1"
+		"proportionaltoparent"		"1"
+		
+		"indicator_start_offset"	"5"
+
+		"RoundIndicatorPanel_kv"
+		{
+			"ypos"					"0"
+			"wide"					"4"
+			"tall"					"4"
+			"zpos"					"7"
+			"image"					"../hud/round_counter_no"
+			"scaleimage"			"1"
+		}
+		
+		"RoundWinPanelRed_kv"
+		{
+			"ypos"					"-1"
+			"wide"					"6"
+			"tall"					"6"
+			"zpos"					"8"
+			"scaleimage"			"1"
+		}
+		
+		"RoundWinPanelBlue_kv"
+		{
+			"ypos"					"-1"
+			"wide"					"6"
+			"tall"					"6"
+			"zpos"					"8"
+			"scaleimage"			"1"
+		}
+	}
+	
+	"BlueLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueLine"
+		"xpos"			"cs-1"
+		"ypos"			"1"
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"2"
+		"alpha"			"255"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"HUDBlueTeamSolid"
+		"visible"		"0"
 		"enabled"		"1"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	"RedLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedLine"
+		"xpos"			"cs-0"
+		"ypos"			"1"
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"2"
+		"alpha"			"255"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"HUDRedTeamSolid"
+		"visible"		"0"
+		"enabled"		"1"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"BGFrame"
@@ -231,13 +316,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-21"
-		"ypos"				"1"	[$WIN32]
-		"zpos"				"2"
+		"ypos"				"1"
+		"zpos"				"0"
 		"wide"				"42"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"9999"	[$WIN32]
+		"delta_item_x"			"9999"
 
 		"mem"
 		{
@@ -255,13 +340,18 @@
 			"pin_to_sibling"	"TimePanelValue"
 		    "pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		    "pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+			
+			if_match
+			{
+				"wide"			"80"
+			}
 		}
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -273,8 +363,20 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"bgcolor_override"		"nüBlackTransparent"
+			"bgcolor_override"		"chBlackTransparent"
 			"border"		"noborder"
+			
+			if_match
+			{
+				"wide"			"80"
+			}
+			
+		}
+		if_match
+		{
+			"xpos"			"c-40"
+			"ypos"			"2"
+			"wide"			"80"
 		}
 	}
 	"TeamStatus"
@@ -306,10 +408,10 @@
 			"visible"		"1"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"nüBlackTransparent"
-			"color_portrait_bg_blue"	"nüBlackTransparent"
-			"color_portrait_bg_red_dead"	"nüBlackTransparent"
-			"color_portrait_bg_blue_dead"	"nüBlackTransparent"
+			"color_portrait_bg_red"	"chBlackTransparent"
+			"color_portrait_bg_blue"	"chBlackTransparent"
+			"color_portrait_bg_red_dead"	"chBlackTransparent"
+			"color_portrait_bg_blue_dead"	"chBlackTransparent"
 			"color_bar_health_high"	"Status High"
 			"color_bar_health_med"	"Status Med"
 			"percentage_health_med"	"0.6"
@@ -362,7 +464,71 @@
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"nüOffWhite"
+				"TextColor"					"chOffWhite"
+			}
+			"PlayerName"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"PlayerName"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"5"
+				"wide"								"f0"
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"textinsetx"						"1"
+				"labelText"							"%playername%"
+				"font"								"ch6"
+				"textAlignment"						"center"
+				"bgcolor_override"					"TransparentBlack"
+				"proportionaltoparent"				"1"
+				"alpha"								"255"
+				
+				"pin_to_sibling" 					"classimagebg"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+			}
+			"healthbar"
+			{
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"healthbar"
+				"font"					"Default"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"1"
+				"wide"					"f0"
+				"tall"					"18"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"dulltext"				"0"
+				"brighttext"			"0"
+				"bgcolor_override"	   	"LightBG"
+				"proportionaltoparent"	"1"
+			}
+			"overhealbar"
+			{
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"overhealbar"
+				"font"					"Default"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"2"
+				"wide"					"f0"
+				"tall"					"18"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"dulltext"				"0"
+				"brighttext"			"0"
+				"bgcolor_override"	  	"0 0 0 0"
+				"fgcolor_override"	   	"Status Buff"
+				"proportionaltoparent"	"1"
 			}
 			"ReadyBG"
 			{
@@ -403,7 +569,7 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"respawntime"
-				"font"					"nüBold11"
+				"font"					"chBold11"
 				"xpos"					"cs-0.5"
 				"ypos"					"0"
 				"zpos"					"5"
@@ -423,7 +589,7 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"chargeamount"
-				"font"					"nüBold14"
+				"font"					"chBold14"
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"6"

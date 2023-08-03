@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
-		"font"			"nü10"
+		"font"			"ch10"
 		"fgcolor"		"0 240 0 255"
 	}
 }

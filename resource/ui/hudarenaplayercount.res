@@ -22,10 +22,10 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"nüMedium20"
+			"font"			"chMedium20"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"nüBLUSolid"
+			"fgcolor"		"chBLUSolid"
 		}	
 	}
 
@@ -41,7 +41,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 
 		"redteam"
@@ -66,10 +66,10 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"nüMedium20"
+			"font"			"chMedium20"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"nüREDSolid"
+			"fgcolor"		"chREDSolid"
 		}			
 	}
 	"background"

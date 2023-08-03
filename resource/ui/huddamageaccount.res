@@ -11,8 +11,8 @@
 		"PositiveColor"			"Healing Numbers"
 		"NegativeColor"			"Damage Numbers"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"nüMediumOutline24"
-		"delta_item_font_big"	"nüMediumOutline24"
+		"delta_item_font"		"chMediumOutline24"
+		"delta_item_font_big"	"chMediumOutline24"
 	}
 	
 	"DamageAccountValue"
@@ -31,7 +31,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"Damage Numbers"
-		"font"			"nüMedium20"
+		"font"			"chMedium20"
 
 		"pin_to_sibling"	"HPSubSpacer"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
@@ -52,7 +52,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"ShadowBlack"
-		"font"			"nüMediumBlur20"
+		"font"			"chMediumBlur20"
 		"textinsety"    "0"
 
 		"pin_to_sibling"	"DamageAccountValue"

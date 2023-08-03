@@ -59,7 +59,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"nüBold11"
+		"font"			"chBold11"
 		"AllCaps"		"0"
 		"fgcolor"					"255 255 255 255"
 		"bgcolor_override"          "TransparentBlack"
@@ -167,7 +167,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"nüBold24"
+			"font"			"chBold24"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -185,7 +185,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"nüBoldBlur24"
+			"font"			"chBoldBlur24"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}

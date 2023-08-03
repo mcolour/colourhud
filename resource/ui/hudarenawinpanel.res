@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/hawp.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/arenawinpanel.res"
 {
@@ -27,7 +27,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			//"image"			"../hud/winpanel_blue_bg_team"
-			"fillcolor"		"nüBLUSolid"
+			"fillcolor"		"chBLUSolid"
 		}
 		"RedScoreBG"
 		{
@@ -42,14 +42,14 @@
 			"visible"		"0"
 			"enabled"		"0"
 			//"image"			"../hud/winpanel_red_bg_team"
-			"fillcolor"		"nüREDSolid"
+			"fillcolor"		"chREDSolid"
 		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"nüBold24"
-			"fgcolor"		"nüWhite"
+			"font"			"chBold24"
+			"fgcolor"		"chWhite"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"10"
@@ -65,8 +65,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"nüBold26"
-			"fgcolor"		"nüWhite"
+			"font"			"chBold26"
+			"fgcolor"		"chWhite"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"55"
@@ -83,7 +83,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"nüBold26"
+			"font"			"chBold26"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -101,8 +101,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ScoreSeparator"
-			"font"			"nü26"
-			"fgcolor"		"nüWhite"
+			"font"			"ch26"
+			"fgcolor"		"chWhite"
 			"labelText"		"–"
 			"textAlignment"		"center"
 			"xpos"			"0"
@@ -119,8 +119,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"nüBold24"
-			"fgcolor"		"nüWhite"
+			"font"			"chBold24"
+			"fgcolor"		"chWhite"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"230"
@@ -136,8 +136,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"nüBold26"
-			"fgcolor"		"nüWhite"
+			"font"			"chBold26"
+			"fgcolor"		"chWhite"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"185"
@@ -154,7 +154,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"nüBold26"
+			"font"			"chBold26"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
@@ -231,8 +231,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"nüMedium10"
-		"fgcolor"		"nüWhite"
+		"font"			"chMedium10"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"25"
 		"zpos"			"1"
@@ -251,8 +251,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"nüMedium10"
-		"fgcolor"		"nüWhite"
+		"font"			"chMedium10"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"25"
 		"zpos"			"1"
@@ -271,8 +271,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"nü10"
-		"fgcolor"		"nüWhite"
+		"font"			"ch10"
+		"fgcolor"		"chWhite"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
@@ -291,8 +291,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"nü8"
-		"fgcolor"		"nüWhite"
+		"font"			"ch8"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"71"
 		"zpos"			"1"
@@ -328,7 +328,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"xpos"			"5"
 		"ypos"			"40"
 		"zpos"			"3"
@@ -348,7 +348,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"xpos"			"175"
 		"ypos"			"40"
 		"zpos"			"3"
@@ -367,7 +367,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"xpos"			"220"
 		"ypos"			"40"
 		"zpos"			"3"
@@ -386,7 +386,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"xpos"			"260"
 		"ypos"			"40"
 		"zpos"			"3"
@@ -405,7 +405,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"xpos"			"300"
 		"ypos"			"40"
 		"zpos"			"3"

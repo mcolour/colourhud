@@ -31,7 +31,7 @@ resource/ui/hudpasstimepassnotify.res
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextInPassRange"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"xpos"			"-50"
 			"ypos"			"-5"
 			"zpos"			"3"
@@ -49,7 +49,7 @@ resource/ui/hudpasstimepassnotify.res
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLockedOn"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"xpos"			"-50"
 			"ypos"			"-5"
 			"zpos"			"3"
@@ -67,7 +67,7 @@ resource/ui/hudpasstimepassnotify.res
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextPassIncoming"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"xpos"			"-50"
 			"ypos"			"-5"
 			"zpos"			"3"
@@ -85,7 +85,7 @@ resource/ui/hudpasstimepassnotify.res
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextPlayerName"
-			"font"			"nüBold12"
+			"font"			"chBold12"
 			"xpos"			"-50"
 			"ypos"			"17"
 			"zpos"			"3"

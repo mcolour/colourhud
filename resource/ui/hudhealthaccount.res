@@ -11,6 +11,6 @@
 		"PositiveColor"					"Health Buff"
 		"NegativeColor"					"Health Low"
 		"delta_lifetime"				"1.5"
-		"delta_item_font"				"nüMedium20"
+		"delta_item_font"				"chMedium20"
 	}
 }

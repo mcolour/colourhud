@@ -33,7 +33,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedLine"
-		"xpos"			"101"
+		"xpos"			"100"
 		"ypos"			"1"
 		"zpos"			"10"
 		"wide"			"40"
@@ -74,7 +74,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"0"
 			"ypos"			"1"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"101"
+		"xpos"				"100"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -116,7 +116,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"0"
 			"ypos"			"1"

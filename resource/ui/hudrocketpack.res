@@ -40,7 +40,7 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"		"nüWhite"
+		"fgcolor_override"		"chWhite"
 		"bgcolor_override"		"LightPanelBG"
 
 		"pin_to_sibling"	"ItemEffectMeter"
@@ -58,7 +58,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"nüMedium10"
+		"font"			"chMedium10"
 
 		"pin_to_sibling_minmode"	"Spacer"
 		"pin_corner_to_sibling_minmode"	"PIN_CENTER_BOTTOM"

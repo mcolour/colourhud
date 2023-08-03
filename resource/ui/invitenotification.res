@@ -46,7 +46,7 @@
 		"labelText"		"%invite%"
 		"textAlignment"	"east"
 		"proportionaltoparent"	"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"fonts"
 		{
@@ -74,7 +74,7 @@
 		"colors"
 		{
 			"1"		"Orange"
-			"2"		"nüWhite"
+			"2"		"chWhite"
 		}
 	}
 

@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/fp.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/FreezePanel_Basic.res"
 {
@@ -9,6 +9,18 @@
 		"fieldName"		"FreezePanel"
 
 		"screenshot_move_panel_to_corner"	"1"
+	}
+	
+	"Anchor"
+	{	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Anchor"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 
 	"itempanel"
@@ -68,8 +80,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r200"
-		"ypos"			"209"		
+		"xpos"			"0"
+		"ypos"			"0"		
 		"wide"			"190"		
 		"tall"			"30"		
 		"visible"		"1"
@@ -77,6 +89,10 @@
 		"bgcolor_override"		"15 15 15 220"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
+		
+		"pin_to_sibling"	"Anchor"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		"FreezePanelBG"
 		{
@@ -143,9 +159,7 @@
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
 			"xpos"			"65"
-			"ypos"			"7"
 			"zpos"			"5"
-			"wide"			"252"
 			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"

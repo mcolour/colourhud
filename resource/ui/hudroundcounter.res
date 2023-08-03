@@ -70,7 +70,7 @@
 		"wide"			"40"
 		"tall"			"12"
 		"proportionaltoparent"	"1"
-		"fillcolor"		"nüBLUSolid"
+		"fillcolor"		"chBLUSolid"
 	}
 	"RedTeamBackground"
 	{
@@ -82,6 +82,6 @@
 		"wide"			"40"
 		"tall"			"12"
 		"proportionaltoparent"	"1"
-		"fillcolor"		"nüREDSolid"
+		"fillcolor"		"chREDSolid"
 	}
 }

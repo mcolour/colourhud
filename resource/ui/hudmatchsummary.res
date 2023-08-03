@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/hms.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/HudMatchSummary.res"
 {
@@ -167,7 +167,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MatchSummaryLabel"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"labelText"		"Match Summary"
 		"textAlignment"		"west"
 		"xpos"			"30"
@@ -179,7 +179,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 	}	
 
 	"MainStatsContainer"
@@ -302,9 +302,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScore"
-					"font"			"nüBold36"
+					"font"			"chBold36"
 					"labelText"		"%blueteamscore%"
-					"fgcolor"       "nüBLUHighlight"
+					"fgcolor"       "chBLUHighlight"
 					"textAlignment"		"center"
 					"xpos"			"5"
 					"ypos"			"103"
@@ -326,7 +326,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"nüBoldBlur36"
+					"font"			"chBoldBlur36"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"center"
@@ -349,9 +349,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinner"
-					"font"			"nüBold30"
+					"font"			"chBold30"
 					"labelText"		"%blueteamwinner%"
-					"fgcolor"       "nüBLUHighlight"
+					"fgcolor"       "chBLUHighlight"
 					"textAlignment"		"center"
 					"xpos"			"5"
 					"ypos"			"103"
@@ -372,7 +372,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"nüBoldBlur30"
+					"font"			"chBoldBlur30"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"center"
@@ -573,9 +573,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScore"
-					"font"			"nüBold36"
+					"font"			"chBold36"
 					"labelText"		"%redteamscore%"
-					"fgcolor"       "nüREDHighlight"
+					"fgcolor"       "chREDHighlight"
 					"textAlignment"		"center"
 					"xpos"			"r5-p.19"
 					"ypos"			"103"
@@ -596,7 +596,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"nüBoldBlur36"
+					"font"			"chBoldBlur36"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"center"
@@ -619,9 +619,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinner"
-					"font"			"nüBold30"
+					"font"			"chBold30"
 					"labelText"		"%redteamwinner%"
-					"fgcolor"       "nüREDHighlight"
+					"fgcolor"       "chREDHighlight"
 					"textAlignment"		"center"
 					"xpos"			"r5-p.19"
 					"ypos"			"103"
@@ -642,7 +642,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"nüBoldBlur30"
+					"font"			"chBoldBlur30"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"center"

@@ -123,15 +123,15 @@
 		"textAlignment"	"west"
 		"textinsetx"    "65"
 		"command"		"jointeam auto"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
 		"armedBgColor_override"		"100 200 50 255"
 		"depressedBgColor_override" "100 200 50 255"
@@ -154,15 +154,15 @@
 		"textAlignment"	"west"
 		"textinsetx"    "65"
 		"command"		"jointeam spectate"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
 		"armedBgColor_override"		"175 175 175 255"
 		"depressedBgColor_override" "175 175 175 255"
@@ -189,15 +189,15 @@
 		"textAlignment"	"west"
 		"textinsetx"    "50"
 		"command"		"cancelmenu"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
 		"armedBgColor_override"		"100 200 50 255"
 		"depressedBgColor_override" "100 200 50 255"
@@ -410,14 +410,14 @@
 		"labelText"		"&1"
 		"textAlignment"	"center"
 		"Command"		"jointeam auto"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 
 		"pin_to_sibling"	"teambutton2"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 		
-		"fgcolor"			"nüWhite"
-		"defaultFgColor_override" "nüWhite"
+		"fgcolor"			"chWhite"
+		"defaultFgColor_override" "chWhite"
 
 		"paintbackground"	"0"
 		
@@ -440,14 +440,14 @@
 		"labelText"		"&2"
 		"textAlignment"	"center"
 		"Command"		"jointeam spectate"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 
 		"pin_to_sibling"	"teambutton3"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 		
-		"fgcolor"			"nüWhite"
-		"defaultFgColor_override" "nüWhite"
+		"fgcolor"			"chWhite"
+		"defaultFgColor_override" "chWhite"
 
 		"paintbackground"	"0"
 		

@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"labelText"		"#TF_Competitive_RankTooltipTitle"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -31,7 +31,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}	

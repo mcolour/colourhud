@@ -51,7 +51,7 @@
 		"xpos"				"67"
 		"ypos"				"16"
 		"zpos"				"4"	
-		"wide"				"20"
+		"wide"				"200"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -72,7 +72,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"-29"
-		"ypos"			"20"
+		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
@@ -83,13 +83,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"nü2"
-		"fgcolor"		"nüWhite"
+		"font"			"ch2"
+		"fgcolor"		"chWhite"
 		
 
 		if_match
 		{
-			"ypos"					"20"
+			"xpos"		"-10"
+			"ypos"		"18"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -117,7 +118,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"-29"
-		"ypos"			"20"
+		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
@@ -128,12 +129,13 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"nü10"
-		"fgcolor"		"nüWhite"
+		"font"			"ch10"
+		"fgcolor"		"chWhite"
 		
 		if_match
 		{
-			"ypos"					"20"
+			"xpos"		"-10"
+			"ypos"		"18"
 		}
 	}			
 	"OvertimeBG"
@@ -161,23 +163,25 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"-29"
-		"ypos"			"20"
+		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_SuddenDeath"
+		"labelText"		"S.Death"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"nü10"
-		"fgcolor"		"nüWhite"
+		"font"			"ch10"
+		"fgcolor"		"chWhite"
 		
 		if_match
 		{
-			"ypos"					"20"
+			"xpos"		"-10"
+			"ypos"		"18"
+			"labelText"	"#game_SuddenDeath"
 		}
 	}			
 	"SuddenDeathBG"
@@ -204,7 +208,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"-29"
-		"ypos"			"20"
+		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
@@ -215,12 +219,13 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"nü10"
-		"fgcolor"		"nüWhite"
+		"font"			"ch10"
+		"fgcolor"		"chWhite"
 		
 		if_match
 		{
-			"ypos"					"20"
+			"xpos"		"-10"
+			"ypos"		"18"
 		}
 	}	
 	"SetupBG"
@@ -247,7 +252,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"-29"
-		"ypos"			"15"
+		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
@@ -258,12 +263,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"nüMedium10"
-		"fgcolor"		"nüOffWhite"
+		"font"			"chMedium10"
+		"fgcolor"		"chOffWhite"
 		
 		if_match
 		{
-			"ypos"					"18"
+			"xpos"		"-10"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

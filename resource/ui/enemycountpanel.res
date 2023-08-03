@@ -67,8 +67,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"nüMedium14"
-		"fgcolor"		"nüWhite"
+		"font"			"chMedium14"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"3"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCountShadow"
-		"font"			"nüMediumBlur14"
+		"font"			"chMediumBlur14"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"0"
 		"ypos"			"19"

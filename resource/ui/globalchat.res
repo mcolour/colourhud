@@ -62,7 +62,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"nüBase"
+				"fgcolor_override"	"chBase"
 			}
 		
 			"UpButton"
@@ -115,7 +115,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"15 15 15 215"
 		"RoundedCorners"	"0"
-		"font"			"nü10"
+		"font"			"ch10"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 

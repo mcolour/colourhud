@@ -80,8 +80,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"nüBold30"
-		"fgcolor"		"nüBLUSolid"
+		"font"			"chBold30"
+		"fgcolor"		"chBLUSolid"
 	}	
 		
 	"BlueScoreShadow"
@@ -114,8 +114,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"nüBold30"
-		"fgcolor"		"nüREDSolid"		
+		"font"			"chBold30"
+		"fgcolor"		"chREDSolid"		
 	}	
 		
 	"RedScoreShadow"
@@ -150,7 +150,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"nüBold10" //HudFontSmall
+		"font"			"chBold10" //HudFontSmall
 		"fgcolor"		"TanLight"
 	}	
 			

@@ -76,7 +76,7 @@
 		"textAlignment"			"center"
 		"textinsetx"			"0"
 		"labelText"				"%bluescore%"
-		"font"					"nüBold24"
+		"font"					"chBold24"
 		"fgcolor"				"White"
 		
 		"pin_to_sibling"		"BlueScoreBG"
@@ -97,7 +97,7 @@
 		"enabled"							"1"
 		"textAlignment"						"center"	
 		"labelText"							"%bluescore%"
-		"font"								"nüBoldBlur24"
+		"font"								"chBoldBlur24"
 		"fgcolor"							"ShadowBlack"		
 		"proportionalToParent"				"1"
 				
@@ -156,7 +156,7 @@
 		"textAlignment"			"center"
 		"textinsetx"			"0"
 		"labelText"				"%redscore%"
-		"font"					"nüBold24"
+		"font"					"chBold24"
 		"fgcolor"				"White"
 
 		"pin_to_sibling"		"RedScoreBG"
@@ -177,7 +177,7 @@
 		"enabled"							"1"
 		"textAlignment"						"center"	
 		"labelText"							"%redscore%"
-		"font"								"nüBoldBlur24"
+		"font"								"chBoldBlur24"
 		"fgcolor"							"ShadowBlack"		
 		"proportionalToParent"				"1"
 				
@@ -214,7 +214,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"nüBold10"
+			"font"				"chBold10"
 			"fgcolor"			"White"
 			"bgcolor_override"  "0 0 0 200"
 		}	
