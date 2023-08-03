@@ -49,8 +49,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"nüBold24"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold24"
+		"fgcolor"		"chWhite"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"70"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabelShadow"
-		"font"			"nüBoldBlur24"
+		"font"			"chBoldBlur24"
 		"fgcolor"		"ShadowBlack"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
@@ -86,7 +86,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"nü10"
+		"font"			"ch10"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"70"
@@ -133,7 +133,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"Equipped"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -143,7 +143,7 @@
 			"tall"			"12"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"fgcolor_override" "nüWhite"
+			"fgcolor_override" "chWhite"
 			"bgcolor_override"	"0 0 0 0"	
 		}
 	}

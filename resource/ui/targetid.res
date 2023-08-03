@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/targetid.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/TargetID.res"
 {
@@ -65,22 +65,22 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 		"xpos"			"0"
-		"ypos"			"19"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
+		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"		"nüWhite"
+		"fgcolor_override"		"chWhite"
 	}
 	"TargetNameLabelShadow"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"nüMediumBlur14"
+		"font"			"chMediumBlur14"
 		"xpos"			"0"					// set to 11 if using floating health
 		"ypos"			"0"
 		"zpos"			"1"
@@ -100,7 +100,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		    "TargetDataLabel"
-	    "font"				"nüMedium10"
+	    "font"				"chMedium10"
 		"xpos"				"75"
 		"ypos"				"30"
 		"zpos"				"1"

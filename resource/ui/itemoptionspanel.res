@@ -60,7 +60,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"fgcolor_override" "nüWhite"
+			"fgcolor_override" "chWhite"
 		}
 
 		"SetStyleButton"
@@ -77,7 +77,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"Select Style"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

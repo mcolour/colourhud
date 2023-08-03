@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/spect.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/SpectatorTournament.res"
 {
@@ -55,7 +55,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			  "nüBold11"
+				"font"			  "chBold11"
 				"xpos"			  "44"
 				"zpos"			  "5"
 				"wide"			  "80"
@@ -64,7 +64,7 @@
 				"pinCorner"		"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		  "nüWhite"
+				"fgcolor"		  "chWhite"
 				"textinsety"    "-2"
 			}
 
@@ -72,15 +72,13 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playernameshadow"
-				"font"			  "nüBoldBlur11"
+				"font"			  "chBoldBlur11"
 				"xpos"			  "44"
-				"ypos"			  "4"
 				"zpos"			  "5"
 				"wide"			  "80"
 				"tall"			  "10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		  "1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		  "0 0 0 215"
@@ -194,7 +192,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"nüMedium12"
+				"font"			"chMedium12"
 				"xpos"			"16"
 				"ypos"			"0"
 				"zpos"			"8"
@@ -212,7 +210,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeshadow"
-				"font"			"nüMedium12"
+				"font"			"chMedium12"
 				"xpos"			"16"
 				"ypos"			"0"
 				"zpos"			"7"
@@ -249,7 +247,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"nü13"
+				"font"			"ch13"
 				"xpos"			"117"
 				"ypos"			"4"
 				"zpos"			"6"
@@ -269,7 +267,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountshadow"
-				"font"			"nüBlur13"
+				"font"			"chBlur13"
 				"xpos"			"117"
 				"ypos"			"4"
 				"zpos"			"5"
@@ -358,7 +356,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"nüBold18"
+		"font"			"chBold18"
 		"fgcolor"		"255 255 255 255"
 		
 		if_mvm
@@ -380,8 +378,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"nüBold12"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold12"
+		"fgcolor"		"chWhite"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	

@@ -383,7 +383,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -396,8 +396,9 @@
 			"textinsety"	"-1"
 			"textinsetx"	"-1"
 
-			"actionsignallevel" "2"
 			"Command"		"motd_show"
+			"actionsignallevel" "2"
+			
 			"navActivate"	"<QuickplayButton"		
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -406,15 +407,15 @@
 			"border_armed"		"NoBorder"
 			"paintbackground" "1"
 
-			"defaultFgColor_override" "nüWhite"
-			"armedFgColor_override"   "nüWhite"
-			"depressedFgColor_override" "nüWhite"
+			"defaultFgColor_override" "chWhite"
+			"armedFgColor_override"   "chWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "45 45 45 215"
 			"depressedBgColor_override" "45 45 45 215"
 
-			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüWhite"
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"
 
 			"SubImage"
 			{
@@ -434,20 +435,75 @@
 		}
 	}
 	
+	"HUDEditPanelButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HUDEditPanelButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"11"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		
+		"HUDEditPanelButton_SB"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"HUDEditPanelButton_SB"
+			"font"			"Symbols 8"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"z"
+			"textinsety"	"-1"
+			"textinsetx"	"-1"
+
+			"Command"		"engine toggle cl_mainmenu_safemode"
+			"actionsignallevel" "2"	
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			"paintbackground" "1"
+
+			"defaultFgColor_override" "chWhite"
+			"armedFgColor_override"   "chWhite"
+			"depressedFgColor_override" "chWhite"
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "45 45 45 215"
+			"depressedBgColor_override" "45 45 45 215"
+
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"	
+		}
+	}
+	
 	"MOTD_Panel"	// Tool Panel
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
 		"xpos"										"100"
-		"ypos"										"70"
+		"ypos"										"0"
 		"zpos"										"99"
-		"wide"										"178"
-		"tall"										"227"		// Increase/decrease this by 24 every time a button is added/removed
+		"wide"										"79"
+		"tall"										"f0"		// Increase/decrease this by 24 every time a button is added/removed
 		"visible"									"0"
-		"proportionaltoparent"                       "1"
-        "PaintBackground"                            "1"
-        "PaintBackgroundType"                        "2"
-        "bgcolor_override"                           "25 25 25 255"
+		"proportionaltoparent"                      "1"
+        "PaintBackground"                           "1"
+        "PaintBackgroundType"                       "2"
+        "bgcolor_override"                          "25 25 25 245"
+		"roundedcorners"							"0"
 
 		"MOTD_HeaderContainer"
 		{
@@ -597,7 +653,7 @@
 			"ControlName"			"CExImageButton"
 			"fieldname"				"ReloadScheme"
 			"xpos"					"-5"
-			"ypos"					"-5"
+			"ypos"					"-9"
 			"zpos"					"16"
 			"wide"					"68"
 			"tall"					"16"
@@ -606,14 +662,14 @@
 			"labeltext"				"Restart HUD"
 			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -642,14 +698,14 @@
 			"labeltext"				"Match Status"	
 			"command"				"engine toggle tf_use_match_hud"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -678,14 +734,14 @@
 			"labeltext"				"Restart Sound"	
 			"command"				"engine snd_restart"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -714,14 +770,14 @@
 			"labeltext"				"Fix Visuals"	
 			"command"				"engine record fix;stop"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -750,14 +806,14 @@
 			"labeltext"				"Reconnect"
 			"command"				"engine retry"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -786,14 +842,14 @@
 			"labeltext"				"Toggle Graph"	
 			"command"				"engine toggle net_graph 5 0"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -822,14 +878,14 @@
 			"labeltext"				"Toggle Chat"
 			"command"				"engine toggle hud_saytext_time 0 6"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -858,14 +914,14 @@
 			"labeltext"				"Toggle PM"
 			"command"				"engine toggle cl_hud_playerclass_use_playermodel"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -894,14 +950,14 @@
 			"labeltext"				"Toggle Minmode"
 			"command"				"engine toggle cl_hud_minmode"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -912,6 +968,42 @@
 			"bgcolor_override"                           "40 40 40 255"			
 			
 			"pin_to_sibling"		"PModelToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"CaptionToggle"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"CaptionToggle"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"18"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"Toggle Captions"
+			"command"				"engine toggle closecaption"
+			"actionsignallevel"		"2"
+			"font"					"chBold10"
+			"textAlignment"			"center"	
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override" "chOffWhite"
+			"armedFgColor_override"   "15 15 15 215"
+			"depressedFgColor_override" "chWhite"
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "34 181 93 165"
+			"depressedBgColor_override" "34 181 93 165"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"MinmodeToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
@@ -930,14 +1022,14 @@
 			"labeltext"				"Toggle Console"
 			"command"				"engine toggleconsole"
 			"actionsignallevel"		"2"
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "nüOffWhite"
+			"defaultFgColor_override" "chOffWhite"
 			"armedFgColor_override"   "15 15 15 215"
-			"depressedFgColor_override" "nüWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "34 181 93 165"
 			"depressedBgColor_override" "34 181 93 165"
@@ -947,7 +1039,7 @@
 			"PaintBackgroundType"                        "2"
 			"bgcolor_override"                           "40 40 40 255"			
 			
-			"pin_to_sibling"		"MinmodeToggle"
+			"pin_to_sibling"		"CaptionToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
@@ -957,7 +1049,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DamageLabel"
-			"xpos"					"-15"
+			"xpos"					"0"
 			"ypos"					"5"
 			"wide"					"150"
 			"tall"					"24"
@@ -966,13 +1058,13 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labelText"				"Damage Colour"		
-			"font"					"nüBold10"
+			"font"					"chBold10"
 			"textAlignment"			"center"
-			"fgcolor_override"		"nüWhite"
+			"fgcolor_override"		"chWhite"
 			
-			"pin_to_sibling"		"ReloadScheme"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+			"pin_to_sibling"		"ConsoleToggle"
+			"pin_corner_to_sibling" "PIN_CENTER_TOP"
+			"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 		}
 		
 		"WhiteDamage"
@@ -1278,8 +1370,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 
-			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüWhite"
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"
 
 			"SubImage"
 			{
@@ -1302,7 +1394,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"nüBold7"
+			"font"			"chBold7"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"cs-0.5"
@@ -1341,13 +1433,13 @@
 			"border_armed"		"NoBorder"
 			"paintbackground" "1"
 
-			"defaultFgColor_override" "nüWhite"
-			"armedFgColor_override"   "nüWhite"
+			"defaultFgColor_override" "chWhite"
+			"armedFgColor_override"   "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "45 45 45 215"
 
-			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüWhite"
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"
 
 			"SubImage"
 			{
@@ -1451,7 +1543,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 			"wrap"			"1"
 		}
 		
@@ -1529,15 +1621,15 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "nüWhite"
-			"armedFgColor_override"   "nüWhite"
-			"depressedFgColor_override" "nüWhite"
+			"defaultFgColor_override" "chWhite"
+			"armedFgColor_override"   "chWhite"
+			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "45 45 45 215"
 			"depressedBgColor_override" "45 45 45 215"
 
-			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüWhite"
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"
 
 			"SubImage"
 			{
@@ -1841,7 +1933,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"nüBold12"
+			"font"			"chBold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1903,7 +1995,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"nüBold12"
+			"font"			"chBold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"1"
@@ -1971,7 +2063,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"nüBold12"
+			"font"			"chBold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2058,7 +2150,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"ColourHud"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
 				"sound_depressed"	"vo/demoman_specialcompleted11.mp3"
@@ -2086,7 +2178,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"ColourHud"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
 				"fgcolor"		"ShadowBlack"
@@ -2131,8 +2223,8 @@
 				"armedBgColor_override"   "45 45 45 215"
 				"depressedBgColor_override" "45 45 45 215"
 
-				"image_drawcolor"	"nüWhite"
-				"image_armedcolor"	"nüWhite"
+				"image_drawcolor"	"chWhite"
+				"image_armedcolor"	"chWhite"
 					
 				"SubImage"
 				{
@@ -2178,7 +2270,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2187,7 +2279,7 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "0 0 0 0"
@@ -2237,7 +2329,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2246,12 +2338,12 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "nüOffWhite"
+				"defaultFgColor_override" "chOffWhite"
 				"armedFgColor_override"   "15 15 15 215"
-				"depressedFgColor_override" "nüWhite"
+				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
 				"armedBgColor_override"   "34 181 93 165"
 				"depressedBgColor_override" "34 181 93 165"
@@ -2281,7 +2373,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"Servers"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2321,7 +2413,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2330,12 +2422,12 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "nüOffWhite"
+				"defaultFgColor_override" "chOffWhite"
 				"armedFgColor_override"   "15 15 15 215"
-				"depressedFgColor_override" "nüWhite"
+				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
 				"armedBgColor_override"   "34 181 93 165"
 				"depressedBgColor_override" "34 181 93 165"
@@ -2367,7 +2459,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"Items"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2407,7 +2499,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2416,12 +2508,12 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "nüOffWhite"
+				"defaultFgColor_override" "chOffWhite"
 				"armedFgColor_override"   "15 15 15 215"
-				"depressedFgColor_override" "nüWhite"
+				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
 				"armedBgColor_override"   "34 181 93 165"
 				"depressedBgColor_override" "34 181 93 165"
@@ -2453,7 +2545,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"Store"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2493,7 +2585,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2502,12 +2594,12 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "nüOffWhite"
+				"defaultFgColor_override" "chOffWhite"
 				"armedFgColor_override"   "15 15 15 215"
-				"depressedFgColor_override" "nüWhite"
+				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
 				"armedBgColor_override"   "34 181 93 165"
 				"depressedBgColor_override" "34 181 93 165"
@@ -2540,7 +2632,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"Options"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2579,7 +2671,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2588,12 +2680,12 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "nüOffWhite"
+				"defaultFgColor_override" "chOffWhite"
 				"armedFgColor_override"   "15 15 15 215"
-				"depressedFgColor_override" "nüWhite"
+				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
 				"armedBgColor_override"   "34 181 93 165"
 				"depressedBgColor_override" "34 181 93 165"
@@ -2626,7 +2718,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"Advanced"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2667,7 +2759,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2676,13 +2768,13 @@
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"
-				"border_armed"		"nüMenuButtonBorder"
+				"border_armed"		"chMenuButtonBorder"
 				"paintbackground"	"1"
 				"roundedcorners"    "8"
 				
-				"defaultFgColor_override" "nüOffWhite"
+				"defaultFgColor_override" "chOffWhite"
 				"armedFgColor_override"   "15 15 15 215"
-				"depressedFgColor_override" "nüWhite"
+				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
 				"armedBgColor_override"   "34 181 93 165"
 				"depressedBgColor_override" "34 181 93 165"
@@ -2700,7 +2792,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"DemoUI"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"textAlignment"	"west"
 				"textinsetx"	"10"
 				"use_proportional_insets"	"1"
@@ -2758,7 +2850,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"nüBold14"
+				"font"			"chBold14"
 				"labelText"		"Friends"
 				"textAlignment"	"west"
 				"xpos"			"0"
@@ -2777,7 +2869,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabelShadow"
-				"font"			"nüBoldBlur14"
+				"font"			"chBoldBlur14"
 				"labelText"		"Friends"
 				"textAlignment"	"west"
 				"xpos"			"0"
@@ -2836,7 +2928,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"nüBase"
+					"fgcolor_override"	"chBase"
 				}
 		
 				"UpButton"
@@ -2885,164 +2977,4976 @@
 		"visible"		"0"
 	}
 	
-	"SafeMode"
+	"SafeMode"			// HUD edit panel
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
-		"xpos"			"c-290"
-		"ypos"			"210"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"190"
-		"visible"		"0"
+		"xpos"			"100"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"120"
+		"tall"			"f0"
+		"visible"			"0"
+        "PaintBackground"                           "1"
+        "PaintBackgroundType"                       "2"
+        "bgcolor_override"                          "25 25 25 245"
+		"roundedcorners"							"0"
 
-		"Background"
+		"ColourHudEditPanel"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldname"				"Background"
-			"xpos"					"0"
-			"ypos"					"20"
-			"zpos"					"0"
-			"wide"					"260"
-			"tall"					"p0.88"
-			"visible"				"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
+			"ControlName"		"CScrollableList"
+			"fieldName"			"ColourHudEditPanel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"101"
+			"wide"				"120"
+			"tall"				"f0"
+			"visible"			"1"
+			"enabled"			"1"
+			"restrict_width" 	"0"
+			
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1"
+				"ypos"			"0"
+				"zpos"			"1000"
+				"tall"			"f0"
+				"wide"			"3"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
 
-			"paintborder"			"1"
-			"border"				"noborder"
-
-			"TitleLabel"
-			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"TitleLabel"
-				"font"				"HudFontSmallBold"
-				"labelText"			"#MMenu_SafeMode_Title"
-				"textAlignment"		"west"
-				"xpos"				"0"
-				"ypos"				"0"
-				"wide"				"f0"
-				"tall"				"30"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
-				"textinsetx"		"20"
-				"fgcolor_override"	"235 227 203 255"
+				"Slider"
+				{
+					"fgcolor_override"	"chWhite"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
 			}
-	
-			"SaveSettingsButton"
+			
+			"ChatPosition"
 			{
-				"ControlName"				"CExButton"
-				"fieldName"					"SaveSettingsButton"
-				"xpos"						"p0.02"
-				"ypos"						"rs1-30"
-				"zpos"						"11"
-				"wide"						"250"
-				"tall"						"26"
-				"autoResize"				"0"
-				"pinCorner"					"3"
-				"visible"					"1"
-				"enabled"					"1"
-				"tabPosition"				"0"
-				"use_proportional_insets"	"1"
-				"font"						"HudFontSmallBold"
-				"textAlignment"				"west"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"1"
-				"sound_depressed"			"UI/buttonclick.wav"
-				"sound_released"			"UI/buttonclickrelease.wav"
-				"labeltext"					"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"		"1"
-				"command"					"safemode_save_settings"
-				"actionsignallevel"			"3"
-			
-				"border_default"			"MainMenuButtonDefault"
-				"border_armed"				"MainMenuButtonArmed"
-				"paintbackground"			"0"
-			
-				"defaultFgColor_override" 	"46 43 42 255"
-				"armedFgColor_override" 	"245 245 245 60"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-	
-			"LeaveSafeModeButton"
-			{
-				"ControlName"				"CExButton"
-				"fieldName"					"SubButton"
-				"xpos"						"p0.02"
-				"ypos"						"rs1-5"
-				"zpos"						"11"
-				"wide"						"250"
-				"tall"						"26"
-				"autoResize"				"0"
-				"pinCorner"					"3"
-				"visible"					"1"
-				"enabled"					"1"
-				"tabPosition"				"0"
-				"use_proportional_insets" 	"1"
-				"font"						"HudFontSmallBold"
-				"textAlignment"				"west"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"1"
-				"sound_depressed"			"UI/buttonclick.wav"
-				"sound_released"			"UI/buttonclickrelease.wav"
-				"labeltext"					"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"		"1"
-				"command"					"safemode_leave"
-				"actionsignallevel"			"3"
-			
-				"border_default"			"MainMenuButtonDefault"
-				"border_armed"				"MainMenuButtonArmed"
-				"paintbackground"			"0"
-			
-				"defaultFgColor_override" 	"46 43 42 255"
-				"armedFgColor_override" 	"245 245 245 60"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-			"Explanation"
-			{
-				"ControlName"			"Label"
-				"fieldName"				"Explanation"
-				"xpos"					"cs-0.5"
-				"ypos"					"30"
-				"zpos"					"100"
-				"wide"					"p0.92"
-				"tall"					"p0.5"
-				"textAlignment"			"north-west"
+				"ControlName"			"CExLabel"
+				"fieldName"				"ChatPosition"
+				"xpos"					"0"
+				"ypos"					"0"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-				"wrap"					"1"
-				"labelText"				"#MMenu_SafeMode_Explanation"
-				"proportionaltoparent"	"1"
-				"font"					"HudFontSmallest"
+				"labelText"				"Chat Position"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
 			}
-
-		} // Background
-
-		"InfoImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"InfoImage"
-			"xpos"					"rs1-5"
-			"ypos"					"5"
-			"zpos"					"100"
-			"wide"					"40"
-			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"info"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"		"0"
+			
+			"ChatUpper"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"ChatUpper"
+				"xpos"					"10"
+				"ypos"					"20"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Upper"
+				"Command"				"engine chatpos_upper; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+				
+			}
+			
+			"ChatLower"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"ChatLower"
+				"xpos"					"60"
+				"ypos"					"20"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Lower"
+				"command"				"engine chatpos_lower; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+				
+			}
+			
+			"MatchStatusNames"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MatchStatusNames"
+				"xpos"					"0"
+				"ypos"					"40"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Match Status Names"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"MatchStatusNamesOFF"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MatchStatusNamesOFF"
+				"xpos"					"10"
+				"ypos"					"60"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"OFF"
+				"Command"				"engine matchstatusnames_off; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MatchStatusNamesON"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MatchStatusNamesON"
+				"xpos"					"60"
+				"ypos"					"60"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"ON"
+				"command"				"engine matchstatusnames_on; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"PlayerModelLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"PlayerModelLabel"
+				"xpos"					"0"
+				"ypos"					"80"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Player Model"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"PlayerModel3DOn2DOff"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"PlayerModel3DOn2DOff"
+				"xpos"					"10"
+				"ypos"					"100"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"8"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"3D ON | 2D OFF"
+				"Command"				"engine playermodel_3d_on_2d_off; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold7"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"PlayerModel3DOff2DOn"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"PlayerModel3DOff2DOn"
+				"xpos"					"10"
+				"ypos"					"110"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"8"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"3D OFF | 2D ON"
+				"Command"				"engine playermodel_3d_off_2d_on; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold7"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"PlayerModel3DOn2DOn"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"PlayerModel3DOn2DOn"
+				"xpos"					"60"
+				"ypos"					"100"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"8"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"3D ON | 2D ON"
+				"Command"				"engine playermodel_3d_on_2d_on; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold7"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"PlayerModel3DOff2DOff"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"PlayerModel3DOff2DOn"
+				"xpos"					"60"
+				"ypos"					"110"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"8"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"3D OFF | 2D OFF"
+				"Command"				"engine playermodel_3d_off_2d_off; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold7"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"ScoreboardLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"ScoreboardLabel"
+				"xpos"					"0"
+				"ypos"					"120"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Scoreboard"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"ScoreboardDefault"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"ScoreboardDefault"
+				"xpos"					"10"
+				"ypos"					"140"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Default"
+				"Command"				"engine scoreboard_def; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"ScoreboardFullscreen"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"ScoreboardFullscreen"
+				"xpos"					"60"
+				"ypos"					"140"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Fullscreen"
+				"command"				"engine scoreboard_full; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MinmodeHeightLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MinmodeHeightLabel"
+				"xpos"					"0"
+				"ypos"					"160"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Minmode Values Height"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			
+			"MinmodeHeightDefault"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MinmodeHeightDefault"
+				"xpos"					"5"
+				"ypos"					"180"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Default"
+				"command"				"engine spacer_height_def; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MinmodeHeightHigher"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MinmodeHeightHigher"
+				"xpos"					"42"
+				"ypos"					"180"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Higher"
+				"command"				"engine spacer_height_high; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MinmodeHeightLower"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MinmodeHeightLower"
+				"xpos"					"79"
+				"ypos"					"180"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Lower"
+				"command"				"engine spacer_height_low; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MinmodeDistanceLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MinmodeDistanceLabel"
+				"xpos"					"0"
+				"ypos"					"200"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Minmode Values Distance"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			
+			"MinmodeDistanceDefault"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MinmodeDistanceDefault"
+				"xpos"					"5"
+				"ypos"					"220"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Default"
+				"command"				"engine spacer_dist_def; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MinmodeDistanceFarther"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MinmodeDistanceFarther"
+				"xpos"					"42"
+				"ypos"					"220"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Farther"
+				"command"				"engine spacer_dist_far; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"MinmodeDistanceCloser"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MinmodeDistanceCloser"
+				"xpos"					"79"
+				"ypos"					"220"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Closer"
+				"command"				"engine spacer_dist_close; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"StreamerLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"StreamerLabel"
+				"xpos"					"0"
+				"ypos"					"240"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Streamer Mode"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"StreamerOFF"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"StreamerOFF"
+				"xpos"					"10"
+				"ypos"					"260"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"OFF"
+				"Command"				"engine stream_off; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"StreamerON"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"StreamerON"
+				"xpos"					"60"
+				"ypos"					"260"
+				"zpos"					"11"
+				"wide"					"48"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"ON"
+				"command"				"engine stream_on; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"CrosshairLabel"
+				"xpos"					"0"
+				"ypos"					"280"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Crosshair"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"Crosshair0"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair0"
+				"xpos"					"2"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"None"
+				"command"				"engine crosshair_none; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold6"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1"
+				"textinsety"			"1"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair1"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair1"
+				"xpos"					"18"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"!"
+				"command"				"engine crosshair_1; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair2"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair2"
+				"xpos"					"34"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"#"
+				"command"				"engine crosshair_2; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair3"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair3"
+				"xpos"					"50"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"$"
+				"command"				"engine crosshair_3; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair4"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair4"
+				"xpos"					"66"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"%"
+				"command"				"engine crosshair_4; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair5"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair5"
+				"xpos"					"82"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"'"
+				"command"				"engine crosshair_5; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair6"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair6"
+				"xpos"					"98"
+				"ypos"					"300"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"("
+				"command"				"engine crosshair_6; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+				
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair7"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair7"
+				"xpos"					"2"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				")"
+				"command"				"engine crosshair_7; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair8"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair8"
+				"xpos"					"18"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"*"
+				"command"				"engine crosshair_8; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair9"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair9"
+				"xpos"					"34"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"+"
+				"command"				"engine crosshair_9; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair10"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair10"
+				"xpos"					"50"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				","
+				"command"				"engine crosshair_10; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair11"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair11"
+				"xpos"					"66"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"-"
+				"command"				"engine crosshair_11; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair12"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair12"
+				"xpos"					"82"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"."
+				"command"				"engine crosshair_12; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair13"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair13"
+				"xpos"					"98"
+				"ypos"					"316"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"/"
+				"command"				"engine crosshair_13; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair14"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair14"
+				"xpos"					"2"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_14; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair15"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair15"
+				"xpos"					"18"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"1"
+				"command"				"engine crosshair_15; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair16"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair16"
+				"xpos"					"34"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"2"
+				"command"				"engine crosshair_16; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair17"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair17"
+				"xpos"					"50"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"3"
+				"command"				"engine crosshair_17; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair18"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair18"
+				"xpos"					"66"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"4"
+				"command"				"engine crosshair_18; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair19"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair19"
+				"xpos"					"82"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"5"
+				"command"				"engine crosshair_19; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair20"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair20"
+				"xpos"					"98"
+				"ypos"					"332"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"6"
+				"command"				"engine crosshair_20; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair21"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair21"
+				"xpos"					"2"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"7"
+				"command"				"engine crosshair_21; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair22"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair22"
+				"xpos"					"18"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"8"
+				"command"				"engine crosshair_22; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair23"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair23"
+				"xpos"					"34"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"9"
+				"command"				"engine crosshair_23; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair24"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair24"
+				"xpos"					"50"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				":"
+				"command"				"engine crosshair_24; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair25"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair25"
+				"xpos"					"66"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				";"
+				"command"				"engine crosshair_25; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair26"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair26"
+				"xpos"					"82"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"<"
+				"command"				"engine crosshair_26; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair27"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair27"
+				"xpos"					"98"
+				"ypos"					"348"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"="
+				"command"				"engine crosshair_27; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair28"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair28"
+				"xpos"					"2"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				">"
+				"command"				"engine crosshair_28; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair29"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair29"
+				"xpos"					"18"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"?"
+				"command"				"engine crosshair_29; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair30"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair30"
+				"xpos"					"34"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"@"
+				"command"				"engine crosshair_30; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair31"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair31"
+				"xpos"					"50"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"A"
+				"command"				"engine crosshair_31; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair32"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair32"
+				"xpos"					"66"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"B"
+				"command"				"engine crosshair_32; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair33"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair33"
+				"xpos"					"82"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"C"
+				"command"				"engine crosshair_33; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair34"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair34"
+				"xpos"					"98"
+				"ypos"					"364"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"D"
+				"command"				"engine crosshair_34; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair35"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair35"
+				"xpos"					"2"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"E"
+				"command"				"engine crosshair_35; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair36"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair36"
+				"xpos"					"18"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"F"
+				"command"				"engine crosshair_36; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair37"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair37"
+				"xpos"					"34"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"G"
+				"command"				"engine crosshair_37; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair38"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair38"
+				"xpos"					"50"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"H"
+				"command"				"engine crosshair_38; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair39"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair39"
+				"xpos"					"66"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"I"
+				"command"				"engine crosshair_39; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair40"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair40"
+				"xpos"					"82"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"J"
+				"command"				"engine crosshair_40; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair41"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair41"
+				"xpos"					"98"
+				"ypos"					"380"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"K"
+				"command"				"engine crosshair_41; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair42"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair42"
+				"xpos"					"2"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"L"
+				"command"				"engine crosshair_42; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair43"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair43"
+				"xpos"					"18"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"M"
+				"command"				"engine crosshair_43; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair44"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair44"
+				"xpos"					"34"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"N"
+				"command"				"engine crosshair_44; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair45"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair45"
+				"xpos"					"50"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"O"
+				"command"				"engine crosshair_45; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair46"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair46"
+				"xpos"					"66"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"P"
+				"command"				"engine crosshair_46; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair47"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair47"
+				"xpos"					"82"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Q"
+				"command"				"engine crosshair_47; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair48"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair48"
+				"xpos"					"98"
+				"ypos"					"396"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"R"
+				"command"				"engine crosshair_48; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair49"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair49"
+				"xpos"					"2"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"S"
+				"command"				"engine crosshair_49; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair50"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair50"
+				"xpos"					"18"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"T"
+				"command"				"engine crosshair_50; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair51"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair51"
+				"xpos"					"34"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"U"
+				"command"				"engine crosshair_51; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair52"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair52"
+				"xpos"					"50"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"V"
+				"command"				"engine crosshair_52; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair53"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair53"
+				"xpos"					"66"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"W"
+				"command"				"engine crosshair_53; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair54"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair54"
+				"xpos"					"82"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"X"
+				"command"				"engine crosshair_54; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair55"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair55"
+				"xpos"					"98"
+				"ypos"					"412"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Y"
+				"command"				"engine crosshair_55; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair56"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair56"
+				"xpos"					"2"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Z"
+				"command"				"engine crosshair_56; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair57"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair57"
+				"xpos"					"18"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"["
+				"command"				"engine crosshair_57; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair58"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair58"
+				"xpos"					"34"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"\"
+				"command"				"engine crosshair_58; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair59"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair59"
+				"xpos"					"50"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"]"
+				"command"				"engine crosshair_59; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair60"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair60"
+				"xpos"					"66"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"^"
+				"command"				"engine crosshair_60; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair61"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair61"
+				"xpos"					"82"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"_"
+				"command"				"engine crosshair_61; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair62"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair62"
+				"xpos"					"98"
+				"ypos"					"428"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"`"
+				"command"				"engine crosshair_62; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair63"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair63"
+				"xpos"					"2"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"a"
+				"command"				"engine crosshair_63; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair64"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair64"
+				"xpos"					"18"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"b"
+				"command"				"engine crosshair_64; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair65"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair65"
+				"xpos"					"34"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"c"
+				"command"				"engine crosshair_65; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair66"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair66"
+				"xpos"					"50"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"d"
+				"command"				"engine crosshair_66; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair67"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair67"
+				"xpos"					"66"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"e"
+				"command"				"engine crosshair_67; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair68"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair68"
+				"xpos"					"82"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"f"
+				"command"				"engine crosshair_68; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair69"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair69"
+				"xpos"					"98"
+				"ypos"					"444"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"g"
+				"command"				"engine crosshair_69; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair70"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair70"
+				"xpos"					"2"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"h"
+				"command"				"engine crosshair_70; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair71"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair71"
+				"xpos"					"18"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"i"
+				"command"				"engine crosshair_71; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair72"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair72"
+				"xpos"					"34"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"j"
+				"command"				"engine crosshair_72; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair73"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair73"
+				"xpos"					"50"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"k"
+				"command"				"engine crosshair_73; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair74"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair74"
+				"xpos"					"66"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"l"
+				"command"				"engine crosshair_74; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair75"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair75"
+				"xpos"					"82"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"m"
+				"command"				"engine crosshair_75; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair76"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair76"
+				"xpos"					"98"
+				"ypos"					"460"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"n"
+				"command"				"engine crosshair_76; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair77"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair77"
+				"xpos"					"2"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"o"
+				"command"				"engine crosshair_77; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair78"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair78"
+				"xpos"					"18"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"p"
+				"command"				"engine crosshair_78; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair79"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair79"
+				"xpos"					"34"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"q"
+				"command"				"engine crosshair_79; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair80"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair80"
+				"xpos"					"50"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"r"
+				"command"				"engine crosshair_80; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair81"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair81"
+				"xpos"					"66"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"s"
+				"command"				"engine crosshair_81; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair82"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair82"
+				"xpos"					"82"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"t"
+				"command"				"engine crosshair_82; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair83"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair83"
+				"xpos"					"98"
+				"ypos"					"476"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"u"
+				"command"				"engine crosshair_83; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair84"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair84"
+				"xpos"					"2"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"v"
+				"command"				"engine crosshair_84; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair85"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair85"
+				"xpos"					"18"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"w"
+				"command"				"engine crosshair_85; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair86"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair86"
+				"xpos"					"34"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"x"
+				"command"				"engine crosshair_86; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair87"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair87"
+				"xpos"					"50"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"y"
+				"command"				"engine crosshair_87; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair88"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair88"
+				"xpos"					"66"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"z"
+				"command"				"engine crosshair_88; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+				
+			"Crosshair89"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair89"
+				"xpos"					"82"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"|"
+				"command"				"engine crosshair_89; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"Crosshair90"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"Crosshair90"
+				"xpos"					"98"
+				"ypos"					"492"
+				"zpos"					"11"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"~"
+				"command"				"engine crosshair_90; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"Size15|OutlineON"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				"textinsetx"			"-1" [$WINDOWS]
+				"textinsety"			"1" [$WINDOWS]
+				
+				"textinsety"			"-1" [$LINUX]
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairModeLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"CrosshairModeLabel"
+				"xpos"					"0"
+				"ypos"					"507"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Crosshair Mode"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			
+			"CrosshairNormal"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairNormal"
+				"xpos"					"5"
+				"ypos"					"527"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Normal"
+				"command"				"engine crosshair_; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairOutline"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairOutline"
+				"xpos"					"42"
+				"ypos"					"527"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Outline"
+				"command"				"engine crosshair_outline; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairBlur"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairBlur"
+				"xpos"					"79"
+				"ypos"					"527"
+				"zpos"					"11"
+				"wide"					"34"
+				"tall"					"16"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"Blur"
+				"command"				"engine crosshair_blur; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSizeLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"CrosshairSizeLabel"
+				"xpos"					"0"
+				"ypos"					"542"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Crosshair Size"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"CrosshairSize1"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize1"
+				"xpos"					"2"
+				"ypos"					"562"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"1"
+				"command"				"engine crosshair_font_selected_size_1; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize2"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize2"
+				"xpos"					"24"
+				"ypos"					"562"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"2"
+				"command"				"engine crosshair_font_selected_size_2; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize3"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize3"
+				"xpos"					"46"
+				"ypos"					"562"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"3"
+				"command"				"engine crosshair_font_selected_size_3; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize4"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize4"
+				"xpos"					"68"
+				"ypos"					"562"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"4"
+				"command"				"engine crosshair_font_selected_size_4; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize5"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize5"
+				"xpos"					"90"
+				"ypos"					"562"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"5"
+				"command"				"engine crosshair_font_selected_size_5; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize6"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize6"
+				"xpos"					"2"
+				"ypos"					"584"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"6"
+				"command"				"engine crosshair_font_selected_size_6; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize7"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize7"
+				"xpos"					"24"
+				"ypos"					"584"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"7"
+				"command"				"engine crosshair_font_selected_size_7; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize8"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize8"
+				"xpos"					"46"
+				"ypos"					"584"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"8"
+				"command"				"engine crosshair_font_selected_size_8; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize9"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize9"
+				"xpos"					"68"
+				"ypos"					"584"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"9"
+				"command"				"engine crosshair_font_selected_size_9; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize10"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize10"
+				"xpos"					"90"
+				"ypos"					"584"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"10"
+				"command"				"engine crosshair_font_selected_size_10; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize11"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize11"
+				"xpos"					"2"
+				"ypos"					"606"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"11"
+				"command"				"engine crosshair_font_selected_size_11; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize12"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize12"
+				"xpos"					"24"
+				"ypos"					"606"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"12"
+				"command"				"engine crosshair_font_selected_size_12; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize13"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize13"
+				"xpos"					"46"
+				"ypos"					"606"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"13"
+				"command"				"engine crosshair_font_selected_size_13; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize14"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize14"
+				"xpos"					"68"
+				"ypos"					"606"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"14"
+				"command"				"engine crosshair_font_selected_size_14; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize15"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize15"
+				"xpos"					"90"
+				"ypos"					"606"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"15"
+				"command"				"engine crosshair_font_selected_size_15; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize16"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize16"
+				"xpos"					"2"
+				"ypos"					"628"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"16"
+				"command"				"engine crosshair_font_selected_size_16; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize17"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize17"
+				"xpos"					"24"
+				"ypos"					"628"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"17"
+				"command"				"engine crosshair_font_selected_size_17; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize18"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize18"
+				"xpos"					"46"
+				"ypos"					"628"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"18"
+				"command"				"engine crosshair_font_selected_size_18; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize19"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize19"
+				"xpos"					"68"
+				"ypos"					"628"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"19"
+				"command"				"engine crosshair_font_selected_size_19; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairSize20"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairSize20"
+				"xpos"					"90"
+				"ypos"					"628"
+				"zpos"					"11"
+				"wide"					"21"
+				"tall"					"21"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"20"
+				"command"				"engine crosshair_font_selected_size_20; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"chBold14"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "chOffWhite"
+				"armedFgColor_override"   "15 15 15 215"
+				"depressedFgColor_override" "chWhite"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairColourLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"CrosshairColourLabel"
+				"xpos"					"0"
+				"ypos"					"643"
+				"wide"					"120"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"labelText"				"Crosshair Colour"		
+				"font"					"chBold10"
+				"textAlignment"			"center"
+				"fgcolor_override"		"chWhite"
+			}
+			
+			"CrosshairWhite"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairWhite"
+				"xpos"					"2"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_white; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "255 255 255 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairRed"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairRed"
+				"xpos"					"16"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_red; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+				
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 0 0 255"
+				"armedFgColor_override" "255 0 0 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairOrange"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairOrange"
+				"xpos"					"30"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_orange; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 165 0 255"
+				"armedFgColor_override" "255 165 0 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairYellow"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairYellow"
+				"xpos"					"44"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_yellow; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "255 255 0 255"
+				"armedFgColor_override" "255 255 0 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairGreen"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairGreen"
+				"xpos"					"58"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_green; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "0 138 0 255"
+				"armedFgColor_override" "0 138 0 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairBlue"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairBlue"
+				"xpos"					"72"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_blue; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "0 0 138 255"
+				"armedFgColor_override" "0 0 138 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairIndigo"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairIndigo"
+				"xpos"					"86"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_indigo; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "75 0 130 255"
+				"armedFgColor_override" "75 0 130 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"CrosshairBlack"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"CrosshairBlack"
+				"xpos"					"100"
+				"ypos"					"663"
+				"zpos"					"11"
+				"wide"					"13"
+				"tall"					"13"
+				"visible"				"1"
+				"enabled"				"1"
+				"labeltext"				"0"
+				"command"				"engine crosshair_colour_black; colhud_applysettings"
+				"actionsignallevel"		"3"
+				"font"					"BlocksSmall"
+				"textAlignment"			"center"
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+			
+				"proportionaltoparent"                       "1"
+				"PaintBackground"                            "1"
+				"PaintBackgroundType"                        "2"
+			
+				"defaultFgColor_override" "0 0 0 255"
+				"armedFgColor_override" "0 0 0 255"
+				"defaultBgColor_override" "Blank"
+				"armedBgColor_override"   "34 181 93 165"
+				"depressedBgColor_override" "34 181 93 165"
+			}
+			
+			"EmptySpace"
+			{	
+				"ControlName"			"EditablePanel"
+				"fieldName"				"EmptySpace"
+				"xpos"					"0"
+				"ypos"					"673"
+				"wide"					"120"
+				"tall"					"6"
+				"visible"				"0"
+				"enabled"				"0"
+			}
 		}
-
-	} 
+	}
 	
 	"CoachPlayersButton"	
 	{
@@ -3229,9 +8133,9 @@
 		"border_armed"		"NoBorder"
 		"paintbackground" 	"1"
 		
-		"defaultFgColor_override" "nüWhite"
-		"armedFgColor_override"   "nüWhite"
-		"depressedFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
+		"armedFgColor_override"   "chWhite"
+		"depressedFgColor_override" "chWhite"
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override"   "45 45 45 215"
 		"depressedBgColor_override" "45 45 45 215"

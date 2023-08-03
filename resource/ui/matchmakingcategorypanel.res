@@ -74,7 +74,7 @@
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
-			"font"	"nü8"
+			"font"	"ch8"
 			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
@@ -157,7 +157,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -165,7 +165,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}	
 
 		"TitleShadow"
@@ -182,7 +182,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"nüBold14"
+			"font"			"chBold14"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -198,7 +198,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"nü8"
+			"font"			"ch8"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-5"
@@ -221,7 +221,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"nü8"
+			"font"			"ch8"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-5"

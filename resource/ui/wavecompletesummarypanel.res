@@ -30,13 +30,13 @@
 		"tall"			"35"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"nüREDTransparent"
+		"bgcolor_override"	"chREDTransparent"
 		
 		"WaveCompleteLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"nüMedium18"
+			"font"			"chMedium18"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"0"
@@ -46,14 +46,14 @@
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"		
+			"fgcolor"		"chWhite"		
 		}
 
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"nüMediumBlur18"
+			"font"			"chMediumBlur18"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"0"
@@ -89,7 +89,7 @@
 			"ypos"			"9"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"nüOffWhite"
+			"fgcolor"		"chOffWhite"
 		}
 		
 		"CreditCollectedCountLabel"
@@ -117,7 +117,7 @@
 			"ypos"			"21"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"nüOffWhite"
+			"fgcolor"		"chOffWhite"
 		}
 		
 		"CreditMissedCountLabel"
@@ -145,7 +145,7 @@
 			"ypos"			"33"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"nüOffWhite"
+			"fgcolor"		"chOffWhite"
 		}
 		
 		"CreditBonusCountLabel"
@@ -185,14 +185,14 @@
 			"ypos"			"5"
 			"wide"			"115"
 			"tall"			"20"
-			"fgcolor"		"nüOffWhite"
+			"fgcolor"		"chOffWhite"
 		}
 		
 		"RatingTextShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"nüMediumBlur18"
+			"font"			"chMediumBlur18"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -206,14 +206,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"nüMedium18"
+			"font"			"chMedium18"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"19"
 			"wide"			"115"
 			"tall"			"30"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 	}
 
@@ -260,7 +260,7 @@
 			"ypos"			"3"
 			"wide"			"160"
 			"tall"			"20"
-			"fgcolor"		"nüOffWhite"
+			"fgcolor"		"chOffWhite"
 		}
 		
 		"RespecCountLabel"

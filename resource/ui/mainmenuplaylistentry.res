@@ -96,7 +96,7 @@
 		"labelText"		"%button_token%"
 		"textinsetx"	"3"
 		"use_proportional_insets" "1"
-		"font"			"nüMedium18"
+		"font"			"chMedium18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -112,9 +112,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
+		"defaultFgColor_override"	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
 	}	
 
 	"MatchmakingBanPanel"
@@ -172,7 +172,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"wrap"			"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}

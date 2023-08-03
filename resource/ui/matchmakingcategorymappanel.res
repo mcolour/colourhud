@@ -46,7 +46,7 @@
 		"font"			"HudFontSmallest"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 		
 		"mouseinputenabled"	"0"
 	}

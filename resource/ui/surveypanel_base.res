@@ -48,7 +48,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"nüWhite"
+				"fgcolor_override"	"chWhite"
 				"textAlignment"	"center"
 				"labelText"		"#TF_SurveyQuestion_Submitting"
 				"proportionaltoparent"	"1"

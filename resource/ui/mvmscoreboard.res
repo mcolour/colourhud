@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/mvms.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/MvMScoreboard.res"
 {		
@@ -22,14 +22,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"c-230"
 		"ypos"			"124"
 		"wide"			"480"
 		"tall"			"12"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 
 	"DifficultyContainer"
@@ -46,28 +46,28 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"nü8"
+			"font"			"ch8"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"east"
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"0"
 			"tall"			"0"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"480"
 			"tall"			"10"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 	}
 	
@@ -137,14 +137,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"nü14"
+			"font"			"ch14"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "west"
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"100"
 			"tall"			"16"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -199,14 +199,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"65"
 			"wide"			"520"
 			"tall"			"14"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 	}
 }

@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/spec.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/Spectator.res"
 {
@@ -73,10 +73,10 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 		"textinsetx"	"12"
 		"use_proportional_insets" "1"
-		"fgcolor_override"		"nüWhite"
+		"fgcolor_override"		"chWhite"
 		"bgcolor_override"		"PanelBG"
 		"auto_wide_tocontents" "1"
 

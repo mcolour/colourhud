@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"%header%"
 		"textAlignment" "west"
 		"xpos"			"0"
@@ -12,14 +12,14 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"15"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 	
 	"HeaderLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabelShadow"
-		"font"			"nüBoldBlur14"
+		"font"			"chBoldBlur14"
 		"labelText"		"%header%"
 		"textAlignment" "west"
 		"xpos"			"0"
@@ -34,21 +34,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "west"
 		"xpos"			"0"
 		"ypos"			"20"
 		"wide"			"90"
 		"tall"			"14"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 	}
 	
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "east"
 		"xpos"			"55"
@@ -62,21 +62,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "west"
 		"xpos"			"0"
 		"ypos"			"34"
 		"wide"			"90"
 		"tall"			"14"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 	}
 	
 	"CreditMissedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "east"
 		"xpos"			"55"
@@ -90,21 +90,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusTextLabel"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "west"
 		"xpos"			"0"
 		"ypos"			"48"
 		"wide"			"90"
 		"tall"			"14"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 	}
 	
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusCountLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "east"
 		"xpos"			"55"
@@ -118,27 +118,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"nüBlur18"
+		"font"			"chBlur18"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
 		"xpos"			"99"
 		"ypos"			"0"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 	}
 	
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabel"
-		"font"			"nü18"
+		"font"			"ch18"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"99"
 		"ypos"			"0"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 }

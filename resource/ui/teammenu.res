@@ -124,19 +124,19 @@
 		"textinsetx"	"70"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"font"			"nüBold22"
+		"font"			"chBold22"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
-		"defaultBgColor_override" 	"nüBLUTransparent"
-		"armedBgColor_override"		"nüBLUSolid"
-		"depressedBgColor_override" "nüBLUSolid"
-		"selectedBgColor_override" 	"nüBLUSolid"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
+		"defaultBgColor_override" 	"chBLUTransparent"
+		"armedBgColor_override"		"chBLUSolid"
+		"depressedBgColor_override" "chBLUSolid"
+		"selectedBgColor_override" 	"chBLUSolid"
 	}
 
 	"Label0"
@@ -153,13 +153,13 @@
 		"labelText"		"&3"
 		"textAlignment"	"center"
 		"Command"		"jointeam blue"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 
 		"pin_to_sibling"	"teambutton0"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
-		"fgcolor"			"nüWhite"
+		"fgcolor"			"chWhite"
 		"bgcolor_override"	"LightBG"
 
 		"paintbackground"	"2"
@@ -187,7 +187,7 @@
 		"textinsetx"	"70"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
-		"font"			"nüBold22"
+		"font"			"chBold22"
 
 		"pin_to_sibling"	"teambutton0"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -196,14 +196,14 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
-		"defaultBgColor_override" 	"nüREDTransparent"
-		"armedBgColor_override"		"nüREDSolid"
-		"depressedBgColor_override" "nüREDSolid"
-		"selectedBgColor_override" 	"nüREDSolid"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
+		"defaultBgColor_override" 	"chREDTransparent"
+		"armedBgColor_override"		"chREDSolid"
+		"depressedBgColor_override" "chREDSolid"
+		"selectedBgColor_override" 	"chREDSolid"
 	}
 
 	"Label1"
@@ -220,14 +220,14 @@
 		"labelText"		"&4"
 		"textAlignment"	"center"
 		"Command"		"jointeam red"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 
 		"pin_to_sibling"	"teambutton1"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		
-		"fgcolor"			"nüWhite"
-		"defaultFgColor_override" "nüWhite"
+		"fgcolor"			"chWhite"
+		"defaultFgColor_override" "chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
 
 		"paintbackground"	"2"
@@ -252,7 +252,7 @@
 		"labelText"		"Random"
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
-		"font"			"nü12"
+		"font"			"ch12"
 
 		"pin_to_sibling"	"teambutton0"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -261,10 +261,10 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
 		"armedBgColor_override"		"100 200 50 255"
 		"depressedBgColor_override" "100 200 50 255"
@@ -285,14 +285,14 @@
 		"labelText"		"&1"
 		"textAlignment"	"center"
 		"Command"		"jointeam auto"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 
 		"pin_to_sibling"	"teambutton2"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 		
-		"fgcolor"			"nüWhite"
-		"defaultFgColor_override" "nüWhite"
+		"fgcolor"			"chWhite"
+		"defaultFgColor_override" "chWhite"
 
 		"paintbackground"	"0"
 		
@@ -315,7 +315,7 @@
 		"labelText"		"Spectate"
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
-		"font"			"nü12"
+		"font"			"ch12"
 
 		"pin_to_sibling"	"teambutton1"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -324,10 +324,10 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 
-		"defaultFgColor_override" 	"nüWhite"
-		"armedFgColor_override"		"nüWhite"
-		"depressedFgColor_override" "nüWhite"
-		"selectedFgColor_override" 	"nüWhite"
+		"defaultFgColor_override" 	"chWhite"
+		"armedFgColor_override"		"chWhite"
+		"depressedFgColor_override" "chWhite"
+		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
 		"armedBgColor_override"		"175 175 175 255"
 		"depressedBgColor_override" "175 175 175 255"
@@ -348,14 +348,14 @@
 		"labelText"		"&2"
 		"textAlignment"	"center"
 		"Command"		"jointeam spectate"
-		"font"			"nüMedium14"
+		"font"			"chMedium14"
 
 		"pin_to_sibling"	"teambutton3"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 		
-		"fgcolor"			"nüWhite"
-		"defaultFgColor_override" "nüWhite"
+		"fgcolor"			"chWhite"
+		"defaultFgColor_override" "chWhite"
 
 		"paintbackground"	"0"
 		
@@ -437,7 +437,7 @@
 		"enabled"		"1"
 		"labelText"		"%bluecount%"
 		"textAlignment"	"center"
-		"font"			"nüMedium16"
+		"font"			"chMedium16"
 		"fgcolor"		"255 255 255 200"
 
 		"pin_to_sibling"	"teambutton0"
@@ -458,7 +458,7 @@
 		"enabled"		"1"
 		"labelText"		"%redcount%"
 		"textAlignment"	"center"
-		"font"			"nüMedium16"
+		"font"			"chMedium16"
 		"fgcolor"		"255 255 255 200"
 
 		"pin_to_sibling"	"teambutton1"

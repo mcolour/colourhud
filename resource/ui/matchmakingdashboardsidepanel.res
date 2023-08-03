@@ -114,12 +114,12 @@
 		"command"		"nav_close"
 
 		"textAlignment"	"east"
-		"font"			"nüBold10"
+		"font"			"chBold10"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"nüLightBase"
+		"armedFgColor_override"	"chLightBase"
 	}
 
 	"ReturnButton"
@@ -145,12 +145,12 @@
 		"labelText"		"<"
 
 		"textAlignment"	"west"
-		"font"			"nüBold10"
+		"font"			"chBold10"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"nüLightBase"
+		"armedFgColor_override"	"chLightBase"
 	}
 	
 	"BGPanel"
@@ -166,6 +166,6 @@
 		"proportionaltoparent"	"1"
 
 		"border"		"NoBorder"
-		"bgcolor_override"	"nüDarkGrey"
+		"bgcolor_override"	"chDarkGrey"
 	}
 }

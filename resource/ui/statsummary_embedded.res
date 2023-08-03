@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"nüMedium28"
+		"font"			"chMedium28"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"5"
@@ -126,7 +126,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"nü10"
+				"font"			"ch10"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-282"
@@ -142,7 +142,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"nü10"
+				"font"			"ch10"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-127"
@@ -159,7 +159,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"nü10"
+				"font"			"ch10"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -189,7 +189,7 @@
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"		"BarChartComboA"
-				"Font"			"nü12"
+				"Font"			"ch12"
 				"xpos"		"c-285"
 				"ypos"		"212"
 				"zpos"		"10"
@@ -206,19 +206,19 @@
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
 				
-				"fgcolor_override"	"nüWhite"
+				"fgcolor_override"	"chWhite"
 				"bgcolor_override"	"30 30 30 255"
-				"disabledFgColor_override" "nüWhite"
+				"disabledFgColor_override" "chWhite"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "nüWhite"
+				"selectionTextColor_override" "chWhite"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 			"BarChartComboB"
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"		"BarChartComboB"
-				"Font"			"nü12"
+				"Font"			"ch12"
 				"xpos"		"c-127"
 				"ypos"		"212"
 				"zpos"		"10"
@@ -235,19 +235,19 @@
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
 				
-				"fgcolor_override"	"nüWhite"
+				"fgcolor_override"	"chWhite"
 				"bgcolor_override"	"30 30 30 255"
-				"disabledFgColor_override" "nüWhite"
+				"disabledFgColor_override" "chWhite"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "nüWhite"
+				"selectionTextColor_override" "chWhite"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 			"ClassCombo"
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"		"ClassCombo"
-				"Font"			"nü12"
+				"Font"			"ch12"
 				"xpos"		"c+124"
 				"ypos"		"212"
 				"zpos"		"10"
@@ -264,12 +264,12 @@
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
 				
-				"fgcolor_override"	"nüWhite"
+				"fgcolor_override"	"chWhite"
 				"bgcolor_override"	"30 30 30 255"
-				"disabledFgColor_override" "nüWhite"
+				"disabledFgColor_override" "chWhite"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "nüWhite"
+				"selectionTextColor_override" "chWhite"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 		}
@@ -291,7 +291,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"nüBold16"
+			"font"			"chBold16"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"xpos"			"c-285"
@@ -375,7 +375,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -392,7 +392,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -494,7 +494,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -511,7 +511,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -613,7 +613,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -630,7 +630,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -732,7 +732,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -749,7 +749,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -851,7 +851,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -868,7 +868,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -970,7 +970,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -987,7 +987,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1089,7 +1089,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1106,7 +1106,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1208,7 +1208,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1225,7 +1225,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1327,7 +1327,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1344,7 +1344,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1392,7 +1392,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"nüBold16"
+			"font"			"chBold16"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
@@ -1442,7 +1442,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1459,7 +1459,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1476,7 +1476,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1493,7 +1493,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1510,7 +1510,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1527,7 +1527,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1544,7 +1544,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1561,7 +1561,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1578,7 +1578,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1595,7 +1595,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1612,7 +1612,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1629,7 +1629,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1646,7 +1646,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1663,7 +1663,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1680,7 +1680,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1697,7 +1697,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1714,7 +1714,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1731,7 +1731,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1748,7 +1748,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1765,7 +1765,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1782,7 +1782,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1799,7 +1799,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1816,7 +1816,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1833,7 +1833,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1850,7 +1850,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1867,7 +1867,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1884,7 +1884,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1901,7 +1901,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1918,7 +1918,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1935,7 +1935,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"nü10"
+			"font"			"ch10"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1967,7 +1967,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"nü10"
+		"font"			"ch10"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"xpos"			"c-256"

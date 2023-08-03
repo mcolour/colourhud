@@ -26,8 +26,8 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"center"
-		"font"			"nüBold22"
-		"fgcolor_override"	"nüWhite"
+		"font"			"chBold22"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"  "LightBG"
 		
 		"mouseinputenabled"	"0"

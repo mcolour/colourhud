@@ -1068,7 +1068,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"nü12"
+			"font"			"ch12"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"west"
 			"xpos"			"20"
@@ -1080,7 +1080,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"nüWhite"
+			"fgcolor_override"	"chWhite"
 			"auto_wide_tocontents"	"1"
 		}
 	}

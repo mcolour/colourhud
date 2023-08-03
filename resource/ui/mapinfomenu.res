@@ -26,7 +26,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"nüBlackTransparent"
+		"bgcolor_override"	"chBlackTransparent"
 
 		"pin_to_sibling"	"MainBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -44,7 +44,7 @@
 		"tall"			"265"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"nüBlackTransparent"
+		"bgcolor_override"	"chBlackTransparent"
 	}
 
 	"mainmem"
@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"fgcolor"		"100 180 180 255"
 
 		"pin_to_sibling"	"HeaderBG"
@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"nüBoldBlur16"
+		"font"			"chBoldBlur16"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"MapInfoTitle"
@@ -139,7 +139,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"fgcolor"		"White"
 
 		"pin_to_sibling"	"HeaderBG"
@@ -151,7 +151,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"nü12"
+		"font"			"ch12"
 		"xpos"			"-20"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -209,13 +209,13 @@
 		"labelText"		"Continue (&E)"
 		"textAlignment"	"center"
 		"command"		"continue"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 
 		"pin_to_sibling"	"MainBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 		
-		"defaultFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
 		"armedFgColor_override"   "15 15 15 215"
 		"depressedFgColor_override" "15 15 15 215"
 		"defaultBgColor_override" 	"35 35 35 255"
@@ -263,13 +263,13 @@
 		"labelText"		"Back (&Q)"
 		"textAlignment"	"center"
 		"command"		"back"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 
 		"pin_to_sibling"	"MainBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 		
-		"defaultFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
 		"armedFgColor_override"   "15 15 15 215"
 		"depressedFgColor_override" "15 15 15 215"
 		"defaultBgColor_override" 	"35 35 35 255"

@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescriptionLabel"
-			"font"			"nü12"
+			"font"			"ch12"
 			"labelText"		"#MMenu_Stream_Loading"
 			"textAlignment"	"west"
 			"xpos"			"90"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"nüBold10"
+		"font"			"chBold10"
 		"labelText"		"%display_name%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -96,14 +96,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 
 	"DisplayNameLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabelShadow"
-		"font"			"nüBoldBlur10"
+		"font"			"chBoldBlur10"
 		"labelText"		"%display_name%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"labelText"		"%text_description%"
 		"textAlignment"	"west"
 		"xpos"			"0"
@@ -134,14 +134,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}
 
 	"ViewerCountIcon"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountIcon"
-		"font"			"nüBold12"
+		"font"			"chBold12"
 		"labelText"		"•"
 		"textAlignment"	"west"
 		"xpos"			"0"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"nü8"
+		"font"			"ch8"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"0"
@@ -172,7 +172,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 	}
 	
 	"Stream_URLButton"
@@ -206,7 +206,7 @@
 		"armedBgColor_override"	"15 15 15 215"
 
 		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor"	"nüWhite"
+		"image_armedcolor"	"chWhite"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

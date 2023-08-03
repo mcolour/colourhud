@@ -441,8 +441,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüMedium12"
-				"fgcolor_override"	"nüWhite"
+				"font"			"chMedium12"
+				"fgcolor_override"	"chWhite"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -497,8 +497,8 @@
 				"armedFgColor_override"   	"Blank"
 				"depressedFgColor_override" "Blank"
 
-				"image_drawcolor"	"nüOffWhite"
-				"image_armedcolor"	"nüWhite"
+				"image_drawcolor"	"chOffWhite"
+				"image_armedcolor"	"chWhite"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -548,8 +548,8 @@
 				"armedFgColor_override"   	"Blank"
 				"depressedFgColor_override" "Blank"
 
-				"image_drawcolor"	"nüWhite"
-				"image_armedcolor"	"nüWhite"
+				"image_drawcolor"	"chWhite"
+				"image_armedcolor"	"chWhite"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -704,7 +704,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "nüWhite"
+			"defaultFgColor_override" "chWhite"
 			"armedFgColor_override"   "15 15 15 165"
 			"depressedFgColor_override" "15 15 15 215"
 			"defaultBgColor_override" 	"25 25 25 255"
@@ -754,7 +754,7 @@
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
 
-			"defaultFgColor_override" "nüWhite"
+			"defaultFgColor_override" "chWhite"
 			"armedFgColor_override"   "15 15 15 165"
 			"depressedFgColor_override" "15 15 15 215"
 			"defaultBgColor_override" 	"25 25 25 255"
@@ -920,7 +920,7 @@
 			"pin_corner_to_sibling" "PIN_TOPRIGHT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
 			
-			"defaultFgColor_override" "nüWhite"
+			"defaultFgColor_override" "chWhite"
 			"armedFgColor_override"   "15 15 15 165"
 			"depressedFgColor_override" "15 15 15 215"
 			"defaultBgColor_override" 	"25 25 25 255"

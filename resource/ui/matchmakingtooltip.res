@@ -46,7 +46,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"nüWhite"
+			"fgcolor_override"	"chWhite"
 			"auto_wide_tocontents" "1"
 			"auto_tall_tocontents"	"1"
 			"wrap"	"1"

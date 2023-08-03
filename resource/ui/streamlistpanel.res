@@ -15,7 +15,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"nüBold16"
+			"font"			"chBold16"
 			"textAlignment"	"east"
 			"labelText"		"Live on"
 			"xpos"			"168"
@@ -28,14 +28,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType" "0"
-			"fgcolor_override"	"nüWhite"
+			"fgcolor_override"	"chWhite"
 		}
 		
 		"HeaderLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabelShadow"
-			"font"			"nüBoldBlur16"
+			"font"			"chBoldBlur16"
 			"textAlignment"	"east"
 			"labelText"		"Live on"
 			"xpos"			"168"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold14"
+		"font"			"chBold14"
 		"labelText"		"#MMenu_Stream_Title"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -226,8 +226,8 @@
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"nüWhite"
-		"image_armedcolor"	"nüWhite"
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

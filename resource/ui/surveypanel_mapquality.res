@@ -24,7 +24,7 @@
 				"enabled"		"1"
 				"wrap"			"0"
 				"centerwrap"	"1"
-				"fgcolor_override" "nüWhite"
+				"fgcolor_override" "chWhite"
 				"proportionaltoparent"	"1"
 			}
 			"MapLabel"

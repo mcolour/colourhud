@@ -215,7 +215,7 @@
 			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"font"			"nüBold10"
+			"font"			"chBold10"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"west"
 			"labelText"		"%name%"
@@ -227,9 +227,9 @@
 			}
 			"fonts"
 			{
-				"0"		"nüBold10"
-				"1"		"nüBold10"
-				"2"		"nüBold10"
+				"0"		"chBold10"
+				"1"		"chBold10"
+				"2"		"chBold10"
 			}
 		}
 
@@ -255,16 +255,16 @@
 				"xpos"	"67"
 				"ypos"	"4"
 				"wide"	"195"
-				"font"	"nüBold12"
+				"font"	"chBold12"
 				"fgcolor_override"	"255 255 255 255"
 				"textAlignment"	"north-west"
 			}
 
 			"fonts"
 			{
-				"0"		"nüBold8"
-				"1"		"nüBold8"
-				"2"		"nüBold8"
+				"0"		"chBold8"
+				"1"		"chBold8"
+				"2"		"chBold8"
 			}
 
 			"colors"
@@ -293,9 +293,9 @@
 
 			"fonts"
 			{
-				"0"		"nüBold7"
-				"1"		"nüBold7"
-				"2"		"nüBold7"
+				"0"		"chBold7"
+				"1"		"chBold7"
+				"2"		"chBold7"
 			}
 
 			"colors"
@@ -308,7 +308,7 @@
 			{
 				"xpos"	"167"
 				"ypos"	"4"
-				"font"	"nüBold16"
+				"font"	"chBold16"
 			}
 		}
 

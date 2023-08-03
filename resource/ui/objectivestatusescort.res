@@ -210,7 +210,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"fillcolor"		"nüBLUSolid"
+			"fillcolor"		"chBLUSolid"
 			"scaleImage"	"1"
 			
 			"proportionaltoparent"	"1"
@@ -218,7 +218,7 @@
 			"if_multiple_trains_red"
 			{
 				
-				"fillcolor"		"nüREDSolid"
+				"fillcolor"		"chREDSolid"
 			}
 			
 			"if_multiple_trains_top"
@@ -238,7 +238,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"	
-			"font"			"nüBold12"		
+			"font"			"chBold12"		
 			"xpos"			"296"
 			"ypos"			"-1"			
 			"zpos"			"2"
@@ -275,7 +275,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"nüBold12"
+			"font"			"chBold12"
 			"xpos"			"300"
 			"ypos"			"-1"
 			"zpos"			"4"
@@ -306,13 +306,13 @@
 			{
 				"ypos"			"rs1-39"
 				"tall"			"9"
-				"font"			"nüBold10"
+				"font"			"chBold10"
 			}
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"rs1-25"
 				"tall"			"9"
-				"font"			"nüBold10"
+				"font"			"chBold10"
 				"textinsety"	"-2"
 			}	
 		}

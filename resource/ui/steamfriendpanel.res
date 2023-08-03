@@ -51,7 +51,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"nüMedium10"
+		"font"					"chMedium10"
 		"mouseinputenabled"		"0"
 	}
 

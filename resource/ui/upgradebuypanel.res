@@ -26,7 +26,7 @@
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"	
 			
-			"defaultFgColor_override"	"nüWhite"
+			"defaultFgColor_override"	"chWhite"
 			"defaultBgColor_override"	"45 45 45 255"
 			"armedFgColor_override"		"0 255 145 255"
 			"armedBgColor_override"		"45 45 45 255"

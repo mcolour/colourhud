@@ -41,8 +41,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüWhite"
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -84,8 +84,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüWhite"
+			"image_drawcolor"	"chWhite"
+			"image_armedcolor"	"chWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -114,7 +114,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"west"
-			"font"			"nüBold18"
+			"font"			"chBold18"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -131,8 +131,8 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"nüMedium12"
-			"fgcolor_override"	"nüWhite"
+			"font"			"chMedium12"
+			"fgcolor_override"	"chWhite"
 		
 			"mouseinputenabled"	"1"
 		}

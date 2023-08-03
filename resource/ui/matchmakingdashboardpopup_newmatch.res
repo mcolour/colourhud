@@ -65,7 +65,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"nüWhite"
+				"fgcolor_override"	"chWhite"
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
 				"proportionaltoparent"	"1"
@@ -73,9 +73,9 @@
 
 				"fonts"
 				{
-					"0"		"nüMedium10"
-					"1"		"nüMedium10"
-					"2"		"nüMedium10"
+					"0"		"chMedium10"
+					"1"		"chMedium10"
+					"2"		"chMedium10"
 				}
 			}
 
@@ -90,8 +90,8 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüMedium10"
-				"fgcolor_override"	"nüWhite"
+				"font"			"chMedium10"
+				"fgcolor_override"	"chWhite"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
 				"proportionaltoparent"	"1"
@@ -113,7 +113,7 @@
 
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"nüBold10"
+				"font"			"chBold10"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -153,7 +153,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"nüBold10"
+				"font"			"chBold10"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -164,8 +164,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 
-				"armedBgColor_override"		"nüBase"
-				"defaultBgColor_override"	"nüLightBase"
+				"armedBgColor_override"		"chBase"
+				"defaultBgColor_override"	"chLightBase"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -186,7 +186,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"nüBold10"
+				"font"			"chBold10"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -197,8 +197,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 
-				"armedBgColor_override"		"nüBase"
-				"defaultBgColor_override"	"nüLightBase"
+				"armedBgColor_override"		"chBase"
+				"defaultBgColor_override"	"chLightBase"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -215,8 +215,8 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"nüBold12"
-				"fgcolor_override"	"nüWhite"
+				"font"			"chBold12"
+				"fgcolor_override"	"chWhite"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"	"1"

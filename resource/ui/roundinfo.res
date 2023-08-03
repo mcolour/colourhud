@@ -87,15 +87,15 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"fgcolor"		"blank"
 		
-		"defaultFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
 		"armedFgColor_override"   "15 15 15 215"
 		"depressedFgColor_override" "15 15 15 215"
 		"defaultBgColor_override" "35 35 35 255"
-		"armedBgColor_override"   "nüLightBase"
-		"depressedBgColor_override" "nüLightBase"
+		"armedBgColor_override"   "chLightBase"
+		"depressedBgColor_override" "chLightBase"
 	}
 	
 	"MapImage"

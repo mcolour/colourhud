@@ -205,7 +205,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SearchActiveTitle"
-			"font"			"nüBold28"
+			"font"			"chBold28"
 			"labelText"		"#TF_Matchmaking_Searching"
 			"xpos"		"30"
 			"ypos"		"20"
@@ -221,7 +221,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"NearbyColumnHead"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"labelText"		"#TF_Matchmaking_Nearby"
 			"xpos"		"190"
 			"ypos"		"50"
@@ -237,7 +237,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"WorldwideColumnHead"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"labelText"		"#TF_Matchmaking_Worldwide"
 			"xpos"		"280"
 			"ypos"		"50"
@@ -253,7 +253,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"PlayersInGameLabel"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"labelText"		"#TF_Matchmaking_ActivePlayers"
 			"xpos"		"30"
 			"ypos"		"70"
@@ -365,7 +365,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"PlayersSearchingLabel"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"labelText"		"#TF_Matchmaking_SearchingPlayers"
 			"xpos"		"30"
 			"ypos"		"140"
@@ -477,7 +477,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"EmptyGameserversLabel"
-			"font"			"nüMedium12"
+			"font"			"chMedium12"
 			"labelText"		"#TF_Matchmaking_EmptyGameservers"
 			"xpos"		"30"
 			"ypos"		"210"

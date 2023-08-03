@@ -41,7 +41,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"nüBlackTransparent"
+		"bgcolor_override"	"chBlackTransparent"
 
 		"pin_to_sibling"	"MainBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -59,7 +59,7 @@
 		"tall"			"265"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"nüBlackTransparent"
+		"bgcolor_override"	"chBlackTransparent"
 	}
 
 	"mainmem"
@@ -93,7 +93,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"center"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"fgcolor"		"150 255 200 255"
 
 		"pin_to_sibling"	"HeaderBG"
@@ -114,7 +114,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"center"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"fgcolor"		"150 255 200 255"
 
 		"pin_to_sibling"	"HeaderBG"
@@ -152,7 +152,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"nü12"
+		"font"			"ch12"
 		"xpos"			"-20"
 		"ypos"			"10"
 		"zpos"			"1"
@@ -202,18 +202,18 @@
 		"labelText"		"Continue (&E)"
 		"textAlignment"	"center"
 		"command"		"okay"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 
 		"pin_to_sibling"	"MainBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 		
-		"defaultFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
 		"armedFgColor_override"   "15 15 15 215"
 		"depressedFgColor_override" "15 15 15 215"
 		"defaultBgColor_override" "35 35 35 255"
-		"armedBgColor_override"   "nüLightBase"
-		"depressedBgColor_override" "nüLightBase"
+		"armedBgColor_override"   "chLightBase"
+		"depressedBgColor_override" "chLightBase"
 	}
 	
 	"MenuBG"

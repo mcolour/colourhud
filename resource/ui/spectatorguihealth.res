@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"nüBold16"
+		"font"			"chBold16"
 		"fgcolor"		"Health"
 		"labeltext"		"%Health%"
 	}
@@ -83,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"nüBoldBlur16"
+		"font"			"chBoldBlur16"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 

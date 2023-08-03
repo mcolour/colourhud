@@ -94,9 +94,9 @@
 		{
 			"textinsetx"		"0"
 			"textinsety"		"0"
-			"font"				"nüBold16"
-			"selectedcolor"		"nüWhite"
-			"unselectedcolor"	"nüOffWhite"	
+			"font"				"chBold16"
+			"selectedcolor"		"chWhite"
+			"unselectedcolor"	"chOffWhite"	
 			"defaultBgColor_override"	"Blank"
 			"paintbackground"	"0"
 			"activeborder_override"	"NoBorder"
@@ -137,8 +137,8 @@
 		"armedFgColor_override"   	"Blank"
 		"depressedFgColor_override" "Blank"
 		"defaultBgColor_override" 	"Blank"
-		"armedBgColor_override"   	"nüLightBase"
-		"depressedBgColor_override" "nüLightBase"
+		"armedBgColor_override"   	"chLightBase"
+		"depressedBgColor_override" "chLightBase"
 		
 		"SubImage"
 		{
@@ -184,7 +184,7 @@
 		"defaultFgColor_override" 	"Blank"
 		"armedFgColor_override"   	"Blank"
 		"depressedFgColor_override" "Blank"
-		"defaultBgColor_override" 	"nüBase"
+		"defaultBgColor_override" 	"chBase"
 		"armedBgColor_override"   	"0 122 136 255"
 		"depressedBgColor_override" "0 122 136 255"
 		

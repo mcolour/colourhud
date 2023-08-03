@@ -26,8 +26,8 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
-		"font"			"nüBold30"
-		"fgcolor_override"	"nüWhite"
+		"font"			"chBold30"
+		"fgcolor_override"	"chWhite"
 		
 		"mouseinputenabled"	"0"
 	}

@@ -44,8 +44,8 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"center"
-		"font"			"nüBold30"
-		"fgcolor_override"	"nüWhite"
+		"font"			"chBold30"
+		"fgcolor_override"	"chWhite"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -62,9 +62,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_InviteMode"
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -80,16 +80,16 @@
 		"wide"			"200"
 		"tall"			"15"
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
 		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"nüWhite"
-		"disabledFgColor_override" "nüOffWhite"
+		"fgcolor_override"	"chWhite"
+		"disabledFgColor_override" "chOffWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 
@@ -105,7 +105,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
@@ -126,7 +126,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"smallcheckimage"	"1"
 		"enabled"	"0"
 
@@ -146,12 +146,12 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_PartySameTeam"
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
-		"fgcolor_override"		"nüOffWhite"
+		"fgcolor_override"		"chOffWhite"
 	}
 
 	"CustomPingCheckButton"
@@ -190,7 +190,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
@@ -209,9 +209,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"	"north-west"
-		"font"			"nü10"
+		"font"			"ch10"
 		"wrap"		"1"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -229,7 +229,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		
 		"mouseinputenabled"	"0"
 	}

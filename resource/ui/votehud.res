@@ -1,5 +1,5 @@
-#base "../../customization/streamermode.res"
-#base "../scheme/vh.res"
+
+#base "../../../../cfg/colourhud_settings.txt"
 
 "Resource/UI/VoteHud.res"
 {	
@@ -552,12 +552,12 @@
 		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"nüOffWhite"
+		"header_fgcolor"	"chOffWhite"
 
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"nüWhite"
-		"issue_fgcolor_disabled"	"nüOffWhite"
+		"issue_fgcolor"		"chWhite"
+		"issue_fgcolor_disabled"	"chOffWhite"
 		
 		"parameter_width"	"200"
 
@@ -571,13 +571,13 @@
 			"tall"			"20"
 			"visible"		"1"
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"nüBase"
+			"bgcolor_override"	"chBase"
 
 			"TitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"nüBold16"
+				"font"			"chBold16"
 				"labelText"		"#TF_Vote_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -590,7 +590,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"0"
-				"fgcolor_override"	"nüWhite"
+				"fgcolor_override"	"chWhite"
 				"bgcolor_override"	"Blank"
 			}
 			
@@ -598,7 +598,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabelShadow"
-				"font"			"nüBoldBlur16"
+				"font"			"chBoldBlur16"
 				"labelText"		"#TF_Vote_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"
