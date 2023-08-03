@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GameModeLabel"
-		"font"			"nüMedium18"
+		"font"			"chMedium18"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -98,7 +98,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"CurPageLabel"
@@ -118,7 +118,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"DescLabel"
@@ -137,7 +137,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"SelectCurrentGameModeButton"
@@ -167,9 +167,9 @@
 		"border_armed"		"ButtonBorder"
 		"paintbackgroundtype"	"2"
 		
-		"defaultFgColor_override" "nüWhite"
-		"armedFgColor_override" "nüWhite"
-		"depressedFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
+		"armedFgColor_override" "chWhite"
+		"depressedFgColor_override" "chWhite"
 	}
 	
 }

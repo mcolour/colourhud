@@ -72,14 +72,14 @@
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"nüBase"
+		"bgcolor_override"	"chBase"
 	
 	
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"nüBold16"
+			"font"			"chBold16"
 			"labelText"		"#TF_TradeStartDialog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -91,14 +91,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "nüWhite"
+			"fgcolor_override" "chWhite"
 		}
 
 		"TitleLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabelShadow"
-			"font"			"nüBoldBlur16"
+			"font"			"chBoldBlur16"
 			"labelText"		"#TF_TradeStartDialog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -394,7 +394,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "nüOffWhite"
+			"fgcolor_override" "chOffWhite"
 		}	
 		
 		"URLFailLabel"

@@ -42,7 +42,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"nüBase"
+			"fgcolor_override"	"chBase"
 		}
 		
 		"UpButton"
@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"nüGrey"
+		"bgcolor_override"	"chGrey"
 		"border"		"NoBorder"
 		
 		// Background for the player model & item preview panels
@@ -109,7 +109,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"bgcolor_override"	"nüDarkGrey"
+			"bgcolor_override"	"chDarkGrey"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -165,7 +165,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}		
 				
 		// Scrollable editable panel for right-hand side of preview, for all text details
@@ -216,7 +216,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"RestrictionsLabel"
@@ -267,7 +267,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"UsedByTextLabel"
@@ -284,7 +284,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}		
 				
 				"SlotLabel"
@@ -301,7 +301,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"SlotTextLabel"
@@ -318,7 +318,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}		
 				
 				"PriceLabel"
@@ -335,7 +335,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"labeltext"		"%price%"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}
 				
 				"ArmoryTextLabel"
@@ -405,7 +405,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"TradableTextLabel"
@@ -422,7 +422,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}		
 				
 				"GiftableLabel"
@@ -439,7 +439,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"GiftableTextLabel"
@@ -456,7 +456,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}		
 				
 				"NameableLabel"
@@ -473,7 +473,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"NameableTextLabel"
@@ -490,7 +490,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}		
 
 				"CraftableLabel"
@@ -507,7 +507,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüOffWhite"
+					"fgcolor"		"chOffWhite"
 				}		
 				
 				"CraftableTextLabel"
@@ -524,7 +524,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"nüWhite"
+					"fgcolor"		"chWhite"
 				}
 			}
 		}
@@ -1208,8 +1208,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"nüWhite"
-		"image_armedcolor"		"nüWhite"
+		"image_drawcolor"		"chWhite"
+		"image_armedcolor"		"chWhite"
 		
 		"SubImage"
 		{
@@ -1253,8 +1253,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"nüWhite"
-		"image_armedcolor"		"nüWhite"
+		"image_drawcolor"		"chWhite"
+		"image_armedcolor"		"chWhite"
 		
 		"SubImage"
 		{
@@ -1298,8 +1298,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"nüWhite"
-		"image_armedcolor"	"nüWhite"
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
 		
 		"SubImage"
 		{
@@ -1505,8 +1505,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"nüWhite"
-		"image_armedcolor"	"nüWhite"
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
 		
 		"SubImage"
 		{

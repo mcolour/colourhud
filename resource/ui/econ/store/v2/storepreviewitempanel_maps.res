@@ -45,7 +45,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"nüGrey"
+		"bgcolor_override"	"chGrey"
 		"border"		"NoBorder"
 		
 		// Background for the player model & item preview panels
@@ -60,7 +60,7 @@
 			"tall"			"209"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"nüDarkGrey"
+			"bgcolor_override"		"chDarkGrey"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -243,7 +243,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"fgcolor"		"nüWhite"
+		"fgcolor"		"chWhite"
 	}		
 	
 	"ClassUsageImage1"
@@ -600,8 +600,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"nüWhite"
-		"image_armedcolor"	"nüWhite"
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
 		
 		"SubImage"
 		{

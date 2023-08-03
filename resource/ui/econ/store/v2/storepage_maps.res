@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold20"
+		"font"			"chBold20"
 		"labelText"		"Support Community Map Makers and Get a Hat!"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"nü11"
+		"font"			"ch11"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-292"
@@ -87,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüOffWhite"
+		"fgcolor"		"chOffWhite"
 	}
 	
 	"LearnMoreButton"

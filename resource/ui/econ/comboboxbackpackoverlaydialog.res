@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüMedium12"
+		"font"			"chMedium12"
 		"labelText"		"Select Style"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 
 	"preview_model"
@@ -87,12 +87,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"disabledFgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 		

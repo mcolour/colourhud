@@ -11,8 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüWhite"
-		"fgcolor_override"		"nüWhite"
+		"fgcolor"		"chWhite"
+		"fgcolor_override"		"chWhite"
 	}
 
 	"AvatarBGPanel"
@@ -26,7 +26,7 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"nüBlack"
+		"bgcolor_override"	"chBlack"
 	}
 	"AvatarImage"
 	{
@@ -48,8 +48,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"nüWhite"
-		"fgcolor_override" "nüWhite"
+		"fgcolor"		"chWhite"
+		"fgcolor_override" "chWhite"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"
@@ -69,8 +69,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"nüWhite"
-		"fgcolor_override" "nüWhite"
+		"fgcolor"		"chWhite"
+		"fgcolor_override" "chWhite"
 		"if_high_priority"
 		{
 			"fgcolor"			"BrightYellow"

@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"nüBold30"
+			"font"			"chBold30"
 			"labelText"		"%title%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -66,14 +66,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 
 		"TitleLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabelShadow"
-			"font"			"nüBoldBlur30"
+			"font"			"chBoldBlur30"
 			"labelText"		"%title%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -92,7 +92,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubTitleLabel"
-			"font"			"nüMedium16"
+			"font"			"chMedium16"
 			"labelText"		"%subtitle%"
 			"textAlignment"	"center"
 			"xpos"			"0"

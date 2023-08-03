@@ -69,8 +69,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold12"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold12"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -90,7 +90,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"nüBoldBlur12"
+		"font"			"chBoldBlur12"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -111,8 +111,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"nü8"
-		"fgcolor"		"nüWhite"
+		"font"			"ch8"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"2"
@@ -355,17 +355,21 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nüBold24"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold24"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
-		"ypos"			"31"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"55"
+		"wide"			"45"
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"center"
+		
+		"pin_to_sibling"	"class_item_red_2"
+		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	"NumberBg2"
 	{
@@ -382,17 +386,21 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nüBold24"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold24"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
-		"ypos"			"79"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"55"
+		"wide"			"45"
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"center"
+		
+		"pin_to_sibling"	"class_item_red_5"
+		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	"NumberBg3"
 	{
@@ -409,16 +417,20 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nüBold24"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold24"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
-		"ypos"			"127"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"55"
+		"wide"			"45"
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"center"
+		
+		"pin_to_sibling"	"class_item_red_8"
+		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 }

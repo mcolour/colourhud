@@ -4,8 +4,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"nü12"
-		"fgcolor"		"nüWhite"
+		"font"			"ch12"
+		"fgcolor"		"chWhite"
 		"xpos"			"65"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -57,8 +57,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"nüBold20"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold20"
+		"fgcolor"		"chWhite"
 		"xpos"			"25"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -73,7 +73,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"nüBoldBlur20"
+		"font"			"chBoldBlur20"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"0"
 		"ypos"			"-1"
@@ -115,8 +115,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"nü12"
-		"fgcolor"		"nüWhite"
+		"font"			"ch12"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"

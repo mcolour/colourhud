@@ -146,7 +146,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "nüWhite"
+				"fgcolor_override" "chWhite"
 			}
 			
 			"PreviewItemLabel"
@@ -233,7 +233,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"nüBold30"
+			"font"			"chBold30"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
@@ -245,14 +245,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 
 		"CartItemsLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabelShadow"
-			"font"			"nüBoldBlur30"
+			"font"			"chBoldBlur30"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -290,7 +290,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"nüMedium18"
+			"font"			"chMedium18"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
@@ -314,7 +314,7 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"nüBase"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"chBase"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"35 35 35 255"
 			"autohide_buttons" "1"
 			
@@ -389,7 +389,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"EstimatedTotalLabel"
-						"font"			"nüMedium14"
+						"font"			"chMedium14"
 						"labelText"		"#Store_EstimatedTotal"
 						"textAlignment"	"south-east"
 						"xpos"			"0"
@@ -406,7 +406,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"WashingtonStateSalesTaxLabel"
-						"font"			"nü10"
+						"font"			"ch10"
 						"labelText"		"#Store_WAStateSalesTax"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -418,13 +418,13 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "nüWhite"
+						"fgcolor_override" "chWhite"
 					}
 					"TotalSubtextLabelB"
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"TotalSubtextLabelB"
-						"font"			"nü10"
+						"font"			"ch10"
 						"labelText"		"#Store_TotalSubtextB"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -436,14 +436,14 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "nüWhite"
+						"fgcolor_override" "chWhite"
 					}
 					
 					"TotalPriceLabel"
 					{
 						"ControlName"	"Label"
 						"fieldname"		"TotalPriceLabel"
-						"font"			"nüBold28"
+						"font"			"chBold28"
 						"textAlignment"	"east"
 						"xpos"			"475"
 						"ypos"			"5"
@@ -455,7 +455,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "nüWhite"
+						"fgcolor_override" "chWhite"
 					}
 					
 				}
@@ -485,7 +485,7 @@
 		"defaultFgColor_override" 	"Blank"
 		"armedFgColor_override"   	"Blank"
 		"depressedFgColor_override" "Blank"
-		"defaultBgColor_override" 	"nüBase"
+		"defaultBgColor_override" 	"chBase"
 		"armedBgColor_override"   	"0 122 136 255"
 		"depressedBgColor_override" "0 122 136 255"
 

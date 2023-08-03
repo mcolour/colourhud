@@ -35,9 +35,9 @@
 		"border_disabled"	"ButtonBorder"
 		"paintbackgroundtype"	"2"
 		
-		"defaultFgColor_override" "nüWhite"
-		"armedFgColor_override" "nüWhite"
-		"depressedFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
+		"armedFgColor_override" "chWhite"
+		"depressedFgColor_override" "chWhite"
 	}
 	
 	"ProgressLabel"

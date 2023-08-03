@@ -129,7 +129,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"nüBold16"
+			"font"			"chBold16"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -143,14 +143,14 @@
 			"enabled"		"1"
 			"wrap"			"0"
 			"proportionaltoparent"	"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}
 
 		"QuestLogTitleShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitleShadow"
-			"font"			"nüBoldBlur16"
+			"font"			"chBoldBlur16"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"

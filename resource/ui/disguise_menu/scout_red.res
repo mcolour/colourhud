@@ -4,14 +4,14 @@
 {
 	"ItemNameLabel"
 	{	
-		"fgcolor"		"nüREDSolid"
+		"fgcolor"		"chREDSolid"
 	}
 	"NewNumberLabel"
 	{	
-		"fgcolor"		"nüREDSolid"
+		"fgcolor"		"chREDSolid"
 	}
 	"NumberLabel"
 	{	
-		"fgcolor"		"nüREDSolid"
+		"fgcolor"		"chREDSolid"
 	}
 }

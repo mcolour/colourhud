@@ -64,7 +64,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"nüWhite"
+			"fgcolor_override"	"chWhite"
 		}
 		
 		"DescLabel"
@@ -83,7 +83,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override"	"nüOffWhite"
+			"fgcolor_override"	"chOffWhite"
 		}
 		
 		"WeaponSetLabel"
@@ -101,7 +101,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "nüWhite"
+			"fgcolor_override" "chWhite"
 		}
 		
 		"WeaponImage0"

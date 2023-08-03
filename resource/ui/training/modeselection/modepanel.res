@@ -15,7 +15,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ModeNameLabel"
-			"font"			"nüMedium14"
+			"font"			"chMedium14"
 			"labelText"		"%modename%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -28,7 +28,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"fgcolor_override"	"nüWhite"
+			"fgcolor_override"	"chWhite"
 		}
 
 		"DescLabel"
@@ -47,7 +47,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"nüWhite"
+			"fgcolor_override"	"chWhite"
 			"auto_wide_tocontents" "0"
 			"wrap"				   "1"
 			"centerwrap"		   "1"
@@ -112,8 +112,8 @@
 		"border_armed"		"ButtonBorder"
 		"paintbackgroundtype"	"2"
 		
-		"defaultFgColor_override" "nüWhite"
-		"armedFgColor_override" "nüWhite"
-		"depressedFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
+		"armedFgColor_override" "chWhite"
+		"depressedFgColor_override" "chWhite"
 	}
 }

@@ -99,7 +99,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"CurPageLabel"
@@ -120,7 +120,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"NoBorder"
 	}
@@ -152,9 +152,9 @@
 		"border_armed"		"ButtonBorder"
 		"paintbackgroundtype"	"2"
 		
-		"defaultFgColor_override" "nüWhite"
-		"armedFgColor_override" "nüWhite"
-		"depressedFgColor_override" "nüWhite"
+		"defaultFgColor_override" "chWhite"
+		"armedFgColor_override" "chWhite"
+		"depressedFgColor_override" "chWhite"
 	}
 	
 	"DifficultyLabel"
@@ -173,7 +173,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"DifficultyComboBox"
@@ -198,14 +198,14 @@
 		"unicode"			"0"
 		"textinsetx"		"50"
 		
-		"fgcolor_override"	"nüWhite"
-		"bgcolor_override"	"nüBlack"
+		"fgcolor_override"	"chWhite"
+		"bgcolor_override"	"chBlack"
 		
-		"disabledFgColor_override" "nüWhite"
-		"disabledBgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
+		"disabledBgColor_override" "chWhite"
 		"selectionColor_override" "Blank"
-		"selectionTextColor_override" "nüWhite"
-		"defaultSelectionBG2Color_override" "nüBlack"
+		"selectionTextColor_override" "chWhite"
+		"defaultSelectionBG2Color_override" "chBlack"
 	}
 	
 	"PlayersLabel"
@@ -224,7 +224,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"NumPlayersTextEntry"
@@ -250,8 +250,8 @@
 		"NumericInputOnly"	"1"
 		"selectallonfirstfocus"	"1"
 		
-		"bgcolor_override"	"nüBlack"
-		"fgcolor_override"	"nüWhite"
+		"bgcolor_override"	"chBlack"
+		"fgcolor_override"	"chWhite"
 	}
 	
 	"SuggestedPlayerCountLabel"
@@ -271,6 +271,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"nüOffWhite"
+		"fgcolor_override"	"chOffWhite"
 	}
 }

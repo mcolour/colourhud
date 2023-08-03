@@ -202,10 +202,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
 		"paintbackgroundtype" "2"
-		"font"		"nü11"
+		"font"		"ch11"
 
 		"pin_to_sibling"	"NameFilterAnchor"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -235,12 +235,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"disabledFgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 	
@@ -267,12 +267,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"disabledFgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 	
@@ -497,10 +497,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"nüOffWhite"
-			"defaultFgColor_override" "nüOffWhite"
-			"armedFgColor_override" "nüOffWhite"
-			"depressedFgColor_override" "nüOffWhite"
+			"fgcolor"			"chOffWhite"
+			"defaultFgColor_override" "chOffWhite"
+			"armedFgColor_override" "chOffWhite"
+			"depressedFgColor_override" "chOffWhite"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

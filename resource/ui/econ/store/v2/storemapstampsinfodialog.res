@@ -46,7 +46,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"nüGrey"
+		"bgcolor_override"	"chGrey"
 		"border"		"NoBorder"
 		
 		// Background for the player model & item preview panels
@@ -61,7 +61,7 @@
 			"tall"			"209"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"nüDarkGrey"
+			"bgcolor_override"		"chDarkGrey"
 		}
 	
 	
@@ -118,7 +118,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"nüWhite"
+			"fgcolor"		"chWhite"
 		}	
 		
 		"PromotionImage_Hat"
@@ -163,8 +163,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"nüWhite"
-		"image_armedcolor"	"nüWhite"
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
 		
 		"SubImage"
 		{

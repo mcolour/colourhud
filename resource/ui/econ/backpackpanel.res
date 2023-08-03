@@ -73,7 +73,7 @@
 				"paintborder"	"0"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
-				"font"				"nü12"
+				"font"				"ch12"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -202,7 +202,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"nüBold30"
+		"font"			"chBold30"
 		"labelText"		"Backpack"
 		"textAlignment"	"center"
 		"xpos"			"c-290"
@@ -214,13 +214,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 	}
 	"ClassLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabelShadow"
-		"font"			"nüBoldBlur30"
+		"font"			"chBoldBlur30"
 		"labelText"		"Backpack"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -261,7 +261,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"nü11"
+		"Font"				"ch11"
 		"wrap"				"0"
 		"xpos"				"c137"
 		"ypos"				"89"
@@ -281,12 +281,12 @@
 		"border_override"	""
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"disabledFgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -295,7 +295,7 @@
 //		"ControlName"	"CheckButton"
 //		"fieldName"		"ShowBaseItemsCheckbox"
 //		"labelText"		"#ShowBaseItemsCheckBox"
-//		"Font"			"nü10"
+//		"Font"			"ch10"
 //		"textAlignment"	"east"
 //		"xpos"			"c-292"
 //		"ypos"			"75"
@@ -357,12 +357,12 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"selectionColor_override" "nüWhite"
-		"selectionTextColor_override" "nüBlack"
+		"selectionColor_override" "chWhite"
+		"selectionTextColor_override" "chBlack"
 		"paintbackgroundtype" "2"
-		"font"		"nü11"
+		"font"		"ch11"
 
 		"pin_to_sibling"	"NameFilterAnchor"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
@@ -373,7 +373,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"Font"				"nü11"
+		"Font"				"ch11"
 		"xpos"				"c-25"
 		"ypos"				"89"
 		"zpos"				"1"
@@ -392,12 +392,12 @@
 		"border_override"	""
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"nüWhite"
+		"fgcolor_override"	"chWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"disabledFgColor_override" "nüWhite"
+		"disabledFgColor_override" "chWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "nüWhite"
+		"selectionTextColor_override" "chWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 
@@ -504,7 +504,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
+		"fgcolor_override" "chWhite"
 		
 		"pin_to_sibling"	"PrevPageButton"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

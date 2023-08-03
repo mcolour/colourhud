@@ -423,7 +423,7 @@
 		
 			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "nüOffWhite"
+			"disabledFgColor_override" "chOffWhite"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
 			"selectionTextColor_override" "235 226 202 255"
@@ -617,7 +617,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"nüMedium10"
+			"font"			"chMedium10"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		
@@ -627,8 +627,8 @@
 			"actionsignallevel" "2"
 			"RoundedCorners"	"0"
 
-			"defaultFgColor_override"	"nüWhite"
-			"armedFgColor_override"		"nüWhite"
+			"defaultFgColor_override"	"chWhite"
+			"armedFgColor_override"		"chWhite"
 
 			"border_default"	"NoBorder"
 

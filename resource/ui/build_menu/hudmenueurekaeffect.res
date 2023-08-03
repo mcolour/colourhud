@@ -97,8 +97,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"nüBold13"
-		"fgcolor"		"nüWhite"
+		"font"			"chBold13"
+		"fgcolor"		"chWhite"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -118,7 +118,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"nüBoldBlur13"
+		"font"			"chBoldBlur13"
 		"fgcolor"		"50 210 210 255"
 		"xpos"			"0"
 		"ypos"			"0"
