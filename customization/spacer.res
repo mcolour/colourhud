@@ -1,5 +1,6 @@
 // Credit to Pigby
 // Used to change the position of the health, ammo, ubercharge, and item meters.
+#base "../../../cfg/colourhud_settings.txt"
 
 "Customization/Spacer.res"
 {
@@ -7,9 +8,9 @@
 	{
 		"xpos"			"0"			// Don't change
 		"ypos"			"r40"		// Don't change
-		"wide"			"p1.08"		// Don't change
-		"ypos_minmode"	"c110"		// Vertical position of health, ammo, and ubercharge
-		"wide_minmode"	"400"		// Distance between health, ammo, and ubercharge
+		"wide"			"f0"		// Don't change
+		//"ypos_minmode"	"c110"	// Vertical position of health, ammo, and ubercharge
+		//"wide_minmode"	"550"	// Distance between health, ammo, and ubercharge
 		"tall"			"45"		// Vertical position of item meters
 	}
 

@@ -15,38 +15,38 @@
 
 	"PlayerStatusHealthValue"
 	{
-		"font"			"nüBold42"
+		"font"			"chBold42"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
-		"font"			"nüBoldBlur42"
+		"font"			"chBoldBlur42"
 	}
 
 // Ammo numbers
 
 	"AmmoInClip"
 	{
-		"font"			"nüBold42"
+		"font"			"chBold42"
 	}
 	"AmmoInClipShadow"
 	{
-		"font"			"nüBoldBlur42"
+		"font"			"chBoldBlur42"
 	}
 	"AmmoInReserve"
 	{
-		"font"			"nüMedium20"
+		"font"			"chMedium20"
 	}
 	"AmmoInReserveShadow"
 	{
-		"font"			"nüMediumBlur20"
+		"font"			"chMediumBlur20"
 	}
 	"AmmoNoClip"
 	{
-		"font"			"nüBold42"
+		"font"			"chBold42"
 	}
 	"AmmoNoClipShadow"
 	{
-		"font"			"nüBoldBlur42"
+		"font"			"chBoldBlur42"
 	}
 
 // Ubercharge numbers
@@ -54,10 +54,10 @@
 
 	"ChargeLabel"
 	{
-		"font"			"nüBold42"
+		"font"			"chBold42"
 	}
 	"ChargeLabelShadow"
 	{
-		"font"			"nüBoldBlur42"
+		"font"			"chBoldBlur42"
 	}
 }
