@@ -1,6 +1,6 @@
-#base "../customization/streamermode.res"
-#base "../resource/scheme/hl.res"
+
 #base "../customization/spacer.res"
+#base "../../../cfg/colourhud_settings.txt"
 #base "../customization/crosshair.res"
 
 "Resource/HudLayout.res"
@@ -16,6 +16,8 @@
 		"wide"	"f0"
 		"tall"	"f0"
 		"textAlignment"	"center"
+		"textinsety"	"1" [$WINDOWS]
+		"textinsety"	"-1" [$LINUX]
 	}
 	
 	"HudCrosshair"
@@ -476,10 +478,10 @@
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"nüBold11"
+		"TextFont"		"chBold11"
 		
-		"TeamBlue"		"nüBLUSolid"
-		"TeamRed"		"nüREDSolid"
+		"TeamBlue"		"chBLUSolid"
+		"TeamRed"		"chREDSolid"
 		
 		"IconColor"		"240 240 240 255"
 		"LocalPlayerColor"	"HUDBlack"
@@ -577,18 +579,16 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"xpos"		"c190"
+		"ypos"		"r75"
+		"wide"		"150"
+		"tall"		"75"
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"0"
 
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"GrowTime"		"0"
+		"ItemHiddenTime"	"0"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"	"0.3"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"		"0"
 	}
@@ -1242,8 +1242,8 @@
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c25"
+		"xpos"			"r216"
+		"ypos"			"c-80"
 		"wide"			"216"
 		"tall"			"160"
 	}
