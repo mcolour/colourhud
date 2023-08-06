@@ -66,6 +66,6 @@
 	{
 		"label"	""
 		"command"	"url https://github.com/mcolour/colourhud"
-		"tooltip"	"ColourHUD v2.1.1\nMade by MrColour\nClick here to open up the Github page"
+		"tooltip"	"ColourHUD v2.1.2\nMade by MrColour\nClick here to open up the Github page"
 	}
 }
