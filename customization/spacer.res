@@ -1,6 +1,8 @@
 // Credit to Pigby
 // Used to change the position of the health, ammo, ubercharge, and item meters.
+
 #base "../../../cfg/colourhud_settings.txt"
+#base "../cfg/default_settings.res"
 
 "Customization/Spacer.res"
 {
