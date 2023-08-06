@@ -1,5 +1,6 @@
 #base "../../customization/streamermode.res"
 #base "../../../../cfg/colourhud_settings.txt"
+#base "../../cfg/default_settings.res"
 
 "Resource/UI/BaseChat.res"
 {

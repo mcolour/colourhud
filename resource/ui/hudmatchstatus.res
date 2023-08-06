@@ -1,4 +1,5 @@
 #base "../../../../cfg/colourhud_settings.txt"
+#base "../../cfg/default_settings.res"
 
 "Resource/UI/HudMatchStatus.res"
 {
