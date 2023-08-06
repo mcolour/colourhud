@@ -1,6 +1,7 @@
 
 #base "../customization/spacer.res"
 #base "../../../cfg/colourhud_settings.txt"
+#base "../cfg/default_settings.res"
 #base "../customization/crosshair.res"
 
 "Resource/HudLayout.res"
