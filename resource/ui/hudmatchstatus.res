@@ -316,10 +316,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-21"
+		"xpos"				"c-25"
 		"ypos"				"1"
 		"zpos"				"0"
-		"wide"				"42"
+		"wide"				"80"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -354,7 +354,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"chBold14"
 			"fgcolor"		"255 255 255 255"
-			"xpos"			"0"
+			"xpos"			"5"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"42"
@@ -369,6 +369,7 @@
 			
 			if_match
 			{
+				"xpos"			"0"
 				"wide"			"80"
 			}
 			
@@ -377,7 +378,6 @@
 		{
 			"xpos"			"c-40"
 			"ypos"			"2"
-			"wide"			"80"
 		}
 	}
 	"TeamStatus"

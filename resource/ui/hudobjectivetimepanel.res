@@ -71,7 +71,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"-29"
+		"xpos"			"-24"
 		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
@@ -117,7 +117,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"-29"
+		"xpos"			"-24"
 		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
@@ -162,14 +162,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"-29"
+		"xpos"			"-24"
 		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"S.Death"
+		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -207,7 +207,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"-29"
+		"xpos"			"-24"
 		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
@@ -251,7 +251,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"-29"
+		"xpos"			"-24"
 		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"

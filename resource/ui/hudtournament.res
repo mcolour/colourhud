@@ -41,19 +41,44 @@
 			"team2_player_delta_x"			"24"
 		}
 
+		if_readymode
+		{
+			"xpos"							"0"
+			"ypos"							"30"
+			"wide"							"f0"
+			"tall"							"480"
 
+			"team1_player_base_y"			"32"
+			"team2_player_base_y"			"32"
+			"team2_player_delta_x"			"24"
+			"team2_player_base_offset_x"	"25"
+		}
+
+		if_competitive
+		{
+			"xpos"							"0"
+			"ypos"							"30"
+			"wide"							"f0"
+			"tall"							"480"
+
+			"team1_player_base_y"			"32"
+			"team2_player_base_y"			"32"
+			"team2_player_delta_x"			"24"
+			"team2_player_base_offset_x"	"25"
+		}
+		
 		"ModeImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"cs-0.5"
-			"ypos"			"35"
+			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"competitive/competitive_logo_laurel"
 			"scaleImage"	"1"
@@ -63,6 +88,7 @@
 			{
 				"visible"		"1"
 			}
+			
 		}
 		
 		"playerpanels_kv"
@@ -74,6 +100,7 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
+			
 			
 			
 			"playername"
@@ -673,11 +700,11 @@
 		}
 		if_competitive
 		{
-			"ypos"			"36"
+			"ypos"			"60"
 		}
 		if_readymode
 		{
-			"ypos"			"100"
+			"ypos"			"60"
 		}
 	}
 	
