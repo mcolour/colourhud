@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuBG"
-		"ypos"          "-40+3"
+		"ypos"          "10"
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"f0"
