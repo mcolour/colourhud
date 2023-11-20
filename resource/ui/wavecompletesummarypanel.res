@@ -32,23 +32,6 @@
 		"PaintBackgroundType" "0"
 		"bgcolor_override"	"chREDTransparent"
 		
-		"WaveCompleteLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"WaveCompleteLabel"
-			"font"			"chMedium18"
-			"textAlignment"	"center"
-			"labelText"		"%titletext%"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"250"
-			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"chWhite"		
-		}
-
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -64,6 +47,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"ShadowBlack"
+		}
+		
+		"WaveCompleteLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"WaveCompleteLabel"
+			"font"			"chMedium18"
+			"textAlignment"	"center"
+			"labelText"		"%titletext%"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"250"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"chWhite"		
 		}
 	}
 		
@@ -191,11 +191,11 @@
 		"RatingTextShadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"RatingTextShadow"
+			"fieldName"		"HudFontMediumBold"
 			"font"			"chMediumBlur18"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
-			"xpos"			"0"
+			"xpos"			"1"
 			"ypos"			"20"
 			"wide"			"115"
 			"tall"			"30"
@@ -206,7 +206,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"chMedium18"
+			"font"			"HudFontMediumBold"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"

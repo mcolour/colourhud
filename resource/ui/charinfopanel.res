@@ -103,7 +103,7 @@
 		"tabheight"		"40"
 		"transition_time" "0"
 		"yoffset"		"-10"
-		"zpos"			"1000"
+		"zpos"			"100"
 
 		"HeaderLine"
 		{
