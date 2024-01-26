@@ -1,8 +1,11 @@
-
-#base "../customization/spacer.res"
-#base "../../../cfg/colourhud_settings.txt"
-#base "../cfg/default_settings.res"
+#base "../../../cfg/colourhud_crosshair_stream.txt"
+#base "../../../cfg/colourhud_crosshair_colour.txt"
+#base "../../../cfg/colourhud_crosshair_font.txt"
+#base "../../../cfg/colourhud_crosshair.txt"
 #base "../customization/crosshair.res"
+#base "../customization/spacer.res"
+#base "../cfg/default_settings.res"
+
 
 "Resource/HudLayout.res"
 {
@@ -237,7 +240,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-60"
-		"ypos"		"r88"
+		"ypos"		"r148"
 		"wide"		"120"
 		"tall"		"40"
 	}
@@ -248,6 +251,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
+		"ypos"		"c40"
 		"wide"	 	"252"
 		"tall"	 	"40"
 		"priority"	"40"

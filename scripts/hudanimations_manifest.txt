@@ -2,7 +2,13 @@ hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
 	"file"		"scripts/hudanimations/misc.txt"
+	"file"		"../../cfg/colourhud_ammo_low_mf.txt"
+	"file"		"../../cfg/colourhud_ammo_mf.txt"
 	"file"		"scripts/hudanimations/ammo.txt"
+	"file"		"../../cfg/colourhud_crosshair_flash.txt"
+	"file"		"../../cfg/colourhud_health_mf.txt"
+	"file"		"../../cfg/colourhud_hhealth_mf.txt"
+	"file"		"../../cfg/colourhud_lhealth_mf.txt"
 
 	// Medic animations
 	// Uncomment only one to use

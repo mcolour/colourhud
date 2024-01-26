@@ -44,18 +44,6 @@
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
 //===========================================
-event DamagedPlayer
-{
-	StopEvent HitMarker 0.0
-	RunEvent HitMarker 0.01
-}
-event HitMarker
-{
-	Animate "Knuckles Crosshairs"    	 		FgColor     "255 100 100 255"   				Linear 	0.0 	0.00001
-	Animate "Knuckles Crosshairs"    			FgColor     "255 255 255 255"   				Linear 	0.10 	0.10001
-}
-
-//===========================================
 
 
 event BlinkDamageNumber
