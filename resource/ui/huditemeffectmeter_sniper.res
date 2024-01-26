@@ -1,3 +1,5 @@
+#base "../../../../cfg/colourhud_spacern.txt"
+#base "../../cfg/default_settings.res"
 "Resource/UI/HudItemEffectMeter_Sniper.res"
 {
 	HudItemEffectMeter
@@ -8,7 +10,6 @@
 		"xpos_minmode"	"c130"
 		"ypos_minmode"	"r35"
 		"xpos"			"r80"
-		"ypos"			"r88"
 		"wide_minmode"	"50"
 		"tall_minmode"	"30"
 		"wide"			"180"
@@ -116,4 +117,5 @@
 		"pin_to_sibling"	"ItemEffectMeterCount"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
 }

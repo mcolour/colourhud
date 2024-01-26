@@ -1,4 +1,4 @@
-#base "../../../../cfg/colourhud_settings.txt"
+#base "../../../../cfg/colourhud_matchstatusnames.txt"
 #base "../../cfg/default_settings.res"
 
 "Resource/UI/HudMatchStatus.res"

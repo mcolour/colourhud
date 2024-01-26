@@ -1,3 +1,6 @@
+#base "../../../../cfg/colourhud_health.txt"
+#base "../../cfg/default_settings.res"
+
 "Resource/UI/FreezePanelKillerHealth.res"
 {
 	"PlayerStatusHealthImage"
@@ -68,7 +71,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"font"			"chBold24"
-		"fgcolor"		"Health"
 		"labeltext"		"%Health%"	
 	}
 	"PlayerStatusHealthValueFreezeShadow"

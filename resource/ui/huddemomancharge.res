@@ -1,4 +1,6 @@
 #base "../extras/spacer.res"
+#base "../../../../cfg/colourhud_spacern.txt"
+#base "../../cfg/default_settings.res"
 
 "Resource/UI/HudDemomanCharge.res"
 {
@@ -12,7 +14,6 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"-5"
-		"wide"					"f0"
 		"tall"					"f0"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -26,11 +27,9 @@
 		"font"			"Default"
 		"xpos_minmode"	"0"
 		"ypos_minmode"	"-22"
-		"xpos"			"0"
-		"ypos"			"199"
+		"ypos"			"3"
 		"zpos"			"2"
 		"wide_minmode"	"100"
-		"wide"			"90"
 		"tall"			"3"				
 		"visible"		"1"
 		"enabled"		"1"
@@ -41,8 +40,8 @@
 		"pin_corner_to_sibling_minmode"	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner_minmode"	"PIN_CENTER_BOTTOM"
 		
-		"pin_to_sibling"	"Fullscreen"
-		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}					
 }

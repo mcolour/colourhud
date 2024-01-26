@@ -1,3 +1,7 @@
+#base "../../../../cfg/colourhud_hhealth.txt"
+#base "../../../../cfg/colourhud_lhealth.txt"
+#base "../../cfg/default_settings.res"
+
 "Resource/UI/HudAccountPanel.res"
 {
 	"CHudAccountPanel"
@@ -5,8 +9,6 @@
 		"delta_item_x"			"83"
 		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"-5"
-		"PositiveColor"			"Health Buff"
-		"NegativeColor"			"Health Low"
 		"delta_lifetime"		"1.0"
 		"delta_item_font"		"chMedium20"
 	}

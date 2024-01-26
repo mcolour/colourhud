@@ -1,3 +1,5 @@
+#base "../../../../cfg/colourhud_spacern.txt"
+#base "../../cfg/default_settings.res"
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
@@ -8,7 +10,6 @@
 		"xpos_minmode"	"c130"
 		"ypos_minmode"	"r35"
 		"xpos"			"r80"
-		"ypos"			"r88"
 		"wide_minmode"	"50"
 		"tall_minmode"	"30"
 		"wide"			"180"
