@@ -1,3 +1,5 @@
+#base "../../../../cfg/colourhud_spacern.txt"
+#base "../../cfg/default_settings.res"
 "Resource/Extras/Meters.res"
 {
 	HudItemEffectMeter
@@ -18,9 +20,8 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"Fullscreen"
 		"xpos"					"0"
-		"ypos"					"0"
 		"zpos"					"-5"
-		"wide"					"f0"
+		"wide"					"f0"			//!!!!!!!!
 		"tall"					"f0"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -36,7 +37,6 @@
 		"xpos"			"-3"
 		"ypos"			"0"
 		"wide_minmode"	"100"
-		"wide"			"62"
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
