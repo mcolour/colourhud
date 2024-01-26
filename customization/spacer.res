@@ -1,7 +1,9 @@
 // Credit to Pigby
 // Used to change the position of the health, ammo, ubercharge, and item meters.
 
-#base "../../../cfg/colourhud_settings.txt"
+#base "../../../cfg/colourhud_spacer_dist.txt"
+#base "../../../cfg/colourhud_spacer_height.txt"
+#base "../../../cfg/colourhud_spacern.txt"
 #base "../cfg/default_settings.res"
 
 "Customization/Spacer.res"
@@ -10,10 +12,10 @@
 	{
 		"xpos"			"0"			// Don't change
 		"ypos"			"r40"		// Don't change
-		"wide"			"f0"		// Don't change
+		//"wide"			"p0.55"		// Don't change
 		//"ypos_minmode"	"c110"	// Vertical position of health, ammo, and ubercharge
 		//"wide_minmode"	"550"	// Distance between health, ammo, and ubercharge
-		"tall"			"45"		// Vertical position of item meters
+		//"tall"			"45"		// Vertical position of item meters
 	}
 
 // Note: Certain HUD Elements are not repositioned when changing the values above.
@@ -31,8 +33,6 @@
 
 	CHealthAccountPanel
 	{
-		"xpos_minmode"			"c-150"
-		"ypos_minmode"			"c125"
 		"xpos"					"5"
 		"ypos"					"r80"
 	}

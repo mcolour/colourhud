@@ -73,7 +73,16 @@ Scheme
 		"Green"					"0 138 0 255"
 		"Blue"					"0 0 138 255"
 		"Indigo"				"75 0 130 255"
-		"Black"					"0 0 0 255"
+		"Black"					"18 18 18 255"
+		
+		"LightGrey"				"207 208 210 255"
+		"Pink"					"242 160 180 255"
+		"Crimson"				"159 0 43 255"
+		"Lime"					"0 255 0 255"
+		"Salad"					"25 235 180 255"
+		"Cyan"					"0 183 235 255"
+		"RoyalBlue"				"0 85 166 255"
+		"DarkGrey"				"159 160 163 255"
 		
 		"Scoreboard_def"		"0 255 0 10"
 		"Scoreboard_full"		"0 0 0 10"

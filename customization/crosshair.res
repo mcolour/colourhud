@@ -1,4 +1,4 @@
-#base "../../cfg/colourhud_settings.txt"
+
 
 "Resource/HudLayout.res"
 {
