@@ -1,3 +1,6 @@
+#base "../../../../cfg/colourhud_health.txt"
+#base "../../cfg/default_settings.res"
+
 "Resource/UI/SpectatorGUIHealth.res"
 {
 	"PlayerStatusHealthImage"
@@ -68,7 +71,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"font"			"chBold16"
-		"fgcolor"		"Health"
 		"labeltext"		"%Health%"
 	}
 	"PlayerStatusHealthValueSpecShadow"

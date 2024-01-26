@@ -1,5 +1,4 @@
-
-#base "../../../../cfg/colourhud_settings.txt"
+#base "../../../../cfg/colourhud_stream.txt"
 #base "../../cfg/default_settings.res"
 
 "Resource/UI/Spectator.res"

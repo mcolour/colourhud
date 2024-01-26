@@ -1,8 +1,13 @@
-#base "../../../../cfg/colourhud_settings.txt"
+#base "../../../../cfg/colourhud_spacern.txt"
+#base "../../../../cfg/colourhud_playermodel.txt"
+#base "../extras/spacer.res"
 #base "../../cfg/default_settings.res"
 
 "Resource/UI/HudPlayerClass.res"
 {
+	"Spacer"
+	{
+	}
 	// player class data
 	"HudPlayerClass"
 	{
@@ -24,7 +29,6 @@
 		"xpos_minmode"	"8"			// xpos 23
 		"ypos_minmode"	"r40"			// ypos r75
 		"xpos"			"16"
-		"ypos"			"r80"
 		"zpos"			"2"
 		"visible"		"0"
 		"enabled"		"0"
@@ -69,13 +73,11 @@
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"-1"		
+		"fieldName"		"PlayerStatusClassImageBG"		
 		"xpos_minmode"	"9999"
-		"ypos"			"r40"	
+		"ypos"			"0"	
 		"ypos_minmode"	"9999"	
 		"zpos"			"1"		
-		"wide"			"90"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -85,41 +87,44 @@
 		"teambg_2_lodef"	"../hud/gradient_red"
 		"teambg_3"			"../hud/gradient_blu"
 		"teambg_3_lodef"	"../hud/gradient_blu"
+		
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		
+		"fieldName"		"classmodelpanelBG"		
 		"xpos_minmode"	"9999"
-		"ypos"			"r40"	
+		"ypos"			"0"	
 		"ypos_minmode"	"9999"	
 		"zpos"			"1"		
-		"wide"			"90"
 		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"				"../hud/gradient_red"	
 		"teambg_2"			"../hud/gradient_red"
 		"teambg_2_lodef"	"../hud/gradient_red"
 		"teambg_3"			"../hud/gradient_blu"
 		"teambg_3_lodef"	"../hud/gradient_blu"
+		
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
 		"xpos_minmode"	"5"
 		"ypos_minmode"	"r150"
 		"xpos"			"0"
-		"ypos"			"r190"
 		"zpos"			"2"		
 		"wide"			"75"
-		"tall"			"150"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		
