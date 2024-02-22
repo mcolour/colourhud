@@ -1,11 +1,11 @@
 "UnlitGeneric"
 {
 	"$basetexture" "vgui/replay/thumbnails/status_bg/gradient_blu"
-	"$translucent" 1
-	"$vertexalpha" 1
-	"$vertexcolor" 1
-	$detailscale 1
-	$detailblendmode 8
-	$distancealphafromdetail 1
+	"$translucent" "1"
+	"$vertexalpha" "1"
+	"$alpha" "1"
+	"$vertexcolor" "1"
+	"$no_fullbright" "1"
+	"ignorez" "1"
 	"%keywords" "tf"
 }
