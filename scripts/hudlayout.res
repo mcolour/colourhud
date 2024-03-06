@@ -4,7 +4,7 @@
 #base "../../../cfg/colourhud_crosshair.txt"
 #base "../customization/crosshair.res"
 #base "../customization/spacer.res"
-#base "../cfg/default_settings.res"
+#base "../cfg/default_settings_hl.res"
 
 
 "Resource/HudLayout.res"

@@ -1,8 +1,5 @@
 settings{ 
 HudChat { ypos 25 } 
-CustomCrosshair { labelText & visible 0} 
-CustomCrosshair { font Size10|OutlineOFF } 
-CustomCrosshair { fgcolor White } 
 TeamStatus { max_size 18 tall 18 playerpanels_kv { tall 18 wide 18 PlayerName { tall 0 } } } 
 PlayerStatusClassImage { wide 0 tall 0 } classmodelpanel { visible 1 enabled 1 tall 150} 
 ServerLabel { ypos -17 visible 1 enabled 1 if_mvm { visible 1 } } ScoreboardPosition { wide 0 tall f195 tall_minmode f195 bgcolor_override Scoreboard_def } BlueScoreBG { wide 250 } BluePlayerCountBG { wide 250 } BluePlayerlistBG { wide 250 tall 188 tall_minmode 188 } 

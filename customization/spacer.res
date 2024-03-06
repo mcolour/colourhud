@@ -4,7 +4,7 @@
 #base "../../../cfg/colourhud_spacer_dist.txt"
 #base "../../../cfg/colourhud_spacer_height.txt"
 #base "../../../cfg/colourhud_spacern.txt"
-#base "../cfg/default_settings.res"
+#base "../cfg/default_settings_hl.res"
 
 "Customization/Spacer.res"
 {
