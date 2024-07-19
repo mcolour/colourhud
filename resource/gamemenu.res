@@ -62,10 +62,24 @@
 		"command" "OpenAchievementsDialog"
 		"tooltip" "Achievements"
 	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label"	"+"
+		"command" "motd_show"
+		"actionsignallevel" "2"
+		"tooltip" "Tool Panel"
+	}
+	"HUDEditPanelButton"
+	{
+		"label"	"z"
+		"command" "engine toggle cl_mainmenu_safemode"
+		"actionsignallevel" "2"
+		"tooltip" "HUD Edit Panel"
+	}
 	"CreditButton"
 	{
 		"label"	""
 		"command"	"url https://github.com/mcolour/colourhud"
-		"tooltip"	"(IN DEVELOPMENT) ColourHUD v2.2-BETA_1\nMade by MrColour\nClick here to open up the Github page"
+		"tooltip"	"(IN DEVELOPMENT) ColourHUD v2.2-BETA_2\nMade by MrColour\nClick here to open up the Github page"
 	}
 }
