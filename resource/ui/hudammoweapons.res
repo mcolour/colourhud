@@ -3,7 +3,7 @@
 #base "../../customization/fontsizes.res"
 #base "../extras/spacer.res"
 #base "../../../../cfg/colourhud_spacern.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_haw.res"
 
 "Resource/UI/HudAmmoWeapons.res"
 {
@@ -21,11 +21,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"				"../hud/gradient_red"	
-		"teambg_2"			"../hud/gradient_red"
-		"teambg_2_lodef"	"../hud/gradient_red"
-		"teambg_3"			"../hud/gradient_blu"
-		"teambg_3_lodef"	"../hud/gradient_blu"
+		"image"				"replay/thumbnails/status_bg/gradient_red"	
+		"teambg_2"			"replay/thumbnails/status_bg/gradient_red"
+		"teambg_3"			"replay/thumbnails/status_bg/gradient_blu"
 		
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"

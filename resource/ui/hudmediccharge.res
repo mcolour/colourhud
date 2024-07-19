@@ -1,9 +1,9 @@
-#base "../../customization/medic.res"
 #base "../../customization/fontsizes.res"
 #base "../../customization/fontshadows.res"
 #base "../extras/spacer.res"
 #base "../../../../cfg/colourhud_spacern.txt"
-#base "../../cfg/default_settings.res"
+#base "../../../../cfg/colourhud_smallcharge.txt"
+#base "../../cfg/default/default_hmc.res"
 
 "Resource/UI/HudMedicCharge.res"
 {
@@ -16,16 +16,13 @@
 		"fieldName"		"MedBackground"
 		"xpos_minmode"	"9999"
 		"ypos_minmode"	"9999"
-		"ypos"			"0"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"				"../hud/gradient_red"	
-		"teambg_2"			"../hud/gradient_red"
-		"teambg_2_lodef"	"../hud/gradient_red"
-		"teambg_3"			"../hud/gradient_blu"
-		"teambg_3_lodef"	"../hud/gradient_blu"
+		"image"				"replay/thumbnails/status_bg/gradient_red"	
+		"teambg_2"			"replay/thumbnails/status_bg/gradient_red"
+		"teambg_3"			"replay/thumbnails/status_bg/gradient_blu"
 		
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -43,6 +40,21 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
+	}
+	"SmallChargeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SmallChargeLabel"
+		"xpos"			"c-13"
+		"ypos"			"c8"
+		"zpos"			"2"
+		"wide"			"26"
+		"tall"			"12"
+		"enabled"		"1"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"font"			"ch10"
+		"fgcolor"		"0 240 0 255"
 	}
 	"ChargeLabel"
 	{

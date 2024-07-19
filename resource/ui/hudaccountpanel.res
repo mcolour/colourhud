@@ -1,6 +1,6 @@
 #base "../../../../cfg/colourhud_hhealth.txt"
 #base "../../../../cfg/colourhud_lhealth.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_hap.res"
 
 "Resource/UI/HudAccountPanel.res"
 {

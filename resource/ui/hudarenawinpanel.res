@@ -1,7 +1,7 @@
 #base "../../../../cfg/colourhud_stream.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_hawp.res"
 
-"Resource/UI/arenawinpanel.res"
+"Resource/UI/hudarenawinpanel.res"
 {
 	"ArenaWinPanelScores"
 	{

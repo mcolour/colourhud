@@ -1,5 +1,5 @@
 #base "../../../../cfg/colourhud_matchstatusnames.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_matchstatusnames.res"
 
 "Resource/UI/HudMatchStatus.res"
 {

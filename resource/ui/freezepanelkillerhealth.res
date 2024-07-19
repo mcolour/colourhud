@@ -1,5 +1,5 @@
 #base "../../../../cfg/colourhud_health.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_health.res"
 
 "Resource/UI/FreezePanelKillerHealth.res"
 {

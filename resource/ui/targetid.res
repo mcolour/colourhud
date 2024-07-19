@@ -1,5 +1,5 @@
 #base "../../../../cfg/colourhud_stream.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_targetid.res"
 
 "Resource/UI/TargetID.res"
 {
@@ -67,7 +67,6 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"chMedium14"
 		"xpos"			"0"
-		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"16"

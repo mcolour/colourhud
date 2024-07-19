@@ -1,6 +1,6 @@
 #base "../extras/spacer.res"
 #base "../../../../cfg/colourhud_spacern.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_charge.res"
 
 "Resource/UI/HudDemomanCharge.res"
 {

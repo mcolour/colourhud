@@ -1,6 +1,6 @@
 #base "../../../../cfg/colourhud_stream.txt"
 #base "../../../../cfg/colourhud_chatpos.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_chatpos.res"
 
 "Resource/UI/BaseChat.res"
 {

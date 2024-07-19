@@ -1,6 +1,6 @@
 #base "../../../../cfg/colourhud_stream.txt"
 #base "../../../../cfg/colourhud_scoreboard.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_s.res"
 
 "Resource/UI/Scoreboard.res"
 {
@@ -36,6 +36,7 @@
 		"fieldName"		"ScoreboardPosition"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
+		"wide" 			"0"
 	}
 	"BlueScoreBG"
 	{
@@ -322,7 +323,6 @@
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"30"
-		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"PanelBG"
 
@@ -333,6 +333,28 @@
 		if_mvm
 		{
 			"visible"	"1"
+			"wide"		"520"
+		}
+	}
+	"TopBarFullBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"TopBarFullBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"35"
+		"enabled"		"1"
+		"bgcolor_override"	"PanelBG"
+
+		"pin_to_sibling"	"ScoreboardPosition"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+
+		if_mvm
+		{
+			"visible"	"0"
 			"wide"		"520"
 		}
 	}
@@ -580,9 +602,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"	"ScoreboardPosition"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"	"BluePlayerlistBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		if_mvm
 		{
@@ -798,9 +820,9 @@
 			"visible"		"1"
 		}
 		
-		"pin_to_sibling"	"ScoreboardPosition"
-		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"	"BluePlayerlistBG"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		"KillsLabel"
 		{

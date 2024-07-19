@@ -1,5 +1,5 @@
 #base "../../../../cfg/colourhud_spacern.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_itemmeter.res"
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter

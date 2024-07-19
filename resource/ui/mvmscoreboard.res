@@ -1,5 +1,5 @@
 #base "../../../../cfg/colourhud_stream.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_mvms.res"
 
 "Resource/UI/MvMScoreboard.res"
 {		

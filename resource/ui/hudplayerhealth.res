@@ -3,7 +3,7 @@
 #base "../../customization/fontsizes.res"
 #base "../extras/spacer.res"
 #base "../../../../cfg/colourhud_spacern.txt"
-#base "../../cfg/default_settings.res"
+#base "../../cfg/default/default_playerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {
@@ -55,7 +55,7 @@
 		"zpos"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
@@ -72,7 +72,6 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment_minmode"	"center"		
-		"fgcolor"		"Red"
 
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -283,30 +282,12 @@
 		"pin_to_sibling"	"PlayerStatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}
-    "MedicStatusAnchor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MedicStatusAnchor"
-		"xpos"			"c-170"
-		"ypos"			"c73"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"0"
-		"enabled"		"0"
-		"bgcolor_override"	"0 0 0 0"
-		
-//		"xpos"			"72"
-//		"ypos"			"-75"
-//		"pin_to_sibling"	"PlayerStatusHealthValue"
-//		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-//		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -317,15 +298,15 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"MedicStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -336,15 +317,15 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"MedicStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -355,16 +336,16 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"MedicStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -375,15 +356,15 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"MedicStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -394,15 +375,15 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"MedicStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -413,9 +394,9 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"MedicStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_WheelOfDoom"
 	{
