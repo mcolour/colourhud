@@ -1,10 +1,11 @@
-#base "../../../cfg/colourhud_crosshair_stream.txt"
+#base "../../../cfg/colourhud_feed_bg.txt"
+#base "../../../cfg/colourhud_stream.txt"
 #base "../../../cfg/colourhud_crosshair_colour.txt"
 #base "../../../cfg/colourhud_crosshair_font.txt"
 #base "../../../cfg/colourhud_crosshair.txt"
-#base "../customization/crosshair.res"
+#base "../cfg/crosshair.res"
 #base "../customization/spacer.res"
-#base "../cfg/default_settings_hl.res"
+#base "../cfg/default/default_hl.res"
 
 
 "Resource/HudLayout.res"
@@ -523,7 +524,6 @@
 		"IconColor"		"240 240 240 255"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"15 15 12 128"
 		"LocalBackgroundColor"	"240 240 240 215"
 	}
 
@@ -613,15 +613,17 @@
 	
 	HudCloseCaption
 	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c190"
-		"ypos"		"r75"
-		"wide"		"150"
-		"tall"		"75"
+		"fieldName" 	"HudCloseCaption"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos_minmode"	"c190"
+		"xpos"			"c260"
+		"ypos"			"r75"
+		"wide_minmode"	"150"
+		"wide"			"75"
+		"tall"			"75"
 
-		"BgAlpha"	"0"
+		"BgAlpha"		"0"
 
 		"GrowTime"		"0"
 		"ItemHiddenTime"	"0"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
