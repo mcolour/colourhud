@@ -1,7 +1,7 @@
-// Uncomment each "#base" line to turn on the streamer mode (Uncommenting is removing // Commenting is vice versa).
+// As of version 2.1 streamer mode can only be toggled on and off inside of the in-game hud edit panel.
 
 
 //	RECOMMENDED:
-//		- Mod, which disables Conscientious Objector (aka The Sign), Flair!, Photo Badge, Clan Pride decals: https://gamebanana.com/mods/295666
 //		- Command, which disables sprays: cl_spraydisable 1		(cl_spraydisable 0 	to turn them on again, obviously)
 //		- Command, which disables voice chat: voice_enable 0
+//		- Command, which disables custom decals: tf_hide_custom_decals 0

@@ -4,7 +4,8 @@
 #base "../../../cfg/colourhud_spacer_dist.txt"
 #base "../../../cfg/colourhud_spacer_height.txt"
 #base "../../../cfg/colourhud_spacern.txt"
-#base "../cfg/default_settings_hl.res"
+#base "../cfg/default/default_hl.res"
+#base "../cfg/default/default_spacer.res"
 
 "Customization/Spacer.res"
 {
@@ -46,16 +47,6 @@
 	CSecondaryTargetID
 	{
 		"ypos"			"300"
-	}
-
-// Health cross
-// Move the health cross only if you are using the alt. health animation,
-// which is enabled in scripts/hudanimations_manifest.txt
-
-	"PlayerStatusHealthBonusImage"
-	{
-		"xpos"			"c-158"
-		"ypos"			"c105"
 	}
 
 // Extra: Win Panel

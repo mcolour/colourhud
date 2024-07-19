@@ -86,5 +86,9 @@ Scheme
 		
 		"Scoreboard_def"		"0 255 0 10"
 		"Scoreboard_full"		"0 0 0 10"
+		
+		"Opaque"				"15 15 15 255"
+		"SemiTransparent"		"15 15 15 128"
+		"Transparent"			"15 15 15 0"
 	}
 }
