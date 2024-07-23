@@ -7,4 +7,9 @@
 		"wide_minmode"	"400"
 		"tall_minmode" 	"45"
 	}
+	
+	"CHealthAccountPanel"
+	{
+		"xpos" "5"
+	}
 }
