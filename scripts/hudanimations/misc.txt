@@ -322,3 +322,23 @@ event TeamStatus_PlayerAlive
 }
 
 //===========================================
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+//===========================================
