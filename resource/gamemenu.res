@@ -80,6 +80,6 @@
 	{
 		"label"	""
 		"command"	"url https://github.com/mcolour/colourhud"
-		"tooltip"	"(IN DEVELOPMENT) ColourHUD v2.2-BETA_2\nMade by MrColour\nClick here to open up the Github page"
+		"tooltip"	"ColourHUD v2.2\nMade by MrColour\nClick here to open up the Github page"
 	}
 }
