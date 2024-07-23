@@ -8272,7 +8272,7 @@
 				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"labelText"				"Killfeed background"		
+				"labelText"				"Killfeed Background"		
 				"font"					"chBold10"
 				"textAlignment"			"center"
 				"fgcolor_override"		"chWhite"
