@@ -34,7 +34,7 @@
 
 	CHealthAccountPanel
 	{
-		"xpos"					"5"
+		//"xpos"					"5"
 		"ypos"					"r80"
 	}
 
