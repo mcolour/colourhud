@@ -97,10 +97,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"chWhite"
-		Menu.BgColor					"chDarkGrey"
-		Menu.ArmedTextColor				"15 15 15 215"
-		Menu.ArmedBgColor				"chLightBase"
+		Menu.TextColor					"TanLight"
+		Menu.BgColor					"TransparentBlack"
+		Menu.ArmedTextColor				"TanDark"
+		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -209,8 +209,8 @@ Scheme
 
 		// CHudMenu
 		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"MenuColor"		"233 233 233 255"
+		"MenuBoxBg"		"0 0 0 255"
 
 		// weapon selection colors
 		"SelectionNumberFg"		"251 235 202 255"
