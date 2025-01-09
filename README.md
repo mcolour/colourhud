@@ -1,7 +1,8 @@
 ![logo](https://i.imgur.com/D7dXW96.png)
 #### <h1 align="center"><a href="https://imgur.com/a/E64cxWR"><b>Screenshots</b></a>
-Custom Hud for Team Fortress 2 <br>
-Based on PhouHUD
+Custom Hud for Team Fortress 2 with in-game customization <br>
+Based on PhouHUD <br>
+2025 update: i'm done with the hud... atleast for now
 #### <h2>Features</h2>
 * Toolpanel
 * Custom fonts
