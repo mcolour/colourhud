@@ -2917,16 +2917,62 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans Medium"
-				"tall"		"10"
-				"antialias" "1"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
 			{
+				"name"		"Product Sans Medium"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Product Sans Medium"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Product Sans Medium"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Product Sans Medium"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Product Sans Medium"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"800"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
+
+
 		}
 		"DefaultUnderline"
 		{
@@ -2982,13 +3028,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Product Sans"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -3037,13 +3082,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Heebo Medium"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -3083,18 +3127,17 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Product Sans"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Heebo Medium"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -3163,12 +3206,12 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Heebo Medium"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -3214,11 +3257,10 @@ Scheme
 			"5"
 			{
 				"name"		"Product Sans"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -3269,7 +3311,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -3280,7 +3322,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -3299,6 +3341,15 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"Product Sans"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3363,7 +3414,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -3425,7 +3476,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3727,7 +3778,7 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
 		TFTypeDeath
 		{
 			"1"
@@ -3739,7 +3790,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -3895,7 +3946,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -3908,8 +3959,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
@@ -3918,7 +3969,7 @@ Scheme
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
-				"antialias"		"1" 
+				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
@@ -4224,7 +4275,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -4366,8 +4417,8 @@ Scheme
 				"weight"		"300"
 				"antialias"		"1"
 			}
-		}	
-		
+		}
+
 		MenuSmallFont
 		{
 			"1"
@@ -4380,7 +4431,7 @@ Scheme
 				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -4418,7 +4469,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -4431,8 +4482,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		InstructionalText
 		{
 			"1"
@@ -4444,8 +4495,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -4493,7 +4544,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -4541,7 +4592,7 @@ Scheme
 				"weight"	"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -4563,7 +4614,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -4574,7 +4625,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -4611,8 +4662,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"8"
+				"name"		"Heebo Medium"
+				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -4649,13 +4700,13 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
 			{
 				"name"		"Product Sans Bold"
-				"tall"		"12"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -4666,7 +4717,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans Bold"
-				"tall"		"12"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -4709,7 +4760,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Heebo Medium"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -4736,7 +4787,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -4748,7 +4799,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -4788,7 +4839,8 @@ Scheme
 			"1"
 			{
 				"name"		"Heebo Medium"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -4799,7 +4851,8 @@ Scheme
 			"1"
 			{
 				"name"		"Heebo Medium"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -4809,7 +4862,8 @@ Scheme
 			"1"
 			{
 				"name"		"Heebo Medium"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -4831,6 +4885,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -4840,6 +4895,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -4849,6 +4905,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
@@ -4862,6 +4919,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -4871,6 +4929,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -4880,6 +4939,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -4888,11 +4948,12 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -5020,7 +5081,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -5038,13 +5099,13 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -5091,7 +5152,7 @@ Scheme
 				"italic"	"1"
 			}
 		}
-		
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -5264,7 +5325,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -5357,6 +5418,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
@@ -5370,6 +5432,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"400"
@@ -5382,6 +5445,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -5394,6 +5458,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -5406,6 +5471,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"

@@ -218,12 +218,12 @@
 	"Background4"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"Background3"
+		"fieldName"				"Background4"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"-100"
 		"wide"					"100"
-		"tall"					"22"
+		"tall"					"20"
 		"alpha"					"255"
 		"visible"				"1"
 		"enabled"				"1"
@@ -12880,103 +12880,173 @@
 			}
 		}
 	}
-	
-	"CoachPlayersButton"	
+
+	"NewUserForumsButton"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"CoachPlayersButton"
-		"xpos"				"19999"
-		"ypos"				"-19999"
-		"zpos"				"12"
-		"wide"				"19"
-		"tall"				"19"
-		"visible"			"1"
-
-		"pin_to_sibling"		"Background2"
-		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"19"
-			"tall"				"19"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"glyph_commentary"
-			"scaleImage"		"1"
-			"proportionaltoparent"	"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"HoverWhite"
-		}
-	}
-
-	"RequestCoachButton"	
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"19"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"NewUserForumsButton"
+		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"4"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		
-		"pin_to_sibling"		"CoachPlayersButton"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		
-		"SubButton"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"view_newuser_forums"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override"   "45 45 45 215"
+		"depressedBgColor_override" "45 45 45 215"
+
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
+
+		"pin_to_sibling"	"FriendsContainer"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
+			"xpos"			"4"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"12"
 			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_create"
+			"image"			"glyph_tutorial"
 			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
 		}
 	}
 
-	"SteamWorkshopButton"	
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
-	"NewUserForumsButton"	
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"NewUserForumsButton"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
-	"CommentaryButton"	
+	"CommentaryButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override"   "45 45 45 215"
+		"depressedBgColor_override" "45 45 45 215"
+
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
+
+		"pin_to_sibling"	"NewUserForumsButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_forums"
+			"scaleImage"	"1"
+		}
+	}
+	
+	"CoachPlayersButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CoachPlayersButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine cl_coach_toggle"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override"   "45 45 45 215"
+		"depressedBgColor_override" "45 45 45 215"
+
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
+
+		"pin_to_sibling"	"CommentaryButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_commentary"
+			"scaleImage"	"1"
+		}
+	}
+
+	"RequestCoachButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldname"		"RequestCoachButton"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"wide"			"0"
@@ -12984,17 +13054,113 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
+	"WorkshopButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"WorkshopButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine OpenSteamWorkshopDialog"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override"   "45 45 45 215"
+		"depressedBgColor_override" "45 45 45 215"
+
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
+
+		"pin_to_sibling"	"CoachPlayersButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_steamworkshop"
+			"scaleImage"	"1"
+		}
+	}
 	
-	"ReportBugButton"	
+	"ReportBugButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine bug"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override"   "45 45 45 215"
+		"depressedBgColor_override" "45 45 45 215"
+
+		"image_drawcolor"	"chWhite"
+		"image_armedcolor"	"chWhite"
+
+		"pin_to_sibling"	"WorkshopButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_bug"
+			"scaleImage"	"1"
+		}
 	}
 
 	"BackgroundFooter"

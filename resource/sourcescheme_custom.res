@@ -9,10 +9,10 @@ Scheme
                 "name"         "Heebo Medium" [$WINDOWS] // Standard is "Lucida Console" Options are "Heebo Medium" "Georgia" "Impact" "Heebo MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Verdana" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "17" [$POSIX]  // "11"                
+                "tall"         "17" [$POSIX]  // "11"
                 "tall"         "17"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Heebo Medium" font.
                 "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall_hidef" "20" //"20"
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "768 1023"
@@ -25,10 +25,10 @@ Scheme
                 "name"         "Heebo Medium" [$WINDOWS] // Standard is "Lucida Console" Options are "Heebo Medium" "Georgia" "Impact" "Heebo MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Heebo Medium" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "19" [$POSIX]  // "11"                
+                "tall"         "19" [$POSIX]  // "11"
                 "tall"         "19"  // good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.
                 "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall_hidef" "20" //"20"
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1024 1199"
@@ -36,15 +36,15 @@ Scheme
                 "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
-            "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
+            "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond)
             {
                 "name"         "Heebo Medium" [$WINDOWS] // Standard is "Lucida Console" Options are "Heebo Medium" "Georgia" "Impact" "Heebo MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Heebo Medium" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" and "Heebo Medium" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "22" [$POSIX]  // "11"                
+                "tall"         "22" [$POSIX]  // "11"
                 "tall"         "22" // good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.
                 "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall_hidef" "20" //"20"
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1200 6000"
@@ -53,7 +53,7 @@ Scheme
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
 		}
-	
+
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
@@ -146,8 +146,8 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-				
+
+
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -160,7 +160,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementItemTitleLarge	[$WIN32]
 		{
 			"1"
@@ -173,7 +173,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementItemDescription	[$WIN32]
 		{
 			"1"
@@ -186,9 +186,9 @@ Scheme
 				"antialias"		"1" [!$OSX]
 			}
 		}
-		
-		
-		
+
+
+
 		"DebugFixed"
 		{
 			"1"
@@ -312,7 +312,7 @@ Scheme
 				"outline" "1"
 			}
 		}
-		
+
 		"AchievementTitleFontSmaller"
 		{
 			"1"
@@ -324,8 +324,8 @@ Scheme
 				//"outline" "1"
 			}
 		}
-		
-		
+
+
 		"AchievementDescriptionFont"
 		{
 			"1"
@@ -347,7 +347,7 @@ Scheme
 				"yres"	 "481 10000"
 			}
 		}
-		
+
 		GameUIButtons
 		{
 			"1"	[$X360]
@@ -367,7 +367,7 @@ Scheme
 			"1"
 			{
 				"name"		"Heebo Medium"
-				"tall"		"17"
+				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -604,7 +604,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		StatsTitle	[$WIN32]
 		{
 			"1"
@@ -616,7 +616,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		StatsText	[$WIN32]
 		{
 			"1"
@@ -641,7 +641,7 @@ Scheme
 			}
 		}
 
-		
+
 		StatsPageText
 		{
 			"1"
@@ -655,10 +655,10 @@ Scheme
 			}
 		}
     }
-	
+
 	CustomFontFiles
 	{
-		"6" 
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -717,12 +717,12 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
-			}	
+			}
 		}
 		"7"
 		{
 			"font" "resource/fonts/Heebo-Medium.ttf"
 			"name" "Heebo Medium"
-		}	
+		}
 	}
 }
