@@ -75,11 +75,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-56"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"image"			"../console/background_upward"
-		"scaleImage"	"1"
+		"wide"					"f0"
+		"tall"					"f0"
+		"alpha"					"255"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"25 25 25 255"
+		"scaleImage"			"1"
 	}
     "ShaderBG"
 	{			
