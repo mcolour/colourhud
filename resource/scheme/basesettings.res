@@ -12,9 +12,9 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
-		
+
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
-		
+
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"25 25 25 255"
 		Econ.Button.FgColor									"chWhite"
@@ -22,15 +22,15 @@ Scheme
 		Econ.Button.ArmedFgColor							"15 15 15 215"
 		Econ.Button.DepressedBgColor						"chBase"
 		Econ.Button.DepressedFgColor						"Black"
-		
+
 		Econ.Button.PresetDefaultColorFg					"chWhite"
 		Econ.Button.PresetArmedColorFg						"15 15 15 215"
 		Econ.Button.PresetDepressedColorFg					"15 15 15 215"
-		
+
 		Econ.Button.PresetDefaultColorBg					"chBase"
 		Econ.Button.PresetArmedColorBg						"40 170 150 255"
 		Econ.Button.PresetDepressedColorBg					"40 170 150 255"
-		
+
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
@@ -51,7 +51,7 @@ Scheme
 		CheckButton.Border2  			"chWhite"		// the right checkbutton border
 		CheckButton.Check				"chWhite"		// color of the check itself
 		CheckButton.HighlightFgColor	"chWhite"
-		
+
 		ComboBoxButton.ArrowColor		"chWhite"
 		ComboBoxButton.ArmedArrowColor	"15 15 15 215"
 		ComboBoxButton.BgColor			"Blank"
@@ -97,10 +97,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.TextColor					"chWhite"
+		Menu.BgColor					"chDarkGrey"
+		Menu.ArmedTextColor				"15 15 15 215"
+		Menu.ArmedBgColor				"chLightBase"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -115,7 +115,7 @@ Scheme
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
-		
+
 		"BuildingHealthBar.BgColor"		"HealthBgGrey"
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
@@ -177,7 +177,7 @@ Scheme
 		TreeView.BgColor			"TransparentBlack"
 
 		WizardSubPanel.BgColor		"Blank"
-		
+
 		TimerProgress.Active		"HudTimerProgressActive"
 		TimerProgress.InActive		"HudTimerProgressInActive"
 		TimerProgress.Warning		"HudTimerProgressWarning"
@@ -185,10 +185,10 @@ Scheme
 		HudObjectives.FgColor		"HudPanelForeground"
 		HudObjectives.BgColor		"HudPanelBackground"
 		HudObjectives.BorderColor	"HudPanelBorder"
-				
+
 		HudProgressBar.Active		"HudProgressBarActive"
 		HudProgressBar.InActive		"HudProgressBarInActive"
-		
+
 		HudCaptureIcon.Active		"HudProgressBarActive"
 		HudCaptureIcon.InActive		"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
@@ -211,7 +211,6 @@ Scheme
 		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
 		"MenuColor"		"233 233 233 255"
 		"MenuBoxBg"		"0 0 0 255"
-
 		// weapon selection colors
 		"SelectionNumberFg"		"251 235 202 255"
 		"SelectionTextFg"		"251 235 202 255"
@@ -231,7 +230,7 @@ Scheme
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
-		
+
 		"VguiScreenCursor"			"255 208 64 255"
 	}
 }
