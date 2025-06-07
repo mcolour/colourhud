@@ -36,7 +36,7 @@ Scheme
 		"Ubercharge 2"			"0 210 105 255"
 		
 		// Misc
-		"Damage Numbers"		"255 0 0 255"   //the damage number next to the health
+		"Damage Numbers"		"255 255 0 255"   //the damage number next to the health
 		"Healing Numbers"		"0 255 127 255"
 		"Stickies"				"255 255 255 255"
 		"Metal"					"225 225 225 255"
