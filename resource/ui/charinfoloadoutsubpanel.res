@@ -558,8 +558,8 @@
 		"scaleImage"		"1"
 
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -591,8 +591,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -623,8 +623,8 @@
 		"textinsetx"		"2"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -654,8 +654,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -685,8 +685,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -715,8 +715,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -747,8 +747,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -778,8 +778,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -809,8 +809,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1086,8 +1086,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1138,8 +1138,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1189,8 +1189,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1240,8 +1240,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1292,8 +1292,8 @@
 		"scaleImage"		"1"
 		
 		"FgColor_override"				"chWhite"
-		"armedFgColor_override"			"34 139 34 255"
-		"depressedFgColor_override"		"34 139 34 255"
+		"armedFgColor_override"			"chBase"
+		"depressedFgColor_override"		"chBase"
 		"armedbgcolor_override"			"0 0 0 0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

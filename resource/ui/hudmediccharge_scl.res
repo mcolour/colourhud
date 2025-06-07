@@ -14,6 +14,6 @@
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"font"			"ch10"
-		"fgcolor"		"0 240 0 255"
+		"fgcolor"		"chSmallUber"
 	}
 }
