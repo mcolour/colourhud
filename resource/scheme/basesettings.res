@@ -18,7 +18,7 @@ Scheme
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"25 25 25 255"
 		Econ.Button.FgColor									"chWhite"
-		Econ.Button.ArmedBgColor							"40 170 150 255"
+		Econ.Button.ArmedBgColor							"chArmedEcon"
 		Econ.Button.ArmedFgColor							"15 15 15 215"
 		Econ.Button.DepressedBgColor						"chBase"
 		Econ.Button.DepressedFgColor						"Black"
@@ -28,8 +28,8 @@ Scheme
 		Econ.Button.PresetDepressedColorFg					"15 15 15 215"
 
 		Econ.Button.PresetDefaultColorBg					"chBase"
-		Econ.Button.PresetArmedColorBg						"40 170 150 255"
-		Econ.Button.PresetDepressedColorBg					"40 170 150 255"
+		Econ.Button.PresetArmedColorBg						"chArmedEcon"
+		Econ.Button.PresetDepressedColorBg					"chArmedEcon"
 
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
@@ -38,7 +38,7 @@ Scheme
 		Button.TextColor				"chWhite"
 		Button.BgColor					"25 25 25 255"
 		Button.ArmedTextColor			"15 15 15 215"
-		Button.ArmedBgColor				"40 170 150 255"
+		Button.ArmedBgColor				"chArmedEcon"
 		Button.SelectedTextColor		"chWhite"
 		Button.SelectedBgColor			"chBase"
 		Button.DepressedTextColor		"Black"
@@ -135,7 +135,7 @@ Scheme
 		ScrollBarButton.FgColor				"Gray"
 		ScrollBarButton.BgColor				"Blank"
 		ScrollBarButton.ArmedFgColor		"15 15 15 215"
-		ScrollBarButton.ArmedBgColor		"43 195 123 255"
+		ScrollBarButton.ArmedBgColor		"chLightBase"
 		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
