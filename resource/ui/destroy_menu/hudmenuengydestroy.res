@@ -50,7 +50,7 @@
 		"tall"			"3"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"200 80 0 255"
+		"bgcolor_override"		"chEngieDestroy"
 
 		"pin_to_sibling"	"TitleBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -67,7 +67,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"200 80 0 255"
+		"bgcolor_override"		"chEngieDestroy"
 	}
 	"Titlemem"
 	{
