@@ -133,7 +133,7 @@ Scheme
 		Slider.DisabledTextColor2						"30 30 30 255"
 		TextEntry.TextColor								"TFTextBright"
 		TextEntry.BgColor								"ListBG"
-		TextEntry.CursorColor							"255 0 0 255"
+		TextEntry.CursorColor							"0 200 255 255"
 		TextEntry.DisabledTextColor						"DullWhite"
 		TextEntry.DisabledBgColor						"Blank"
 		TextEntry.SelectedTextColor						"White"
