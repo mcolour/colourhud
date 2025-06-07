@@ -58,7 +58,7 @@
 	    "tall"			"3"
 	    "visible"		"1"
 	    "enabled"		"1"
-	    "bgcolor_override"	"100 180 180 255"
+	    "bgcolor_override"	"chMapMenu"
 
 	    "pin_to_sibling"	"MainBG"
 	    "pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -80,7 +80,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"chBold16"
-		"fgcolor"		"100 180 180 255"
+		"fgcolor"		"chMapMenu"
 
 		"pin_to_sibling"	"HeaderBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -219,8 +219,8 @@
 		"armedFgColor_override"   "15 15 15 215"
 		"depressedFgColor_override" "15 15 15 215"
 		"defaultBgColor_override" 	"35 35 35 255"
-		"armedBgColor_override"   	"100 180 180 255"
-		"depressedBgColor_override" "100 180 180 255"
+		"armedBgColor_override"   	"chMapMenu"
+		"depressedBgColor_override" "chMapMenu"
 	}
 	
 	"MapInfoWatchIntro"
