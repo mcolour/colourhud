@@ -1281,7 +1281,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"scout"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1302,7 +1302,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"soldier"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1323,7 +1323,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"pyro"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1344,7 +1344,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"demoman"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1365,7 +1365,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"heavyweapons"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1386,7 +1386,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"engineer"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1407,7 +1407,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"medic"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1428,7 +1428,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"sniper"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
@@ -1449,7 +1449,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
 		"font"			"chBold13"
-		"fgcolor"		"240 240 0 255"
+		"fgcolor"		"chClassNums"
 
 		"pin_to_sibling"	"Spy"
 		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"

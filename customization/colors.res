@@ -6,6 +6,17 @@ Scheme
 {
 	Colors
 	{
+		//Class stat colours
+		"chClass1"              "92 195 107 255"
+		"chClass2"              "77 180 92 255"
+		"chClass3"              "67 170 82 255"
+		"chClass4"              "57 160 72 255"
+		"chClass5"              "47 150 62 255"
+		"chClass6"              "37 140 52 255"
+		"chClass7"              "27 130 42 255"
+		"chClass8"              "17 120 32 255"
+		"chClass9"              "7 110 22 255"
+
 		// Health
 		"Health"				"240 240 240 255"
 		"Health Buff"			"25 235 180 255"
@@ -43,8 +54,14 @@ Scheme
 		// ch Colours. Don't touch unless you know what you're doing
 		"chBase"				"34 181 93 255"
 		"chBaseTransparent"		"34 181 93 165"
+		"chTFOrange"            "58 166 179 255"
+		"chMapMenu"             "100 180 180 255"
+		"chArmedEcon"           "40 170 150 255"
 		"chLightBase"			"49 196 108 255"
-
+		"chEngieDestroy"        "200 80 0 255"
+		"chClassNums"           "240 240 0 255"
+		"chTeamMenu"            "100 200 50 255"
+		"chSmallUber"           "0 240 0 255"
 		"chWhite"				"236 236 236 255"
 		"chOffWhite"			"160 160 160 255"
 		"chGrey"				"40 40 40 255"
@@ -90,5 +107,11 @@ Scheme
 		"Opaque"				"15 15 15 255"
 		"SemiTransparent"		"15 15 15 128"
 		"Transparent"			"15 15 15 0"
+
+
+		//Source-scheme colours are not customisable here. if you know where to find them, you are welcome to edit them.
+
+
+
 	}
 }

@@ -3,11 +3,11 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"43 185 123 255"
-		"OrangeDim"			"43 185 123 120"
+		"Orange"			"chLightBase"
+		"OrangeDim"			"chBaseTransparent"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"58 166 179 255"
+		"TFOrange"			"chTFOrange"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"

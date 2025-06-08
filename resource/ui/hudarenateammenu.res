@@ -133,9 +133,9 @@
 		"depressedFgColor_override" "chWhite"
 		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
-		"armedBgColor_override"		"100 200 50 255"
-		"depressedBgColor_override" "100 200 50 255"
-		"selectedBgColor_override" 	"100 200 50 255"
+		"armedBgColor_override"		"chTeamMenu"
+		"depressedBgColor_override" "chTeamMenu"
+		"selectedBgColor_override" 	"chTeamMenu"
 	}
 
 	
@@ -199,9 +199,9 @@
 		"depressedFgColor_override" "chWhite"
 		"selectedFgColor_override" 	"chWhite"
 		"defaultBgColor_override" 	"15 15 15 215"
-		"armedBgColor_override"		"100 200 50 255"
-		"depressedBgColor_override" "100 200 50 255"
-		"selectedBgColor_override" 	"100 200 50 255"
+		"armedBgColor_override"		"chTeamMenu"
+		"depressedBgColor_override" "chTeamMenu"
+		"selectedBgColor_override" 	"chTeamMenu"
 	}
 		
 	"TeamMenuAuto"

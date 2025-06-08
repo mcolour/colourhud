@@ -141,8 +141,8 @@
 		"armedFgColor_override"   	"Blank"
 		"depressedFgColor_override" "Blank"
 		"defaultBgColor_override" 	"chBase"
-		"armedBgColor_override"   	"0 122 136 255"
-		"depressedBgColor_override" "0 122 136 255"
+		"armedBgColor_override"   	"chLightBase"
+		"depressedBgColor_override" "chLightBase"
 		
 		"SubImage"
 		{

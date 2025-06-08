@@ -671,8 +671,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -707,8 +707,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -743,8 +743,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -779,8 +779,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -815,8 +815,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -851,8 +851,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -887,8 +887,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -923,8 +923,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -959,8 +959,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -995,8 +995,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -1031,8 +1031,8 @@
 			"armedFgColor_override"   "15 15 15 215"
 			"depressedFgColor_override" "chWhite"
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "34 181 93 165"
-			"depressedBgColor_override" "34 181 93 165"
+			"armedBgColor_override"   "chBase"
+			"depressedBgColor_override" "chBase"
 			
 			"proportionaltoparent"                       "1"
 			"PaintBackground"                            "1"
@@ -2413,7 +2413,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"ColourHud"
+				"labelText"		"ColourHud" //IRREDIUM
 				"font"			"chBold14"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -2441,7 +2441,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"ColourHud"
+				"labelText"		"ColourHud" //IRREDIUM
 				"font"			"chBoldBlur14"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -2609,8 +2609,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 				"SubImage"
 				{
@@ -2693,8 +2693,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 				"SubImage"
 				{
@@ -2779,8 +2779,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 				"SubImage"
 				{
@@ -2865,8 +2865,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 				"SubImage"
 				{
@@ -2951,8 +2951,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 				"SubImage"
 				{
@@ -3040,8 +3040,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"SubButtonShadow"
@@ -3346,8 +3346,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 			}
 			
@@ -3378,8 +3378,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 				
 			}
 			
@@ -3428,8 +3428,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MatchStatusNamesON"
@@ -3459,8 +3459,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"PlayerModelLabel"
@@ -3508,8 +3508,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"PlayerModel3DOff2DOn"
@@ -3539,8 +3539,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"PlayerModel3DOn2DOn"
@@ -3570,8 +3570,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"PlayerModel3DOff2DOff"
@@ -3601,8 +3601,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"ScoreboardLabel"
@@ -3650,8 +3650,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"ScoreboardFullscreen"
@@ -3681,8 +3681,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MinmodeHeightLabel"
@@ -3731,8 +3731,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MinmodeHeightHigher"
@@ -3762,8 +3762,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MinmodeHeightLower"
@@ -3793,8 +3793,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MinmodeDistanceLabel"
@@ -3843,8 +3843,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MinmodeDistanceFarther"
@@ -3874,8 +3874,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"MinmodeDistanceCloser"
@@ -3905,8 +3905,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"StreamerLabel"
@@ -3954,8 +3954,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"StreamerON"
@@ -3985,8 +3985,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairLabel"
@@ -4036,8 +4036,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair1"
@@ -4071,8 +4071,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair2"
@@ -4106,8 +4106,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair3"
@@ -4141,8 +4141,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair4"
@@ -4176,8 +4176,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair5"
@@ -4211,8 +4211,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair6"
@@ -4246,8 +4246,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair7"
@@ -4281,8 +4281,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair8"
@@ -4316,8 +4316,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair9"
@@ -4351,8 +4351,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair10"
@@ -4386,8 +4386,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair11"
@@ -4421,8 +4421,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair12"
@@ -4456,8 +4456,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair13"
@@ -4491,8 +4491,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair14"
@@ -4526,8 +4526,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair15"
@@ -4561,8 +4561,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair16"
@@ -4596,8 +4596,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair17"
@@ -4631,8 +4631,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair18"
@@ -4666,8 +4666,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair19"
@@ -4701,8 +4701,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair20"
@@ -4736,8 +4736,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair21"
@@ -4771,8 +4771,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair22"
@@ -4806,8 +4806,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair23"
@@ -4841,8 +4841,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair24"
@@ -4876,8 +4876,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair25"
@@ -4911,8 +4911,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair26"
@@ -4946,8 +4946,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair27"
@@ -4981,8 +4981,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair28"
@@ -5016,8 +5016,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair29"
@@ -5051,8 +5051,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair30"
@@ -5086,8 +5086,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair31"
@@ -5121,8 +5121,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair32"
@@ -5156,8 +5156,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair33"
@@ -5191,8 +5191,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair34"
@@ -5226,8 +5226,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair35"
@@ -5261,8 +5261,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair36"
@@ -5296,8 +5296,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair37"
@@ -5331,8 +5331,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair38"
@@ -5366,8 +5366,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair39"
@@ -5401,8 +5401,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair40"
@@ -5436,8 +5436,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair41"
@@ -5471,8 +5471,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair42"
@@ -5506,8 +5506,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair43"
@@ -5541,8 +5541,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair44"
@@ -5576,8 +5576,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair45"
@@ -5611,8 +5611,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair46"
@@ -5646,8 +5646,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair47"
@@ -5681,8 +5681,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair48"
@@ -5716,8 +5716,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair49"
@@ -5751,8 +5751,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair50"
@@ -5786,8 +5786,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair51"
@@ -5821,8 +5821,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair52"
@@ -5856,8 +5856,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair53"
@@ -5891,8 +5891,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair54"
@@ -5926,8 +5926,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair55"
@@ -5961,8 +5961,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair56"
@@ -5996,8 +5996,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair57"
@@ -6031,8 +6031,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair58"
@@ -6066,8 +6066,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair59"
@@ -6101,8 +6101,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair60"
@@ -6136,8 +6136,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair61"
@@ -6171,8 +6171,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair62"
@@ -6206,8 +6206,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair63"
@@ -6241,8 +6241,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair64"
@@ -6276,8 +6276,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair65"
@@ -6311,8 +6311,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair66"
@@ -6346,8 +6346,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair67"
@@ -6381,8 +6381,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair68"
@@ -6416,8 +6416,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair69"
@@ -6451,8 +6451,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair70"
@@ -6486,8 +6486,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair71"
@@ -6521,8 +6521,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair72"
@@ -6556,8 +6556,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair73"
@@ -6591,8 +6591,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair74"
@@ -6626,8 +6626,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair75"
@@ -6661,8 +6661,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair76"
@@ -6696,8 +6696,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair77"
@@ -6731,8 +6731,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair78"
@@ -6766,8 +6766,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair79"
@@ -6801,8 +6801,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair80"
@@ -6836,8 +6836,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair81"
@@ -6871,8 +6871,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair82"
@@ -6906,8 +6906,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair83"
@@ -6941,8 +6941,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair84"
@@ -6976,8 +6976,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair85"
@@ -7011,8 +7011,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair86"
@@ -7046,8 +7046,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair87"
@@ -7081,8 +7081,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair88"
@@ -7116,8 +7116,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 				
 			"Crosshair89"
@@ -7151,8 +7151,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"Crosshair90"
@@ -7186,8 +7186,8 @@
 				"armedFgColor_override"   "255 255 255 255"
 				"depressedFgColor_override" "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairModeLabel"
@@ -7236,8 +7236,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairOutline"
@@ -7267,8 +7267,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairBlur"
@@ -7298,8 +7298,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSizeLabel"
@@ -7347,8 +7347,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize2"
@@ -7378,8 +7378,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize3"
@@ -7409,8 +7409,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize4"
@@ -7440,8 +7440,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize5"
@@ -7471,8 +7471,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize6"
@@ -7502,8 +7502,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize7"
@@ -7533,8 +7533,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize8"
@@ -7564,8 +7564,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize9"
@@ -7595,8 +7595,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize10"
@@ -7626,8 +7626,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize11"
@@ -7657,8 +7657,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize12"
@@ -7688,8 +7688,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize13"
@@ -7719,8 +7719,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize14"
@@ -7750,8 +7750,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize15"
@@ -7781,8 +7781,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize16"
@@ -7812,8 +7812,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize17"
@@ -7843,8 +7843,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize18"
@@ -7874,8 +7874,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize19"
@@ -7905,8 +7905,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSize20"
@@ -7936,8 +7936,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthBarLabel"
@@ -7985,8 +7985,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthBarON"
@@ -8016,8 +8016,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthStatusLabel"
@@ -8065,8 +8065,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthStatusON"
@@ -8096,8 +8096,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"NormalmodeDistanceLabel"
@@ -8145,8 +8145,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"NormalmodeDistanceClose"
@@ -8176,8 +8176,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"SmallChargeLabel"
@@ -8225,8 +8225,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"SmallChargeLabelOn"
@@ -8256,8 +8256,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"FeedBackgroundLabel"
@@ -8306,8 +8306,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"FeedBackgroundTransparent"
@@ -8337,8 +8337,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"FeedBackgroundOpaque"
@@ -8368,8 +8368,8 @@
 				"armedFgColor_override"   "15 15 15 215"
 				"depressedFgColor_override" "chWhite"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 //=======================================================================================================================
@@ -8429,8 +8429,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairRed"
@@ -8459,8 +8459,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairOrange"
@@ -8489,8 +8489,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairYellow"
@@ -8519,8 +8519,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairGreen"
@@ -8549,8 +8549,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairBlue"
@@ -8579,8 +8579,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairIndigo"
@@ -8609,8 +8609,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairBlack"
@@ -8639,8 +8639,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairLightGrey"
@@ -8669,8 +8669,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairPink"
@@ -8699,8 +8699,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairCrimson"
@@ -8729,8 +8729,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairLime"
@@ -8759,8 +8759,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairSalad"
@@ -8789,8 +8789,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairCyan"
@@ -8819,8 +8819,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairRoyalBlue"
@@ -8849,8 +8849,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairDarkGrey"
@@ -8879,8 +8879,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashLabel"
@@ -8927,8 +8927,8 @@
 				"defaultFgColor_override" "255 255 255 255"
 				"armedFgColor_override"   "255 255 255 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashRed"
@@ -8957,8 +8957,8 @@
 				"defaultFgColor_override" "255 0 0 255"
 				"armedFgColor_override" "255 0 0 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashOrange"
@@ -8987,8 +8987,8 @@
 				"defaultFgColor_override" "255 165 0 255"
 				"armedFgColor_override" "255 165 0 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashYellow"
@@ -9017,8 +9017,8 @@
 				"defaultFgColor_override" "255 255 0 255"
 				"armedFgColor_override" "255 255 0 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashGreen"
@@ -9047,8 +9047,8 @@
 				"defaultFgColor_override" "0 138 0 255"
 				"armedFgColor_override" "0 138 0 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashBlue"
@@ -9077,8 +9077,8 @@
 				"defaultFgColor_override" "0 0 138 255"
 				"armedFgColor_override" "0 0 138 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashIndigo"
@@ -9107,8 +9107,8 @@
 				"defaultFgColor_override" "75 0 130 255"
 				"armedFgColor_override" "75 0 130 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashBlack"
@@ -9137,8 +9137,8 @@
 				"defaultFgColor_override" "0 0 0 255"
 				"armedFgColor_override" "0 0 0 255"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashLightGrey"
@@ -9167,8 +9167,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashPink"
@@ -9197,8 +9197,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashCrimson"
@@ -9227,8 +9227,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashLime"
@@ -9257,8 +9257,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashSalad"
@@ -9287,8 +9287,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashCyan"
@@ -9317,8 +9317,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashRoyalBlue"
@@ -9347,8 +9347,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"CrosshairFlashDarkGrey"
@@ -9377,8 +9377,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLabel"
@@ -9425,8 +9425,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthRed"
@@ -9455,8 +9455,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthOrange"
@@ -9485,8 +9485,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthYellow"
@@ -9515,8 +9515,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthGreen"
@@ -9545,8 +9545,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthBlue"
@@ -9575,8 +9575,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthIndigo"
@@ -9605,8 +9605,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthBlack"
@@ -9635,8 +9635,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLightGrey"
@@ -9665,8 +9665,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthPink"
@@ -9695,8 +9695,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthCrimson"
@@ -9725,8 +9725,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLime"
@@ -9755,8 +9755,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthSalad"
@@ -9785,8 +9785,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthCyan"
@@ -9815,8 +9815,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthRoyalBlue"
@@ -9845,8 +9845,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthDarkGrey"
@@ -9875,8 +9875,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighLabel"
@@ -9923,8 +9923,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighRed"
@@ -9953,8 +9953,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighOrange"
@@ -9983,8 +9983,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighYellow"
@@ -10013,8 +10013,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighGreen"
@@ -10043,8 +10043,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighBlue"
@@ -10073,8 +10073,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighIndigo"
@@ -10103,8 +10103,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighBlack"
@@ -10133,8 +10133,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighLightGrey"
@@ -10163,8 +10163,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighPink"
@@ -10193,8 +10193,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighCrimson"
@@ -10223,8 +10223,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighLime"
@@ -10253,8 +10253,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighSalad"
@@ -10283,8 +10283,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighCyan"
@@ -10313,8 +10313,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighRoyalBlue"
@@ -10343,8 +10343,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthHighDarkGrey"
@@ -10373,8 +10373,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowLabel"
@@ -10421,8 +10421,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowRed"
@@ -10451,8 +10451,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowOrange"
@@ -10481,8 +10481,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowYellow"
@@ -10511,8 +10511,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowGreen"
@@ -10541,8 +10541,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowBlue"
@@ -10571,8 +10571,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowIndigo"
@@ -10601,8 +10601,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowBlack"
@@ -10631,8 +10631,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowLightGrey"
@@ -10661,8 +10661,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowPink"
@@ -10691,8 +10691,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowCrimson"
@@ -10721,8 +10721,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowLime"
@@ -10751,8 +10751,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowSalad"
@@ -10781,8 +10781,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowCyan"
@@ -10811,8 +10811,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowRoyalBlue"
@@ -10841,8 +10841,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"HealthLowDarkGrey"
@@ -10871,8 +10871,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipLabel"
@@ -10919,8 +10919,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipRed"
@@ -10949,8 +10949,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipOrange"
@@ -10979,8 +10979,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipYellow"
@@ -11009,8 +11009,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipGreen"
@@ -11039,8 +11039,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipBlue"
@@ -11069,8 +11069,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipIndigo"
@@ -11099,8 +11099,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipBlack"
@@ -11129,8 +11129,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipLightGrey"
@@ -11159,8 +11159,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipPink"
@@ -11189,8 +11189,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipCrimson"
@@ -11219,8 +11219,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipLime"
@@ -11249,8 +11249,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipSalad"
@@ -11279,8 +11279,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipCyan"
@@ -11309,8 +11309,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipRoyalBlue"
@@ -11339,8 +11339,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoClipDarkGrey"
@@ -11369,8 +11369,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveLabel"
@@ -11417,8 +11417,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveRed"
@@ -11447,8 +11447,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveOrange"
@@ -11477,8 +11477,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveYellow"
@@ -11507,8 +11507,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveGreen"
@@ -11537,8 +11537,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveBlue"
@@ -11567,8 +11567,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveIndigo"
@@ -11597,8 +11597,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveBlack"
@@ -11627,8 +11627,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveLightGrey"
@@ -11657,8 +11657,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReservePink"
@@ -11687,8 +11687,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveCrimson"
@@ -11717,8 +11717,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveLime"
@@ -11747,8 +11747,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveSalad"
@@ -11777,8 +11777,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveCyan"
@@ -11807,8 +11807,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveRoyalBlue"
@@ -11837,8 +11837,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"AmmoReserveDarkGrey"
@@ -11867,8 +11867,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipLabel"
@@ -11915,8 +11915,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipRed"
@@ -11945,8 +11945,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipOrange"
@@ -11975,8 +11975,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipYellow"
@@ -12005,8 +12005,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipGreen"
@@ -12035,8 +12035,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipBlue"
@@ -12065,8 +12065,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipIndigo"
@@ -12095,8 +12095,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipBlack"
@@ -12125,8 +12125,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipLightGrey"
@@ -12155,8 +12155,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipPink"
@@ -12185,8 +12185,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipCrimson"
@@ -12215,8 +12215,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipLime"
@@ -12245,8 +12245,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipSalad"
@@ -12275,8 +12275,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipCyan"
@@ -12305,8 +12305,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipRoyalBlue"
@@ -12335,8 +12335,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoClipDarkGrey"
@@ -12365,8 +12365,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveLabel"
@@ -12413,8 +12413,8 @@
 				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "White"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveRed"
@@ -12443,8 +12443,8 @@
 				"defaultFgColor_override" "Red"
 				"armedFgColor_override" "Red"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveOrange"
@@ -12473,8 +12473,8 @@
 				"defaultFgColor_override" "Orange"
 				"armedFgColor_override" "Orange"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveYellow"
@@ -12503,8 +12503,8 @@
 				"defaultFgColor_override" "Yellow"
 				"armedFgColor_override" "Yellow"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveGreen"
@@ -12533,8 +12533,8 @@
 				"defaultFgColor_override" "Green"
 				"armedFgColor_override" "Green"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveBlue"
@@ -12563,8 +12563,8 @@
 				"defaultFgColor_override" "Blue"
 				"armedFgColor_override" "Blue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveIndigo"
@@ -12593,8 +12593,8 @@
 				"defaultFgColor_override" "Indigo"
 				"armedFgColor_override" "Indigo"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveBlack"
@@ -12623,8 +12623,8 @@
 				"defaultFgColor_override" "Black"
 				"armedFgColor_override" "Black"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveLightGrey"
@@ -12653,8 +12653,8 @@
 				"defaultFgColor_override" "LightGrey"
 				"armedFgColor_override" "LightGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReservePink"
@@ -12683,8 +12683,8 @@
 				"defaultFgColor_override" "Pink"
 				"armedFgColor_override" "Pink"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveCrimson"
@@ -12713,8 +12713,8 @@
 				"defaultFgColor_override" "Crimson"
 				"armedFgColor_override" "Crimson"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveLime"
@@ -12743,8 +12743,8 @@
 				"defaultFgColor_override" "Lime"
 				"armedFgColor_override" "Lime"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveSalad"
@@ -12773,8 +12773,8 @@
 				"defaultFgColor_override" "Salad"
 				"armedFgColor_override" "Salad"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveCyan"
@@ -12803,8 +12803,8 @@
 				"defaultFgColor_override" "Cyan"
 				"armedFgColor_override" "Cyan"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveRoyalBlue"
@@ -12833,8 +12833,8 @@
 				"defaultFgColor_override" "RoyalBlue"
 				"armedFgColor_override" "RoyalBlue"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"LowAmmoReserveDarkGrey"
@@ -12863,8 +12863,8 @@
 				"defaultFgColor_override" "DarkGrey"
 				"armedFgColor_override" "DarkGrey"
 				"defaultBgColor_override" "Blank"
-				"armedBgColor_override"   "34 181 93 165"
-				"depressedBgColor_override" "34 181 93 165"
+				"armedBgColor_override"   "chBase"
+				"depressedBgColor_override" "chBase"
 			}
 			
 			"EmptySpace"
